@@ -14,4 +14,4 @@ The reference material for the first part of the exam is article [Patient-­spec
 
 The reference material for the second part of the exam is article [Inferring the immune response from repertoire sequencing](https://doi.org/10.1371/journal.pcbi.1007873). All credits go to the authors (cfr. copyright claim in the article).
 
-Material present outside folders `report` is my own.
+Material present outside each folder `report` is my own and regulated by the license specified in file `LICENSE`.
