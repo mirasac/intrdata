@@ -1,6 +1,6 @@
 # intrdata
 
-The content is all about the code for the exam projects.
+The content is all about the code for the exam projects for the course Introduction to data analysis for natural and social sciences.
 
 ## Repository structure
 This repo is divided in two parts, following the structure of the course. Each part is contained in a folder:
