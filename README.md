@@ -3,7 +3,7 @@
 The content is all about the code for the exam projects for the course Introduction to data analysis for natural and social sciences.
 
 ## Naming convention
-See file `naming_convention.md` for further information.
+See file `naming_convention.md` for details.
 
 ## Environment
 For the first part, the [colomoto-docker](https://github.com/colomoto/colomoto-docker) script is used to set up and run the needed environment.
@@ -13,7 +13,7 @@ This repo is divided in two parts, following the structure of the course. Each p
 - `first` contains files regarding the project about the first and second part of the course, held by Prof. Martignetti and Prof. Calzone, respectively.
 - `second` contains files on the third part of the course, held by Prof. Mazzolini.
 
-Both folders have a subfolder `report` which contains material provided by the authors of the articles.
+Both folders have a subfolder `report` which contains material provided by the authors of the articles. Files contained in these folders are mere copies of the original, they are not subject to any change, except for the format of line breaks (i.e. CRLF on Windows, LF on Linux).
 
 ## License
 The reference material for the first part of the exam is article [Patient-specific Boolean models of signalling networks guide personalised treatments](https://doi.org/10.7554/eLife.72626) and the files attached, at version called "v2", published April 18, 2022. All credits go to the authors (cfr. copyright claim in the article).
