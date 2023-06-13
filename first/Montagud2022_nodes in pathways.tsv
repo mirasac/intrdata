@@ -1,0 +1,134 @@
+	node	pathway
+0	Acidosis	Input
+1	AKT	AKT pathw
+2	AMP_ATP	Nutrients pathw
+3	AMPK	Nutrients pathw
+4	Androgen	Input
+5	APAF1	Apop pathw
+6	Apoptosis	Output
+7	AR	AR pathw
+8	AR_ERG	AR pathw
+9	ATM	DNA repair pathw
+10	ATR	DNA repair pathw
+11	AXIN1	WNT pathw
+12	BAD	Apop pathw
+13	Bak	Apop pathw
+14	BAX	Apop pathw
+15	Bcl_XL	Apop pathw
+16	BCL2	Apop pathw
+17	beta_catenin	WNT pathw
+18	BIRC5	Apop pathw
+19	BMP2	SHH pathw
+20	BRCA1	DNA repair pathw
+21	BRCA2	DNA repair pathw
+22	Carcinogen	Input
+23	Caspase3	Apop pathw
+24	Caspase8	Apop pathw
+25	Caspase9	Apop pathw
+26	CDH2	Invasion pathw
+27	cFLAR	Apop pathw
+28	CHK1_2	DNA repair pathw
+29	COX4I2	Nutrients pathw
+30	CyclinB	Cell cycle
+31	CyclinD	Cell cycle
+32	CytoC	Apop pathw
+33	DAXX	DNA repair pathw
+34	DNA_Damage	DNA repair pathw
+35	DNA_Repair	Output
+36	Dsh	WNT pathw
+37	E_cadherin	Invasion pathw
+38	E2F1	Cell cycle
+39	eEF2	AKT pathw
+40	eEF2K	AKT pathw
+41	EGF	Input
+42	EGFR	ERK pathw
+43	EMT	Invasion pathw
+44	EP300	DNA repair pathw
+45	ERG	AR pathw
+46	ERK	ERK pathw
+47	ETS1	ERK pathw
+48	ETV1	ERK pathw
+49	EZH2	Invasion pathw
+50	FADD	Apop pathw
+51	FGF	Input
+52	FGFR3	ERK pathw
+53	FOS	ERK pathw
+54	FOXA1	ERK pathw
+55	FOXO	ERK pathw
+56	FRS2	ERK pathw
+57	fused_event	Input
+58	GADD45	TGFb pathw
+59	GLI	SHH pathw
+60	GLUT1	Nutrients pathw
+61	GSH	Nutrients pathw
+62	GSK3	WNT pathw
+63	HIF1	Nutrients pathw
+64	HSPs	Nutrients pathw
+65	Hypoxia	Input
+66	IDH1	Nutrients pathw
+67	IKK	AKT pathw
+68	Invasion	Output
+69	JNK	ERK pathw
+70	JUN	ERK pathw
+71	Lactic_acid	Nutrients pathw
+72	LDHA	Nutrients pathw
+73	MAP3K1_3	ERK pathw
+74	MDM2	DNA repair pathw
+75	MED12	SHH pathw
+76	MEK1_2	ERK pathw
+77	Metastasis	Output
+78	Migration	Output
+79	mTORC1	mTOR pathw
+80	mTORC2	mTOR pathw
+81	MXI1	Nutrients pathw
+82	MYC	ERK pathw
+83	MYC_MAX	ERK pathw
+84	NCOA3	AR pathw
+85	NCOR1	AR pathw
+86	NCOR2	AR pathw
+87	NF_kB	AKT pathw
+88	NF1	Nutrients pathw
+89	NKX3_1	AR pathw
+90	Nutrients	Input
+91	p14ARF	DNA repair pathw
+92	p15	Cell cycle
+93	p21	Cell cycle
+94	p38	ERK pathw
+95	p53	DNA repair pathw
+96	p70S6kab	AKT pathw
+97	p90RSK	AKT pathw
+98	PDK1	AKT pathw
+99	PHDs	Nutrients pathw
+100	PI3K	AKT pathw
+101	PIP3	AKT pathw
+102	PKC	WNT pathw
+103	Proliferation	Output
+104	PTCH1	SHH pathw
+105	PTEN	AKT pathw
+106	RAF	ERK pathw
+107	RAGS	mTOR pathw
+108	RAS	ERK pathw
+109	RB1	Cell cycle
+110	Rheb	mTOR pathw
+111	ROS	Nutrients pathw
+112	RTK	ERK pathw
+113	RUNX2	ERK pathw
+114	SHH	SHH pathw
+115	Slug	Invasion pathw
+116	SMAD	TGFb pathw
+117	SMO	SHH pathw
+118	Snail	Invasion pathw
+119	SPOP	Input
+120	TAK1	ERK pathw
+121	TCF	WNT pathw
+122	TERT	Nutrients pathw
+123	TGFb	Input
+124	TGFBR	TGFb pathw
+125	TNFalpha	Input
+126	TSC1_2	mTOR pathw
+127	TWIST1	Invasion pathw
+128	VEGF	Nutrients pathw
+129	VHL	Nutrients pathw
+130	WNT	WNT pathw
+131	YWHAZ	Invasion pathw
+132	ZBTB17	Cell cycle
