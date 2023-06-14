@@ -1,110 +1,110 @@
 Target node	HUGO names	Interaction type	Source	Description	Reference: PMID	Logical rule	pathway
 Acidosis	input	input	0/1	Input of the model		(Acidosis)	Input
-AKT	AKT1, AKT2, AKT3	+	HSPs	Hsp90 plays an important role in maintaining Akt kinase activity by binding Akt and preventing PP2A-mediated dephosphorylation	10995457	((HSPs | (PDK1 & PIP3) | PIP3 | (SHH & PIP3)) & !PTCH1)	AKT
-AKT	AKT1, AKT2, AKT3	+	PDK1	From Fumia et al, 2013	23922675	((HSPs | (PDK1 & PIP3) | PIP3 | (SHH & PIP3)) & !PTCH1)	AKT
-AKT	AKT1, AKT2, AKT3	+	PIP3	From Fumia et al, 2013	23922675	((HSPs | (PDK1 & PIP3) | PIP3 | (SHH & PIP3)) & !PTCH1)	AKT
-AKT	AKT1, AKT2, AKT3	-	PTCH1	Most importantly, we report that shh induces mapk/erk and phosphoinositide 3-kinase (pi3k)-dependent akt phosphorylation and that activation of both signaling pathways is essential for shh's signaling in muscle cells. However, the effect of shh on akt phosphorylation is more robust than that on mapk/erk, and data suggest that shh influences these pathways in a manner similar to igf-i.	17688959	((HSPs | (PDK1 & PIP3) | PIP3 | (SHH & PIP3)) & !PTCH1)	AKT
-AKT	AKT1, AKT2, AKT3	+	SHH	Most importantly, we report that shh induces mapk/erk and phosphoinositide 3-kinase (pi3k)-dependent akt phosphorylation and that activation of both signaling pathways is essential for shh's signaling in muscle cells. However, the effect of shh on akt phosphorylation is more robust than that on mapk/erk, and data suggest that shh influences these pathways in a manner similar to igf-i.	17688959	((HSPs | (PDK1 & PIP3) | PIP3 | (SHH & PIP3)) & !PTCH1)	AKT
-AMP_ATP	ADCY1	-	Nutrients	From Fumia et al, 2013	23922675	(!Nutrients)	Nutrients
-AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	+	AMP_ATP	From Fumia et al, 2013	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3	Nutrients
-AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	+	ATM	From Fumia et al, 2013 as ATM_ATR	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3	Nutrients
-AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	+	ATR	From Fumia et al, 2013 as ATM_ATR	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3	Nutrients
-AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	-	EGFR	From Fumia et al, 2013 as GF	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3	Nutrients
-AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	-	FGFR3	From Fumia et al, 2013 as GF	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3	Nutrients
-AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	+	HIF1	From Fumia et al, 2013	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3	Nutrients
+AKT	AKT1, AKT2, AKT3	+	HSPs	Hsp90 plays an important role in maintaining Akt kinase activity by binding Akt and preventing PP2A-mediated dephosphorylation	10995457	((HSPs | (PDK1 & PIP3) | PIP3 | (SHH & PIP3)) & !PTCH1)	AKT pathw
+AKT	AKT1, AKT2, AKT3	+	PDK1	From Fumia et al, 2013	23922675	((HSPs | (PDK1 & PIP3) | PIP3 | (SHH & PIP3)) & !PTCH1)	AKT pathw
+AKT	AKT1, AKT2, AKT3	+	PIP3	From Fumia et al, 2013	23922675	((HSPs | (PDK1 & PIP3) | PIP3 | (SHH & PIP3)) & !PTCH1)	AKT pathw
+AKT	AKT1, AKT2, AKT3	-	PTCH1	Most importantly, we report that shh induces mapk/erk and phosphoinositide 3-kinase (pi3k)-dependent akt phosphorylation and that activation of both signaling pathways is essential for shh's signaling in muscle cells. However, the effect of shh on akt phosphorylation is more robust than that on mapk/erk, and data suggest that shh influences these pathways in a manner similar to igf-i.	17688959	((HSPs | (PDK1 & PIP3) | PIP3 | (SHH & PIP3)) & !PTCH1)	AKT pathw
+AKT	AKT1, AKT2, AKT3	+	SHH	Most importantly, we report that shh induces mapk/erk and phosphoinositide 3-kinase (pi3k)-dependent akt phosphorylation and that activation of both signaling pathways is essential for shh's signaling in muscle cells. However, the effect of shh on akt phosphorylation is more robust than that on mapk/erk, and data suggest that shh influences these pathways in a manner similar to igf-i.	17688959	((HSPs | (PDK1 & PIP3) | PIP3 | (SHH & PIP3)) & !PTCH1)	AKT pathw
+AMP_ATP	ADCY1	-	Nutrients	From Fumia et al, 2013	23922675	(!Nutrients)	Nutrients pathw
+AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	+	AMP_ATP	From Fumia et al, 2013	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3	Nutrients pathw
+AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	+	ATM	From Fumia et al, 2013 as ATM_ATR	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3	Nutrients pathw
+AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	+	ATR	From Fumia et al, 2013 as ATM_ATR	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3	Nutrients pathw
+AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	-	EGFR	From Fumia et al, 2013 as GF	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3	Nutrients pathw
+AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	-	FGFR3	From Fumia et al, 2013 as GF	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3	Nutrients pathw
+AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	+	HIF1	From Fumia et al, 2013	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3	Nutrients pathw
 Androgen	input	input	0/1	Input of the model		(Androgen)	Input
-APAF1	APAF1	-	AKT	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop
-APAF1	APAF1	+	Bak	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop
-APAF1	APAF1	+	BAX	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop
-APAF1	APAF1	-	Bcl_XL	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop
-APAF1	APAF1	-	BCL2	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop
-APAF1	APAF1	+	Caspase8	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop
-APAF1	APAF1	-	HSPs	The present studies demonstrate that heat shock protein 90 (hsp90) forms a cytosolic complex with apaf-1 and thereby inhibits the formation of the active complex.	10944114	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop
-APAF1	APAF1	+	p53	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop
+APAF1	APAF1	-	AKT	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+APAF1	APAF1	+	Bak	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+APAF1	APAF1	+	BAX	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+APAF1	APAF1	-	Bcl_XL	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+APAF1	APAF1	-	BCL2	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+APAF1	APAF1	+	Caspase8	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+APAF1	APAF1	-	HSPs	The present studies demonstrate that heat shock protein 90 (hsp90) forms a cytosolic complex with apaf-1 and thereby inhibits the formation of the active complex.	10944114	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+APAF1	APAF1	+	p53	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
 Apoptosis	output	+	Caspase3	Caspase-3 is responsible for apoptosis execution	14585074	(Caspase9 | Caspase8 | Caspase3)	Output
 Apoptosis	output	+	Caspase8	From Fumia et al, 2013	23922675	(Caspase9 | Caspase8 | Caspase3)	Output
 Apoptosis	output	+	Caspase9	From Fumia et al, 2013	23922675	(Caspase9 | Caspase8 | Caspase3)	Output
-AR	AR	+	Androgen	AR activated by binding either of the androgenic hormones, Testosterone, Or dihydrotestosterone in the cytoplasm and then translocating into the nucleus.	27057074	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR
-AR	AR	+	EP300	SRC/p160 coactivators are also able to recruit other coactivators that contain histone acetyl-transferase activity such as Tip60, CBP/p300 (EP300), and p/CAF, which are involved in the acetylation of specific histone residues resulting in chromatin remodeling. 	21956922	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR
-AR	AR	+	EZH2	transcriptional coactivator of AR	23239736	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR
-AR	AR	+	GLI	Gli2 protein can bind to AR and this interaction might define the point of cross-talk between the two signaling pathways.	20420697	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR
-AR	AR	+	HSPs	In an unbound state, The AR complexes with heat-shock, Chaperone and co-chaperone proteins such as HSP90, Which helps to maintain the apo state of the AR in a state competent to bind ligand. The innate stress response induced by castration induces activity of heat-shock proteins (HSP70, HSP90, HSP27) and helps insulate the AR axis from degradation. Overexpression of HSP27 in vivo suppresses apoptosis and is sufficient to confer castrate resistance.	21956922, 2589661	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR
-AR	AR	-	MDM2	These results suggest that phosphorylation-dependent AR ubiquitylation and degradation by Akt require the involvement of Mdm2 E3 ligase activity	12145204	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR
-AR	AR	+	NCOA3	SRC3 (NCOA3) is a preferred coactivator for hormone-activated AR. 	20086010	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR
-AR	AR	-	NCOR1	Unlike coactivators, AR corepressor proteins can form complexes with AR and inhibit the transcription of AR-regulated genes. Any alterations in the expression of these corepressor proteins can also play an important role in the development of AIPC. Two well-characterized AR corepressors are NCoR (nuclear receptor corepressor) and its homolog SMRT (silencing mediator for retinoid and thyroid hormone receptors). Both of these corepressors can recruit histone deacetylases, which promote chromatin packing, resulting in reduced transcriptional activity.	21956922	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR
-AR	AR	-	NCOR2	Unlike coactivators, AR corepressor proteins can form complexes with AR and inhibit the transcription of AR-regulated genes. Any alterations in the expression of these corepressor proteins can also play an important role in the development of AIPC. Two well-characterized AR corepressors are NCoR (nuclear receptor corepressor) and its homolog SMRT (silencing mediator for retinoid and thyroid hormone receptors). Both of these corepressors can recruit histone deacetylases, which promote chromatin packing, resulting in reduced transcriptional activity.	21956922	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR
-AR	AR	+	NKX3_1	NKX3-1 and AR directly regulate each other in a feed-forward regulatory loop.	22083957	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR
-AR	AR	+	PKC	Epidermal growth factor (EGF) increases AR transcriptional activity through PKC-dependent phosphorylation of AR at low levels of androgen in the CWR-R1 prostate cancer cell line derived from the castration-recurrent CWR22 prostate cancer xenograft.	18511414	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR
-AR	AR	-	PTEN	The  interaction  between  PTEN  and  AR  inhibits the AR nuclear translocation and promotes the AR protein degradation.	15205473	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR
-AR	AR	+	SMAD	Smad4, together with SMAD, can interact with the androgen receptor (AR) in the DNA-binding and ligand-binding domains, which may result in the modulation of 5alpha-dihydrotestosterone-induced AR transactivation.	12226080	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR
-AR_ERG	ERG fused	+	AR	AR upregulates ERG via the AR-regulated TMPRSS2 gene promoter. 	23264855	((AR & fused_event) | (AR & fused_event & !NKX3_1))	AR
-AR_ERG	ERG fused	+	fused_event	ERG can fuse with TMPRSS2 protein to form an oncogenic fusion gene that is commonly found in human prostate cancer, especially in hormone-refractory prostate cancer.	23264855	((AR & fused_event) | (AR & fused_event & !NKX3_1))	AR
-AR_ERG	ERG fused	-	NKX3_1	NKX3.1 directly binds to TMPRSS2 upstream sequences and negatively regulates the expression of the ERG protooncogene through the TMPRSS2-ERG gene fusion.	24418414	((AR & fused_event) | (AR & fused_event & !NKX3_1))	AR
-ATM	ATM	+	DNA_Damage	From Fumia et al, 2013	23922675	(DNA_Damage)	DNA repair
-ATR	ATR	+	DNA_Damage	From Fumia et al, 2013	23922675	(DNA_Damage)	DNA repair
-ATR	ATR	+	p14ARF	Regulation of NF-kappaB and p53 through activation of ATR and Chk1 by the ARF tumour suppressorInduction of ATR activity in Hs68 E2F1ER cells by endogenous ARF.	15775976	(DNA_Damage)	DNA repair
-AXIN1	AXIN1	+	GSK3	Signor: Axin, APC and GSK3 bind together in a complex	9601641	(GSK3)	WNT
-BAD	BAD	-	AKT	From Fumia et al, 2013	23922675	(!AKT & !HIF1 & !p90RSK & !RAF & !YWHAZ)	Apop
-BAD	BAD	+	Caspase3	Casp3 cleaves bad at asp-61. In addition, caspases convert bad(l) into a pro-death fragment that resembles the short splice variant.	15231831	(!AKT & !HIF1 & !p90RSK & !RAF & !YWHAZ)	Apop
-BAD	BAD	-	HIF1	From Fumia et al, 2013	23922675	(!AKT & !HIF1 & !p90RSK & !RAF & !YWHAZ)	Apop
-BAD	BAD	-	p90RSK	From Fumia et al, 2013	23922675	(!AKT & !HIF1 & !p90RSK & !RAF & !YWHAZ)	Apop
-BAD	BAD	-	RAF	From Fumia et al, 2013	23922675	(!AKT & !HIF1 & !p90RSK & !RAF & !YWHAZ)	Apop
-BAD	BAD	-	YWHAZ	4-3-3ζ negatively regulates apoptosis by binding and sequestering BAD and BAX in the cytoplasm, effectively preventing activation of proapoptotic Bcl-2 and Bcl-XL.	25266655	(!AKT & !HIF1 & !p90RSK & !RAF & !YWHAZ)	Apop
-Bak	BAK1	+	Caspase8	From Fumia et al, 2013	23922675	(Caspase8)	Apop
-BAX	BAX	-	BCL2	From Fumia et al, 2013	23922675	(!BCL2 & !HIF1 & !YWHAZ & (JNK | HIF1 | p53) & !ETS1)	Apop
-BAX	BAX	-	ETS1	Our results suggest that the interaction between ETS1 and GFI1 facilitates their binding to specific sites on the Bax promoter and represses Bax expression in vivo.	17213822	(!BCL2 & !HIF1 & !YWHAZ & (JNK | HIF1 | p53) & !ETS1)	Apop
-BAX	BAX	-	HIF1	From Fumia et al, 2013	23922675	(!BCL2 & !HIF1 & !YWHAZ & (JNK | HIF1 | p53) & !ETS1)	Apop
-BAX	BAX	+	JNK	From Fumia et al, 2013	23922675	(!BCL2 & !HIF1 & !YWHAZ & (JNK | HIF1 | p53) & !ETS1)	Apop
-BAX	BAX	+	p53	From Fumia et al, 2013	23922675	(!BCL2 & !HIF1 & !YWHAZ & (JNK | HIF1 | p53) & !ETS1)	Apop
-BAX	BAX	-	YWHAZ	4-3-3ζ negatively regulates apoptosis by binding and sequestering BAD and BAX in the cytoplasm, effectively preventing activation of proapoptotic Bcl-2 and Bcl-XL.	25266655	(!BCL2 & !HIF1 & !YWHAZ & (JNK | HIF1 | p53) & !ETS1)	Apop
-Bcl_XL	BCL2L1	+	AR	androgen treatment significantly increased Bcl‐xL expression at mRNA and protein levels via an AR‐dependent mechanism	doi.org/10.1002/pros.20723	(AR & !BAD & !p53)	Apop
-Bcl_XL	BCL2L1	-	BAD	From Fumia et al, 2013	23922675	(AR & !BAD & !p53)	Apop
-Bcl_XL	BCL2L1	-	p53	From Fumia et al, 2013	23922675	(AR & !BAD & !p53)	Apop
-BCL2	BCL2	-	BAD	From Fumia et al, 2013	23922675	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop
-BCL2	BCL2	-	BAX	From Fumia et al, 2013	23922675	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop
-BCL2	BCL2	-	DAXX	Interaction of EAP1/Daxx with ETS1 causes the repression of transcriptional activation of the MMP1 and BCL2 genes.	10698492	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop
-BCL2	BCL2	-	ETS1	Interaction of EAP1/Daxx with ETS1 causes the repression of transcriptional activation of the MMP1 and BCL2 genes.	10698492	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop
-BCL2	BCL2	-	HSPs	HSPs can block the mitochondrial intrinsic pathway of apoptosis by interacting with key proteins. At the mitochondrial level,  HSP90 controls the release of cytochrome c by interacting with Bcl2.	18266962	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop
-BCL2	BCL2	+	NF_kB	From Fumia et al, 2013	23922675	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop
-BCL2	BCL2	-	p53	From Fumia et al, 2013	23922675	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop
-BCL2	BCL2	+	RUNX2	RUNX2 is involved in apoptosis resistance of prostate cancer by modulating expressiopn of BCL2.	HPCHM, 23073173	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop
-beta_catenin	CTNNB1	-	AXIN1	From Fumia et al, 2013	23922675	(!GSK3 & !p53 & !AXIN1 & (EZH2 | YWHAZ))	WNT
-beta_catenin	CTNNB1	+	EZH2	In addition, EZH2 also interacts with various nonhistone proteins such as STAT3, estrogen receptor and beta catenin and thus indirectly serves as a transcriptional activator of their target genes. AKT activates EZH2.	26392259	(!GSK3 & !p53 & !AXIN1 & (EZH2 | YWHAZ))	WNT
-beta_catenin	CTNNB1	-	GSK3	From Fumia et al, 2013	23922675	(!GSK3 & !p53 & !AXIN1 & (EZH2 | YWHAZ))	WNT
-beta_catenin	CTNNB1	-	p53	From Fumia et al, 2013	23922675	(!GSK3 & !p53 & !AXIN1 & (EZH2 | YWHAZ))	WNT
-beta_catenin	CTNNB1	+	YWHAZ	14-3-3zeta facilitates activation of beta-catenin by the survival kinase Akt and colocalizes with activated Akt in intestinal stem cells.	15492215	(!GSK3 & !p53 & !AXIN1 & (EZH2 | YWHAZ))	WNT
-BIRC5	BIRC5	+	HSPs	Survivin co-eluted with the molecular chaperone complex comprising both Hsp90 and Hsp70, in agreement with previous observations.	15218035, 2589661	(HSPs & !p53)	Apop
-BIRC5	BIRC5	-	p53	This study identifies the anti-apoptotic survivin gene as a p53-repressed gene;notably, survivin repression by p53 is shown to be distinct from p53-dependent growth arrest.	11714700	(HSPs & !p53)	Apop
-BMP2	BMP2	+	FGFR3	Furthermore, FGF-2 and FGF-9 increased expression of other osteogenic factors BMP-2 and TGFbeta-1. Meanwhile, blocking endogenous FGF signaling, using a virally transduced dominant-negative FGF receptor (FgfR), resulted in drastically reduced expression of the BMP-2 gene, demonstrating for the first time that endogenous FGF/FgfR signaling is a positive upstream regulator of the BMP-2 gene in calvarial osteoblasts	15780951	(GLI & (TGFBR | FGFR3))	SHH
-BMP2	BMP2	+	GLI	The zinc finger transcription factor gli2 mediates bone morphogenetic protein 2 expression in osteoblasts in response to hedgehog signaling	16880529	(GLI & (TGFBR | FGFR3))	SHH
-BMP2	BMP2	+	TGFBR	We identified PPARg as a missing link between BMP2 and TGFb1 pathways in VSMCs	28467929	(GLI & (TGFBR | FGFR3))	SHH
-BRCA1	BRCA1	+	ATM	From Cho et al., 2016	10866324	((E2F1 | ATM | ATR | (E2F1 & EP300) | (ATM & EP300) | (ATR & EP300)) & !CyclinD & !Bak)	DNA repair
-BRCA1	BRCA1	+	ATR	From Cho et al., 2016	10866324	((E2F1 | ATM | ATR | (E2F1 & EP300) | (ATM & EP300) | (ATR & EP300)) & !CyclinD & !Bak)	DNA repair
-BRCA1	BRCA1	-	Caspase3	we demonstrate the cleavage and the consequential downregulation of full-length BRCA1 by caspase-3 during UV-induced apoptosis. Finally, mutation of a caspase-3 specific cleavage site (D/A1154) rendered BRCA1 non-cleavable.	12149654	((E2F1 | ATM | ATR | (E2F1 & EP300) | (ATM & EP300) | (ATR & EP300)) & !CyclinD & !Bak)	DNA repair
-BRCA1	BRCA1	-	CyclinD	In particular, we have identified ser 632 of brca1 as a cyclin d1/cdk4 phosphorylation site in vitro. Using chromatin immunoprecipitation assays, we observed that the inhibition of cyclin d1/cdk4 activity resulted in increased brca1 dna binding at particular promoters in vivo.	17334399	((E2F1 | ATM | ATR | (E2F1 & EP300) | (ATM & EP300) | (ATR & EP300)) & !CyclinD & !Bak)	DNA repair
-BRCA1	BRCA1	+	E2F1	From Cho et al., 2016	10660629	((E2F1 | ATM | ATR | (E2F1 & EP300) | (ATM & EP300) | (ATR & EP300)) & !CyclinD & !Bak)	DNA repair
-BRCA1	BRCA1	+	EP300	ATM-dependent phosphorylation of p300 is required for stabilization of NBS1 proteins in response to DNA damage. (20471956)	20471956	((E2F1 | ATM | ATR | (E2F1 & EP300) | (ATM & EP300) | (ATR & EP300)) & !CyclinD & !Bak)	DNA repair
-BRCA2	BRCA2	+	ATM	An essential step in homology‐directed repair (HDR) of DNA breaks is the formation of RAD51 nucleofilaments mediated by PALB2–BRCA2	15734731	(ATM & ATR & EP300)	DNA repair
-BRCA2	BRCA2	+	ATR	An essential step in homology‐directed repair (HDR) of DNA breaks is the formation of RAD51 nucleofilaments mediated by PALB2–BRCA2	15734731	(ATM & ATR & EP300)	DNA repair
-BRCA2	BRCA2	+	EP300	ATM-dependent phosphorylation of p300 is required for stabilization of NBS1 proteins in response to DNA damage. (20471956)	20471956	(ATM & ATR & EP300)	DNA repair
+AR	AR	+	Androgen	AR activated by binding either of the androgenic hormones, Testosterone, Or dihydrotestosterone in the cytoplasm and then translocating into the nucleus.	27057074	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR pathw
+AR	AR	+	EP300	SRC/p160 coactivators are also able to recruit other coactivators that contain histone acetyl-transferase activity such as Tip60, CBP/p300 (EP300), and p/CAF, which are involved in the acetylation of specific histone residues resulting in chromatin remodeling. 	21956922	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR pathw
+AR	AR	+	EZH2	transcriptional coactivator of AR	23239736	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR pathw
+AR	AR	+	GLI	Gli2 protein can bind to AR and this interaction might define the point of cross-talk between the two signaling pathways.	20420697	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR pathw
+AR	AR	+	HSPs	In an unbound state, The AR complexes with heat-shock, Chaperone and co-chaperone proteins such as HSP90, Which helps to maintain the apo state of the AR in a state competent to bind ligand. The innate stress response induced by castration induces activity of heat-shock proteins (HSP70, HSP90, HSP27) and helps insulate the AR axis from degradation. Overexpression of HSP27 in vivo suppresses apoptosis and is sufficient to confer castrate resistance.	21956922, 2589661	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR pathw
+AR	AR	-	MDM2	These results suggest that phosphorylation-dependent AR ubiquitylation and degradation by Akt require the involvement of Mdm2 E3 ligase activity	12145204	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR pathw
+AR	AR	+	NCOA3	SRC3 (NCOA3) is a preferred coactivator for hormone-activated AR. 	20086010	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR pathw
+AR	AR	-	NCOR1	Unlike coactivators, AR corepressor proteins can form complexes with AR and inhibit the transcription of AR-regulated genes. Any alterations in the expression of these corepressor proteins can also play an important role in the development of AIPC. Two well-characterized AR corepressors are NCoR (nuclear receptor corepressor) and its homolog SMRT (silencing mediator for retinoid and thyroid hormone receptors). Both of these corepressors can recruit histone deacetylases, which promote chromatin packing, resulting in reduced transcriptional activity.	21956922	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR pathw
+AR	AR	-	NCOR2	Unlike coactivators, AR corepressor proteins can form complexes with AR and inhibit the transcription of AR-regulated genes. Any alterations in the expression of these corepressor proteins can also play an important role in the development of AIPC. Two well-characterized AR corepressors are NCoR (nuclear receptor corepressor) and its homolog SMRT (silencing mediator for retinoid and thyroid hormone receptors). Both of these corepressors can recruit histone deacetylases, which promote chromatin packing, resulting in reduced transcriptional activity.	21956922	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR pathw
+AR	AR	+	NKX3_1	NKX3-1 and AR directly regulate each other in a feed-forward regulatory loop.	22083957	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR pathw
+AR	AR	+	PKC	Epidermal growth factor (EGF) increases AR transcriptional activity through PKC-dependent phosphorylation of AR at low levels of androgen in the CWR-R1 prostate cancer cell line derived from the castration-recurrent CWR22 prostate cancer xenograft.	18511414	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR pathw
+AR	AR	-	PTEN	The  interaction  between  PTEN  and  AR  inhibits the AR nuclear translocation and promotes the AR protein degradation.	15205473	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR pathw
+AR	AR	+	SMAD	Smad4, together with SMAD, can interact with the androgen receptor (AR) in the DNA-binding and ligand-binding domains, which may result in the modulation of 5alpha-dihydrotestosterone-induced AR transactivation.	12226080	((GLI | EP300 | HSPs | NKX3_1 | EZH2 | NCOA3 | PKC | SMAD | Androgen) & !PTEN & !NCOR1 & !NCOR2 & !MDM2)	AR pathw
+AR_ERG	ERG fused	+	AR	AR upregulates ERG via the AR-regulated TMPRSS2 gene promoter. 	23264855	((AR & fused_event) | (AR & fused_event & !NKX3_1))	AR pathw
+AR_ERG	ERG fused	+	fused_event	ERG can fuse with TMPRSS2 protein to form an oncogenic fusion gene that is commonly found in human prostate cancer, especially in hormone-refractory prostate cancer.	23264855	((AR & fused_event) | (AR & fused_event & !NKX3_1))	AR pathw
+AR_ERG	ERG fused	-	NKX3_1	NKX3.1 directly binds to TMPRSS2 upstream sequences and negatively regulates the expression of the ERG protooncogene through the TMPRSS2-ERG gene fusion.	24418414	((AR & fused_event) | (AR & fused_event & !NKX3_1))	AR pathw
+ATM	ATM	+	DNA_Damage	From Fumia et al, 2013	23922675	(DNA_Damage)	DNA repair pathw
+ATR	ATR	+	DNA_Damage	From Fumia et al, 2013	23922675	(DNA_Damage)	DNA repair pathw
+ATR	ATR	+	p14ARF	Regulation of NF-kappaB and p53 through activation of ATR and Chk1 by the ARF tumour suppressorInduction of ATR activity in Hs68 E2F1ER cells by endogenous ARF.	15775976	(DNA_Damage)	DNA repair pathw
+AXIN1	AXIN1	+	GSK3	Signor: Axin, APC and GSK3 bind together in a complex	9601641	(GSK3)	WNT pathw
+BAD	BAD	-	AKT	From Fumia et al, 2013	23922675	(!AKT & !HIF1 & !p90RSK & !RAF & !YWHAZ)	Apop pathw
+BAD	BAD	+	Caspase3	Casp3 cleaves bad at asp-61. In addition, caspases convert bad(l) into a pro-death fragment that resembles the short splice variant.	15231831	(!AKT & !HIF1 & !p90RSK & !RAF & !YWHAZ)	Apop pathw
+BAD	BAD	-	HIF1	From Fumia et al, 2013	23922675	(!AKT & !HIF1 & !p90RSK & !RAF & !YWHAZ)	Apop pathw
+BAD	BAD	-	p90RSK	From Fumia et al, 2013	23922675	(!AKT & !HIF1 & !p90RSK & !RAF & !YWHAZ)	Apop pathw
+BAD	BAD	-	RAF	From Fumia et al, 2013	23922675	(!AKT & !HIF1 & !p90RSK & !RAF & !YWHAZ)	Apop pathw
+BAD	BAD	-	YWHAZ	4-3-3ζ negatively regulates apoptosis by binding and sequestering BAD and BAX in the cytoplasm, effectively preventing activation of proapoptotic Bcl-2 and Bcl-XL.	25266655	(!AKT & !HIF1 & !p90RSK & !RAF & !YWHAZ)	Apop pathw
+Bak	BAK1	+	Caspase8	From Fumia et al, 2013	23922675	(Caspase8)	Apop pathw
+BAX	BAX	-	BCL2	From Fumia et al, 2013	23922675	(!BCL2 & !HIF1 & !YWHAZ & (JNK | HIF1 | p53) & !ETS1)	Apop pathw
+BAX	BAX	-	ETS1	Our results suggest that the interaction between ETS1 and GFI1 facilitates their binding to specific sites on the Bax promoter and represses Bax expression in vivo.	17213822	(!BCL2 & !HIF1 & !YWHAZ & (JNK | HIF1 | p53) & !ETS1)	Apop pathw
+BAX	BAX	-	HIF1	From Fumia et al, 2013	23922675	(!BCL2 & !HIF1 & !YWHAZ & (JNK | HIF1 | p53) & !ETS1)	Apop pathw
+BAX	BAX	+	JNK	From Fumia et al, 2013	23922675	(!BCL2 & !HIF1 & !YWHAZ & (JNK | HIF1 | p53) & !ETS1)	Apop pathw
+BAX	BAX	+	p53	From Fumia et al, 2013	23922675	(!BCL2 & !HIF1 & !YWHAZ & (JNK | HIF1 | p53) & !ETS1)	Apop pathw
+BAX	BAX	-	YWHAZ	4-3-3ζ negatively regulates apoptosis by binding and sequestering BAD and BAX in the cytoplasm, effectively preventing activation of proapoptotic Bcl-2 and Bcl-XL.	25266655	(!BCL2 & !HIF1 & !YWHAZ & (JNK | HIF1 | p53) & !ETS1)	Apop pathw
+Bcl_XL	BCL2L1	+	AR	androgen treatment significantly increased Bcl‐xL expression at mRNA and protein levels via an AR‐dependent mechanism	doi.org/10.1002/pros.20723	(AR & !BAD & !p53)	Apop pathw
+Bcl_XL	BCL2L1	-	BAD	From Fumia et al, 2013	23922675	(AR & !BAD & !p53)	Apop pathw
+Bcl_XL	BCL2L1	-	p53	From Fumia et al, 2013	23922675	(AR & !BAD & !p53)	Apop pathw
+BCL2	BCL2	-	BAD	From Fumia et al, 2013	23922675	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop pathw
+BCL2	BCL2	-	BAX	From Fumia et al, 2013	23922675	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop pathw
+BCL2	BCL2	-	DAXX	Interaction of EAP1/Daxx with ETS1 causes the repression of transcriptional activation of the MMP1 and BCL2 genes.	10698492	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop pathw
+BCL2	BCL2	-	ETS1	Interaction of EAP1/Daxx with ETS1 causes the repression of transcriptional activation of the MMP1 and BCL2 genes.	10698492	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop pathw
+BCL2	BCL2	-	HSPs	HSPs can block the mitochondrial intrinsic pathway of apoptosis by interacting with key proteins. At the mitochondrial level,  HSP90 controls the release of cytochrome c by interacting with Bcl2.	18266962	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop pathw
+BCL2	BCL2	+	NF_kB	From Fumia et al, 2013	23922675	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop pathw
+BCL2	BCL2	-	p53	From Fumia et al, 2013	23922675	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop pathw
+BCL2	BCL2	+	RUNX2	RUNX2 is involved in apoptosis resistance of prostate cancer by modulating expressiopn of BCL2.	HPCHM, 23073173	((HSPs | NF_kB | RUNX2) & !BAX & !p53 & !DAXX & !BAD)	Apop pathw
+beta_catenin	CTNNB1	-	AXIN1	From Fumia et al, 2013	23922675	(!GSK3 & !p53 & !AXIN1 & (EZH2 | YWHAZ))	WNT pathw
+beta_catenin	CTNNB1	+	EZH2	In addition, EZH2 also interacts with various nonhistone proteins such as STAT3, estrogen receptor and beta catenin and thus indirectly serves as a transcriptional activator of their target genes. AKT activates EZH2.	26392259	(!GSK3 & !p53 & !AXIN1 & (EZH2 | YWHAZ))	WNT pathw
+beta_catenin	CTNNB1	-	GSK3	From Fumia et al, 2013	23922675	(!GSK3 & !p53 & !AXIN1 & (EZH2 | YWHAZ))	WNT pathw
+beta_catenin	CTNNB1	-	p53	From Fumia et al, 2013	23922675	(!GSK3 & !p53 & !AXIN1 & (EZH2 | YWHAZ))	WNT pathw
+beta_catenin	CTNNB1	+	YWHAZ	14-3-3zeta facilitates activation of beta-catenin by the survival kinase Akt and colocalizes with activated Akt in intestinal stem cells.	15492215	(!GSK3 & !p53 & !AXIN1 & (EZH2 | YWHAZ))	WNT pathw
+BIRC5	BIRC5	+	HSPs	Survivin co-eluted with the molecular chaperone complex comprising both Hsp90 and Hsp70, in agreement with previous observations.	15218035, 2589661	(HSPs & !p53)	Apop pathw
+BIRC5	BIRC5	-	p53	This study identifies the anti-apoptotic survivin gene as a p53-repressed gene;notably, survivin repression by p53 is shown to be distinct from p53-dependent growth arrest.	11714700	(HSPs & !p53)	Apop pathw
+BMP2	BMP2	+	FGFR3	Furthermore, FGF-2 and FGF-9 increased expression of other osteogenic factors BMP-2 and TGFbeta-1. Meanwhile, blocking endogenous FGF signaling, using a virally transduced dominant-negative FGF receptor (FgfR), resulted in drastically reduced expression of the BMP-2 gene, demonstrating for the first time that endogenous FGF/FgfR signaling is a positive upstream regulator of the BMP-2 gene in calvarial osteoblasts	15780951	(GLI & (TGFBR | FGFR3))	SHH pathw
+BMP2	BMP2	+	GLI	The zinc finger transcription factor gli2 mediates bone morphogenetic protein 2 expression in osteoblasts in response to hedgehog signaling	16880529	(GLI & (TGFBR | FGFR3))	SHH pathw
+BMP2	BMP2	+	TGFBR	We identified PPARg as a missing link between BMP2 and TGFb1 pathways in VSMCs	28467929	(GLI & (TGFBR | FGFR3))	SHH pathw
+BRCA1	BRCA1	+	ATM	From Cho et al., 2016	10866324	((E2F1 | ATM | ATR | (E2F1 & EP300) | (ATM & EP300) | (ATR & EP300)) & !CyclinD & !Bak)	DNA repair pathw
+BRCA1	BRCA1	+	ATR	From Cho et al., 2016	10866324	((E2F1 | ATM | ATR | (E2F1 & EP300) | (ATM & EP300) | (ATR & EP300)) & !CyclinD & !Bak)	DNA repair pathw
+BRCA1	BRCA1	-	Caspase3	we demonstrate the cleavage and the consequential downregulation of full-length BRCA1 by caspase-3 during UV-induced apoptosis. Finally, mutation of a caspase-3 specific cleavage site (D/A1154) rendered BRCA1 non-cleavable.	12149654	((E2F1 | ATM | ATR | (E2F1 & EP300) | (ATM & EP300) | (ATR & EP300)) & !CyclinD & !Bak)	DNA repair pathw
+BRCA1	BRCA1	-	CyclinD	In particular, we have identified ser 632 of brca1 as a cyclin d1/cdk4 phosphorylation site in vitro. Using chromatin immunoprecipitation assays, we observed that the inhibition of cyclin d1/cdk4 activity resulted in increased brca1 dna binding at particular promoters in vivo.	17334399	((E2F1 | ATM | ATR | (E2F1 & EP300) | (ATM & EP300) | (ATR & EP300)) & !CyclinD & !Bak)	DNA repair pathw
+BRCA1	BRCA1	+	E2F1	From Cho et al., 2016	10660629	((E2F1 | ATM | ATR | (E2F1 & EP300) | (ATM & EP300) | (ATR & EP300)) & !CyclinD & !Bak)	DNA repair pathw
+BRCA1	BRCA1	+	EP300	ATM-dependent phosphorylation of p300 is required for stabilization of NBS1 proteins in response to DNA damage. (20471956)	20471956	((E2F1 | ATM | ATR | (E2F1 & EP300) | (ATM & EP300) | (ATR & EP300)) & !CyclinD & !Bak)	DNA repair pathw
+BRCA2	BRCA2	+	ATM	An essential step in homology‐directed repair (HDR) of DNA breaks is the formation of RAD51 nucleofilaments mediated by PALB2–BRCA2	15734731	(ATM & ATR & EP300)	DNA repair pathw
+BRCA2	BRCA2	+	ATR	An essential step in homology‐directed repair (HDR) of DNA breaks is the formation of RAD51 nucleofilaments mediated by PALB2–BRCA2	15734731	(ATM & ATR & EP300)	DNA repair pathw
+BRCA2	BRCA2	+	EP300	ATM-dependent phosphorylation of p300 is required for stabilization of NBS1 proteins in response to DNA damage. (20471956)	20471956	(ATM & ATR & EP300)	DNA repair pathw
 Carcinogen	input	input	0/1	From Fumia et al, 2013	23922675	(Carcinogen)	Input
-Caspase3	CASP3	+	Caspase8	Triggering of the DISC leads to caspase-8 activation. Active caspase-8 cleaves caspase-3 which, in type I cells, leads to cell death induction	10988287, 21295084	(Caspase8 | Caspase9)	Apop
-Caspase3	CASP3	+	Caspase9	Following autoprocessing in the apoptosome, caspase-9 cleaves and activates caspase-3	9390557, 15657060	(Caspase8 | Caspase9)	Apop
-Caspase8	CASP8	-	cFLAR	Also called c-FLIP. It is directly targeted by AR and is involved in regulation of Fas/FasL mediated apoptosis: plays a role in apoptosis inhibition in androgen dependent prostate cancer cell line. 	15731171	(!cFLAR & FADD)	Apop
-Caspase8	CASP8	+	FADD	From Fumia et al, 2013	23922675	(!cFLAR & FADD)	Apop
-Caspase9	CASP9	-	AKT	Akt phosphorylates Caspase-9, Preventing a caspase cascade leading to cell death.	23732469	((!AKT & CytoC & APAF1 & PTCH1) | (!AKT & BIRC5 & CytoC & APAF1) | (!AKT & BIRC5 & CytoC & APAF1 & PTCH1))	Apop
-Caspase9	CASP9	+	APAF1	From Fumia et al, 2013	23922675	((!AKT & CytoC & APAF1 & PTCH1) | (!AKT & BIRC5 & CytoC & APAF1) | (!AKT & BIRC5 & CytoC & APAF1 & PTCH1))	Apop
-Caspase9	CASP9	+	BIRC5	Survivin (an inhibitor of apoptosis) phosphorylation on thr34 may regulate apoptosis at cell division via an interaction with caspase-9.	11069302	((!AKT & CytoC & APAF1 & PTCH1) | (!AKT & BIRC5 & CytoC & APAF1) | (!AKT & BIRC5 & CytoC & APAF1 & PTCH1))	Apop
-Caspase9	CASP9	+	CytoC	From Fumia et al, 2013	23922675	((!AKT & CytoC & APAF1 & PTCH1) | (!AKT & BIRC5 & CytoC & APAF1) | (!AKT & BIRC5 & CytoC & APAF1 & PTCH1))	Apop
-Caspase9	CASP9	+	PTCH1	Ptc has been shown to function as a dependence receptor; it induces apoptosis in the absence of Shh, whereas its pro-apoptotic activity is blocked in the presence of Shh	19465923	((!AKT & CytoC & APAF1 & PTCH1) | (!AKT & BIRC5 & CytoC & APAF1) | (!AKT & BIRC5 & CytoC & APAF1 & PTCH1))	Apop
-CDH2	CDH2	+	TWIST1	From Cohen et al, 2015	26528548	(TWIST1)	Invasion
-cFLAR	CFLAR	+	AKT	in Flobak 2015	26317215	((AKT | AR) & !JNK)	Apop
-cFLAR	CFLAR	+	AR	Also called c-FLIP. It is directly targeted by AR and is involved in regulation of Fas/FasL mediated apoptosis: plays a role in apoptosis inhibition in androgen dependent prostate cancer cell line. 	15731171	((AKT | AR) & !JNK)	Apop
-cFLAR	CFLAR	-	JNK	in Flobak 2015 via ITCH1	26317215	((AKT | AR) & !JNK)	Apop
-CHK1_2	CHEK1, CHEK2	+	ATM	From Fumia et al, 2013	23922675	(ATM & ATR & BRCA1)	DNA repair
-CHK1_2	CHEK1, CHEK2	+	ATR	From Fumia et al, 2013	23922675	(ATM & ATR & BRCA1)	DNA repair
-CHK1_2	CHEK1, CHEK2	+	BRCA1	BRCA1, is among several checkpoint mediators that are required for Chk1 activation by ATM and ATR. (PMC3706104)	2447902	(ATM & ATR & BRCA1)	DNA repair
-COX4I2	COX4I2	+	HIF1	From Fumia et al, 2013	23922675	(HIF1)	Nutrients
+Caspase3	CASP3	+	Caspase8	Triggering of the DISC leads to caspase-8 activation. Active caspase-8 cleaves caspase-3 which, in type I cells, leads to cell death induction	10988287, 21295084	(Caspase8 | Caspase9)	Apop pathw
+Caspase3	CASP3	+	Caspase9	Following autoprocessing in the apoptosome, caspase-9 cleaves and activates caspase-3	9390557, 15657060	(Caspase8 | Caspase9)	Apop pathw
+Caspase8	CASP8	-	cFLAR	Also called c-FLIP. It is directly targeted by AR and is involved in regulation of Fas/FasL mediated apoptosis: plays a role in apoptosis inhibition in androgen dependent prostate cancer cell line. 	15731171	(!cFLAR & FADD)	Apop pathw
+Caspase8	CASP8	+	FADD	From Fumia et al, 2013	23922675	(!cFLAR & FADD)	Apop pathw
+Caspase9	CASP9	-	AKT	Akt phosphorylates Caspase-9, Preventing a caspase cascade leading to cell death.	23732469	((!AKT & CytoC & APAF1 & PTCH1) | (!AKT & BIRC5 & CytoC & APAF1) | (!AKT & BIRC5 & CytoC & APAF1 & PTCH1))	Apop pathw
+Caspase9	CASP9	+	APAF1	From Fumia et al, 2013	23922675	((!AKT & CytoC & APAF1 & PTCH1) | (!AKT & BIRC5 & CytoC & APAF1) | (!AKT & BIRC5 & CytoC & APAF1 & PTCH1))	Apop pathw
+Caspase9	CASP9	+	BIRC5	Survivin (an inhibitor of apoptosis) phosphorylation on thr34 may regulate apoptosis at cell division via an interaction with caspase-9.	11069302	((!AKT & CytoC & APAF1 & PTCH1) | (!AKT & BIRC5 & CytoC & APAF1) | (!AKT & BIRC5 & CytoC & APAF1 & PTCH1))	Apop pathw
+Caspase9	CASP9	+	CytoC	From Fumia et al, 2013	23922675	((!AKT & CytoC & APAF1 & PTCH1) | (!AKT & BIRC5 & CytoC & APAF1) | (!AKT & BIRC5 & CytoC & APAF1 & PTCH1))	Apop pathw
+Caspase9	CASP9	+	PTCH1	Ptc has been shown to function as a dependence receptor; it induces apoptosis in the absence of Shh, whereas its pro-apoptotic activity is blocked in the presence of Shh	19465923	((!AKT & CytoC & APAF1 & PTCH1) | (!AKT & BIRC5 & CytoC & APAF1) | (!AKT & BIRC5 & CytoC & APAF1 & PTCH1))	Apop pathw
+CDH2	CDH2	+	TWIST1	From Cohen et al, 2015	26528548	(TWIST1)	Invasion pathw
+cFLAR	CFLAR	+	AKT	in Flobak 2015	26317215	((AKT | AR) & !JNK)	Apop pathw
+cFLAR	CFLAR	+	AR	Also called c-FLIP. It is directly targeted by AR and is involved in regulation of Fas/FasL mediated apoptosis: plays a role in apoptosis inhibition in androgen dependent prostate cancer cell line. 	15731171	((AKT | AR) & !JNK)	Apop pathw
+cFLAR	CFLAR	-	JNK	in Flobak 2015 via ITCH1	26317215	((AKT | AR) & !JNK)	Apop pathw
+CHK1_2	CHEK1, CHEK2	+	ATM	From Fumia et al, 2013	23922675	(ATM & ATR & BRCA1)	DNA repair pathw
+CHK1_2	CHEK1, CHEK2	+	ATR	From Fumia et al, 2013	23922675	(ATM & ATR & BRCA1)	DNA repair pathw
+CHK1_2	CHEK1, CHEK2	+	BRCA1	BRCA1, is among several checkpoint mediators that are required for Chk1 activation by ATM and ATR. (PMC3706104)	2447902	(ATM & ATR & BRCA1)	DNA repair pathw
+COX4I2	COX4I2	+	HIF1	From Fumia et al, 2013	23922675	(HIF1)	Nutrients pathw
 CyclinB	CCNB1, CCNB2, CCNB3	+	E2F1	From Traynard et al, 2016	27587700	(E2F1 & !p21)	Cell cycle
 CyclinB	CCNB1, CCNB2, CCNB3	-	p21	From Fumia et al, 2013	23922675	(E2F1 & !p21)	Cell cycle
 CyclinB	CCNB1, CCNB2, CCNB3	-	FOXO	From Fumia et al, 2013	23922675	(E2F1 & !p21)	Cell cycle
@@ -116,165 +116,165 @@ CyclinD	CCND1, CCND2, CCND3	+	p15	From Fumia et al, 2013	23922675	((GLI | TCF | 
 CyclinD	CCND1, CCND2, CCND3	-	p21	From Fumia et al, 2013	23922675	((GLI | TCF | NF_kB) & MYC_MAX & !p21 & !FOXO & !p15 & !GSK3)	Cell cycle
 CyclinD	CCND1, CCND2, CCND3	-	TCF	From Fumia et al, 2013	23922675	((GLI | TCF | NF_kB) & MYC_MAX & !p21 & !FOXO & !p15 & !GSK3)	Cell cycle
 CyclinD	CCND1, CCND2, CCND3	+	AKT	From Fumia et al, 2013	23922675	((GLI | TCF | NF_kB) & MYC_MAX & !p21 & !FOXO & !p15 & !GSK3)	Cell cycle
-CytoC	CYCS	-	Bak	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop
-CytoC	CYCS	+	BAX	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop
-CytoC	CYCS	+	Bcl_XL	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop
-CytoC	CYCS	-	BCL2	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop
-CytoC	CYCS	-	Caspase8	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop
-CytoC	CYCS	+	p53	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop
-CytoC	CYCS	+	ATM	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop
-DAXX	DAXX	-	ATR	Phosphorylation of Daxx by ATM upon DNA damage disrupts the Daxx-Mdm2 interaction and facilitates p53 activation.	23405218	(!ATM & !ATR & !SPOP)	DNA repair
-DAXX	DAXX	-	SPOP	Phosphorylation of Daxx by ATM upon DNA damage disrupts the Daxx-Mdm2 interaction and facilitates p53 activation.	23405218	(!ATM & !ATR & !SPOP)	DNA repair
-DAXX	DAXX	-	Carcinogen	SPOP is involved in ubiquitination and proteasomal degradation of DAXX.	26374986	(!ATM & !ATR & !SPOP)	DNA repair
-DNA_Damage		+	ROS	From Fumia et al, 2013	23922675	((Carcinogen | (Carcinogen & ROS)) & !SPOP)	DNA repair
-DNA_Damage		+	SPOP	From Fumia et al, 2013	23922675	((Carcinogen | (Carcinogen & ROS)) & !SPOP)	DNA repair
-DNA_Damage		-	ATM	SPOP, the most commonly mutated gene in primary prostate cancer modulates DNA double strand break (DSB) repair, and SPOP mutation is associated with genomic instability	26374986	((Carcinogen | (Carcinogen & ROS)) & !SPOP)	DNA repair
+CytoC	CYCS	-	Bak	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+CytoC	CYCS	+	BAX	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+CytoC	CYCS	+	Bcl_XL	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+CytoC	CYCS	-	BCL2	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+CytoC	CYCS	-	Caspase8	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+CytoC	CYCS	+	p53	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+CytoC	CYCS	+	ATM	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak) & !Bcl_XL & !BCL2 & !AKT)	Apop pathw
+DAXX	DAXX	-	ATR	Phosphorylation of Daxx by ATM upon DNA damage disrupts the Daxx-Mdm2 interaction and facilitates p53 activation.	23405218	(!ATM & !ATR & !SPOP)	DNA repair pathw
+DAXX	DAXX	-	SPOP	Phosphorylation of Daxx by ATM upon DNA damage disrupts the Daxx-Mdm2 interaction and facilitates p53 activation.	23405218	(!ATM & !ATR & !SPOP)	DNA repair pathw
+DAXX	DAXX	-	Carcinogen	SPOP is involved in ubiquitination and proteasomal degradation of DAXX.	26374986	(!ATM & !ATR & !SPOP)	DNA repair pathw
+DNA_Damage		+	ROS	From Fumia et al, 2013	23922675	((Carcinogen | (Carcinogen & ROS)) & !SPOP)	DNA repair pathw
+DNA_Damage		+	SPOP	From Fumia et al, 2013	23922675	((Carcinogen | (Carcinogen & ROS)) & !SPOP)	DNA repair pathw
+DNA_Damage		-	ATM	SPOP, the most commonly mutated gene in primary prostate cancer modulates DNA double strand break (DSB) repair, and SPOP mutation is associated with genomic instability	26374986	((Carcinogen | (Carcinogen & ROS)) & !SPOP)	DNA repair pathw
 DNA_Repair	output	+	ATR	From Fumia et al, 2013	23922675	(ATM & ATR & (BRCA1 | BRCA2))	Output
 DNA_Repair	output	+	BRCA1	From Fumia et al, 2013	23922675	(ATM & ATR & (BRCA1 | BRCA2))	Output
 DNA_Repair	output	+	BRCA2	ZMYM3 facilitates the fine-tuning of BRCA1 interactions with DNA damage sites and chromatin. Consistent with a role in regulating BRCA1 function, ZMYM3 deficiency results in impaired HR repair and genome instability. 	28242625	(ATM & ATR & (BRCA1 | BRCA2))	Output
 DNA_Repair	output	+	p14ARF	BRCA2 is a mediator of the core mechanism of homologous recombination.	22193408	(ATM & ATR & (BRCA1 | BRCA2))	Output
-Dsh	DVL1, DVL2, DVL3	+	WNT	From Fumia et al, 2013	23922675	(WNT)	WNT
-E_cadherin	CDH1	+	AR_ERG	ERG overexpression also leads to the loss of E-cadherin expression (a marker of EMT)	doi:10.1038/onc.2015.109	((beta_catenin | AR_ERG) & !Snail & !ERG & !NF_kB & !Slug)	Invasion
-E_cadherin	CDH1	+	beta_catenin	Cadherin-11 is localized to a detergent-soluble pool and is associated with both alpha- and beta-catenin	10029089	((beta_catenin | AR_ERG) & !Snail & !ERG & !NF_kB & !Slug)	Invasion
-E_cadherin	CDH1	-	ERG	ERG overexpression also leads to the loss of E-cadherin expression (a marker of EMT)	doi:10.1038/onc.2015.109	((beta_catenin | AR_ERG) & !Snail & !ERG & !NF_kB & !Slug)	Invasion
-E_cadherin	CDH1	-	NF_kB	From Fumia et al, 2013	23922675	((beta_catenin | AR_ERG) & !Snail & !ERG & !NF_kB & !Slug)	Invasion
-E_cadherin	CDH1	-	Slug	From Fumia et al, 2013	23922675	((beta_catenin | AR_ERG) & !Snail & !ERG & !NF_kB & !Slug)	Invasion
-E_cadherin	CDH1	-	Snail	From Fumia et al, 2013	23922675	((beta_catenin | AR_ERG) & !Snail & !ERG & !NF_kB & !Slug)	Invasion
+Dsh	DVL1, DVL2, DVL3	+	WNT	From Fumia et al, 2013	23922675	(WNT)	WNT pathw
+E_cadherin	CDH1	+	AR_ERG	ERG overexpression also leads to the loss of E-cadherin expression (a marker of EMT)	doi:10.1038/onc.2015.109	((beta_catenin | AR_ERG) & !Snail & !ERG & !NF_kB & !Slug)	Invasion pathw
+E_cadherin	CDH1	+	beta_catenin	Cadherin-11 is localized to a detergent-soluble pool and is associated with both alpha- and beta-catenin	10029089	((beta_catenin | AR_ERG) & !Snail & !ERG & !NF_kB & !Slug)	Invasion pathw
+E_cadherin	CDH1	-	ERG	ERG overexpression also leads to the loss of E-cadherin expression (a marker of EMT)	doi:10.1038/onc.2015.109	((beta_catenin | AR_ERG) & !Snail & !ERG & !NF_kB & !Slug)	Invasion pathw
+E_cadherin	CDH1	-	NF_kB	From Fumia et al, 2013	23922675	((beta_catenin | AR_ERG) & !Snail & !ERG & !NF_kB & !Slug)	Invasion pathw
+E_cadherin	CDH1	-	Slug	From Fumia et al, 2013	23922675	((beta_catenin | AR_ERG) & !Snail & !ERG & !NF_kB & !Slug)	Invasion pathw
+E_cadherin	CDH1	-	Snail	From Fumia et al, 2013	23922675	((beta_catenin | AR_ERG) & !Snail & !ERG & !NF_kB & !Slug)	Invasion pathw
 E2F1	E2F1, E2F2, E2F3	+	AR	FOXA1 promotes cell growth in an AR-dependent manner. 	26114156	((AR | (FOXA1 & AR) | (ATR & AR) | (ATM & AR)) & !RB1 & !MXI1)	Cell cycle
 E2F1	E2F1, E2F2, E2F3	+	ATM	atm/atr-mediated phosphorylation inhibits the binding and function of skp2 and thus prevents the normal degradation of e2f1	11459832	((AR | (FOXA1 & AR) | (ATR & AR) | (ATM & AR)) & !RB1 & !MXI1)	Cell cycle
 E2F1	E2F1, E2F2, E2F3	+	ATR	atm/atr-mediated phosphorylation inhibits the binding and function of skp2 and thus prevents the normal degradation of e2f1	11459832	((AR | (FOXA1 & AR) | (ATR & AR) | (ATM & AR)) & !RB1 & !MXI1)	Cell cycle
 E2F1	E2F1, E2F2, E2F3	+	FOXA1	FOXA1 promotes cell growth in an AR-dependent manner. 	26114156	((AR | (FOXA1 & AR) | (ATR & AR) | (ATM & AR)) & !RB1 & !MXI1)	Cell cycle
 E2F1	E2F1, E2F2, E2F3	-	MXI1	MXI1 inhibits E2F1 thorugh RB1	27451126	((AR | (FOXA1 & AR) | (ATR & AR) | (ATM & AR)) & !RB1 & !MXI1)	Cell cycle
 E2F1	E2F1, E2F2, E2F3	-	RB1	From Traynard et al, 2016	27587700	((AR | (FOXA1 & AR) | (ATR & AR) | (ATM & AR)) & !RB1 & !MXI1)	Cell cycle
-eEF2	EEF2	-	eEF2K	From Fumia et al, 2013	23922675	(!eEF2K)	AKT
-eEF2K	EEF2K	+	p70S6kab	From Fumia et al, 2013	23922675	(p90RSK | p70S6kab)	AKT
-eEF2K	EEF2K	+	p90RSK	From Fumia et al, 2013	23922675	(p90RSK | p70S6kab)	AKT
+eEF2	EEF2	-	eEF2K	From Fumia et al, 2013	23922675	(!eEF2K)	AKT pathw
+eEF2K	EEF2K	+	p70S6kab	From Fumia et al, 2013	23922675	(p90RSK | p70S6kab)	AKT pathw
+eEF2K	EEF2K	+	p90RSK	From Fumia et al, 2013	23922675	(p90RSK | p70S6kab)	AKT pathw
 EGF	input	input	0/1	Input of the model		(EGF)	Input
-EGFR	EGFR	+	Androgen	presence of the AR affect EGF receptor (EGFR)-mediated signaling in response to EGF	15288768, 19318561	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK
-EGFR	EGFR	+	EGF	After binding of epidermal growth factor (EGF), the EGF receptor (EGFR) becomes autophosphorylated via tyrosine.	10653583	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK
-EGFR	EGFR	-	EGFR	Initially, an autophosphorylation reaction creates docking sites for several signaling proteins, including a Cbl binding site at tyrosine 1045 of EGFR. Second, EGFR trans-phosphorylates Cbl at a linker domain, which activates an associated ubiquitin ligase activity.	10635327	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK
-EGFR	EGFR	+	ERK	It is likely that the MAP2 and ERT kinases account for the phosphorylation of the egf receptor at thr669 observed in cultured cells.	10816576	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK
-EGFR	EGFR	-	FRS2	FRS2 is a major downstream effector that links fibroblast growth factor (FGF) and nerve growth factor receptors with the Ras/mitogen-activated protein kinase signaling cascade	11353842	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK
-EGFR	EGFR	-	PKC	These data indicate that activation of protein kinase C and subsequent phosphorylation of the EGF receptor at T654 lead to rapid physiological attenuation of EGF receptor signaling.	1860884	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK
-EGFR	EGFR	-	TGFBR	Our data indicate that a subset of cell lines is dependent on TGF-mediated activation of the EGFR for cell proliferation and strongly suggest that pancreatic tumors expressing high levels of TGF and phosphorylated (activated) EGFR are EGFR-dependent in vitro and in vivo.	16585207	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK
-EMT		+	AR_ERG	ERG can fuse with TMPRSS2 protein to form an oncogenic fusion gene that is commonly found in human prostate cancer, especially in hormone-refractory prostate cancer.	23264855	(CDH2 & !E_cadherin & !FOXA1)	Invasion
-EMT		+	beta_catenin	beta-catenin expression is a marker of EMT	21412939	(CDH2 & !E_cadherin & !FOXA1)	Invasion
-EMT		+	CDH2	N-cadherin expression is a marker of EMT	21412939	(CDH2 & !E_cadherin & !FOXA1)	Invasion
-EMT		-	E_cadherin	loss of E-cadherin expression is a marker of EMT	21412939	(CDH2 & !E_cadherin & !FOXA1)	Invasion
-EMT		-	FOXA1	FoxA1 inhibits cell motility and epithelial-to-mesenchymal transition (EMT) 	23539448	(CDH2 & !E_cadherin & !FOXA1)	Invasion
-EP300	EP300	+	AKT	Histone deacetylase inhibitors stimulate active NF-kappaB transcription and cell survival through signaling pathways involving Akt and increased p300 acetyltransferase activity	16926151	(AKT)	DNA repair
-ERG	ERG	+	ERK	The ability of ERK2 to bind ERG with higher affinity than ETS1 provided a potential molecular explanation for why ERG overexpression drives migration of prostate cells with low levels of RAS/ERK signaling, while ETS1 has a similar function only when RAS/ERK signaling is high. 	25885538	(ERK)	AR
-ERK	MAPK3, MAPK1	+	MEK1_2	Mapk1 is phosphorylated by map2k1/mek1 and map2k2/mek2	11971971	(RAF | MEK1_2)	ERK
-ERK	MAPK3, MAPK1	+	RAF	From Fumia et al, 2013	23922675	(RAF | MEK1_2)	ERK
-ETS1	ETS1	+	ERK	Signor: MAPK3 (ERK1/2) -> ETS1	11948414	(!p53 & (RTK | ERK))	ERK
-ETS1	ETS1	-	p53	Signor: TP53 -| ETS1	14586398	(!p53 & (RTK | ERK))	ERK
-ETS1	ETS1	+	RTK	Signor: MAPK7 -> ETS1	12048211	(!p53 & (RTK | ERK))	ERK
-ETV1	ETV1	+	ETS1	ETS1 fuses with ETV1 in prostate cancer	19657377	(ETS1 | MEK1_2)	ERK
-ETV1	ETV1	+	MEK1_2	Signor: MEK -> ETV1	20626350	(ETS1 | MEK1_2)	ERK
-EZH2	EZH2	+	AKT	Phosphorylation of EZH2 at Ser21, mediated directly or indirectly by the PI3K-Akt pathway, can switch its function from a Polycomb repressor to a transcriptional coactivator of AR (and potentially other factors).	23239736	(AKT & E2F1 & (ERG | AR_ERG))	Invasion
-EZH2	EZH2	+	AR_ERG	The association of EZH2 overexpression and TMPRSS2-ERG fusions is most probably caused by transactivation of the EZH2 promoter by ERG.	26392259	(AKT & E2F1 & (ERG | AR_ERG))	Invasion
-EZH2	EZH2	+	E2F1	The pRB-E2F1 pathway tightly regulates EZH2 expression.	14532106	(AKT & E2F1 & (ERG | AR_ERG))	Invasion
-EZH2	EZH2	+	ERG	The association of EZH2 overexpression and TMPRSS2-ERG fusions is most probably caused by transactivation of the EZH2 promoter by ERG.	26392259	(AKT & E2F1 & (ERG | AR_ERG))	Invasion
-FADD	FADD	-	MAP3K1_3	The results clearly show that fadd phosphorylation at ser194 affects functions both upstream and downstream of the mekk1/mkk7/jnk1 pathway and is closely associated with chemosensitivity in prostate cancer cells	15001534	(PTCH1 | TNFalpha) & !SHH & !MAP3K1_3	Apop
-FADD	FADD	+	PTCH1	Aggregation-induced conformational changes in fas lead to the formation of the death-inducing signalling complex (disc) which involves recruitment of the adaptor protein fadd/mort1 through a homotypic interaction of death domains, present in both the intracellular region of fas and the c-terminus of fadd.	21959933	(PTCH1 | TNFalpha) & !SHH & !MAP3K1_3	Apop
-FADD	FADD	-	SHH	SHH -| PTCH1 -> FADD	14556242, 21959933	(PTCH1 | TNFalpha) & !SHH & !MAP3K1_3	Apop
-FADD	FADD	+	TNFalpha	From Fumia et al, 2013	23922675	(PTCH1 | TNFalpha) & !SHH & !MAP3K1_3	Apop
+EGFR	EGFR	+	Androgen	presence of the AR affect EGF receptor (EGFR)-mediated signaling in response to EGF	15288768, 19318561	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK pathw
+EGFR	EGFR	+	EGF	After binding of epidermal growth factor (EGF), the EGF receptor (EGFR) becomes autophosphorylated via tyrosine.	10653583	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK pathw
+EGFR	EGFR	-	EGFR	Initially, an autophosphorylation reaction creates docking sites for several signaling proteins, including a Cbl binding site at tyrosine 1045 of EGFR. Second, EGFR trans-phosphorylates Cbl at a linker domain, which activates an associated ubiquitin ligase activity.	10635327	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK pathw
+EGFR	EGFR	+	ERK	It is likely that the MAP2 and ERT kinases account for the phosphorylation of the egf receptor at thr669 observed in cultured cells.	10816576	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK pathw
+EGFR	EGFR	-	FRS2	FRS2 is a major downstream effector that links fibroblast growth factor (FGF) and nerve growth factor receptors with the Ras/mitogen-activated protein kinase signaling cascade	11353842	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK pathw
+EGFR	EGFR	-	PKC	These data indicate that activation of protein kinase C and subsequent phosphorylation of the EGF receptor at T654 lead to rapid physiological attenuation of EGF receptor signaling.	1860884	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK pathw
+EGFR	EGFR	-	TGFBR	Our data indicate that a subset of cell lines is dependent on TGF-mediated activation of the EGFR for cell proliferation and strongly suggest that pancreatic tumors expressing high levels of TGF and phosphorylated (activated) EGFR are EGFR-dependent in vitro and in vivo.	16585207	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))	ERK pathw
+EMT		+	AR_ERG	ERG can fuse with TMPRSS2 protein to form an oncogenic fusion gene that is commonly found in human prostate cancer, especially in hormone-refractory prostate cancer.	23264855	(CDH2 & !E_cadherin & !FOXA1)	Invasion pathw
+EMT		+	beta_catenin	beta-catenin expression is a marker of EMT	21412939	(CDH2 & !E_cadherin & !FOXA1)	Invasion pathw
+EMT		+	CDH2	N-cadherin expression is a marker of EMT	21412939	(CDH2 & !E_cadherin & !FOXA1)	Invasion pathw
+EMT		-	E_cadherin	loss of E-cadherin expression is a marker of EMT	21412939	(CDH2 & !E_cadherin & !FOXA1)	Invasion pathw
+EMT		-	FOXA1	FoxA1 inhibits cell motility and epithelial-to-mesenchymal transition (EMT) 	23539448	(CDH2 & !E_cadherin & !FOXA1)	Invasion pathw
+EP300	EP300	+	AKT	Histone deacetylase inhibitors stimulate active NF-kappaB transcription and cell survival through signaling pathways involving Akt and increased p300 acetyltransferase activity	16926151	(AKT)	DNA repair pathw
+ERG	ERG	+	ERK	The ability of ERK2 to bind ERG with higher affinity than ETS1 provided a potential molecular explanation for why ERG overexpression drives migration of prostate cells with low levels of RAS/ERK signaling, while ETS1 has a similar function only when RAS/ERK signaling is high. 	25885538	(ERK)	AR pathw
+ERK	MAPK3, MAPK1	+	MEK1_2	Mapk1 is phosphorylated by map2k1/mek1 and map2k2/mek2	11971971	(RAF | MEK1_2)	ERK pathw
+ERK	MAPK3, MAPK1	+	RAF	From Fumia et al, 2013	23922675	(RAF | MEK1_2)	ERK pathw
+ETS1	ETS1	+	ERK	Signor: MAPK3 (ERK1/2) -> ETS1	11948414	(!p53 & (RTK | ERK))	ERK pathw
+ETS1	ETS1	-	p53	Signor: TP53 -| ETS1	14586398	(!p53 & (RTK | ERK))	ERK pathw
+ETS1	ETS1	+	RTK	Signor: MAPK7 -> ETS1	12048211	(!p53 & (RTK | ERK))	ERK pathw
+ETV1	ETV1	+	ETS1	ETS1 fuses with ETV1 in prostate cancer	19657377	(ETS1 | MEK1_2)	ERK pathw
+ETV1	ETV1	+	MEK1_2	Signor: MEK -> ETV1	20626350	(ETS1 | MEK1_2)	ERK pathw
+EZH2	EZH2	+	AKT	Phosphorylation of EZH2 at Ser21, mediated directly or indirectly by the PI3K-Akt pathway, can switch its function from a Polycomb repressor to a transcriptional coactivator of AR (and potentially other factors).	23239736	(AKT & E2F1 & (ERG | AR_ERG))	Invasion pathw
+EZH2	EZH2	+	AR_ERG	The association of EZH2 overexpression and TMPRSS2-ERG fusions is most probably caused by transactivation of the EZH2 promoter by ERG.	26392259	(AKT & E2F1 & (ERG | AR_ERG))	Invasion pathw
+EZH2	EZH2	+	E2F1	The pRB-E2F1 pathway tightly regulates EZH2 expression.	14532106	(AKT & E2F1 & (ERG | AR_ERG))	Invasion pathw
+EZH2	EZH2	+	ERG	The association of EZH2 overexpression and TMPRSS2-ERG fusions is most probably caused by transactivation of the EZH2 promoter by ERG.	26392259	(AKT & E2F1 & (ERG | AR_ERG))	Invasion pathw
+FADD	FADD	-	MAP3K1_3	The results clearly show that fadd phosphorylation at ser194 affects functions both upstream and downstream of the mekk1/mkk7/jnk1 pathway and is closely associated with chemosensitivity in prostate cancer cells	15001534	(PTCH1 | TNFalpha) & !SHH & !MAP3K1_3	Apop pathw
+FADD	FADD	+	PTCH1	Aggregation-induced conformational changes in fas lead to the formation of the death-inducing signalling complex (disc) which involves recruitment of the adaptor protein fadd/mort1 through a homotypic interaction of death domains, present in both the intracellular region of fas and the c-terminus of fadd.	21959933	(PTCH1 | TNFalpha) & !SHH & !MAP3K1_3	Apop pathw
+FADD	FADD	-	SHH	SHH -| PTCH1 -> FADD	14556242, 21959933	(PTCH1 | TNFalpha) & !SHH & !MAP3K1_3	Apop pathw
+FADD	FADD	+	TNFalpha	From Fumia et al, 2013	23922675	(PTCH1 | TNFalpha) & !SHH & !MAP3K1_3	Apop pathw
 FGF	FGF1, FGF2, FGF3, FGF4, FGF5, FGF6, FGF7, FGF8, FGF9, FGF10	input	0/1	Input of the model		(FGF)	Input
-FGFR3	FGFR3	+	FGF	Crystal structure of a ternary fgf-fgfr-heparin complex reveals a dual role for heparin in fgfr binding and dimerization.	11030354	((FGF | (FGF & RUNX2)) & !FRS2 & !PKC & !TGFBR)	ERK
-FGFR3	FGFR3	-	FRS2	FGF stimulation induces tyrosine phosphorylation of a novel lipid anchored docking protein, termed FRS2	9182757	((FGF | (FGF & RUNX2)) & !FRS2 & !PKC & !TGFBR)	ERK
-FGFR3	FGFR3	-	PKC	Phosphorylation of serine 779 in fibroblast growth factor receptor 1 and 2 by protein kinase c(epsilon) regulates ras/mitogen-activated protein kinase signaling and neuronal differentiationour findings show that in addition to fgfr tyrosine phosphorylation, the phosphorylation of a conserved serine residue, ser(779), can quantitatively control ras/mapk signaling to promote specific cellular responses.	23564461	((FGF | (FGF & RUNX2)) & !FRS2 & !PKC & !TGFBR)	ERK
-FGFR3	FGFR3	+	RUNX2	Runx2 is required for the proliferation of osteoblast progenitors and induces proliferation, at least partly, by regulating Fgfr2 and Fgfr3 expression	30202094	((FGF | (FGF & RUNX2)) & !FRS2 & !PKC & !TGFBR)	ERK
-FGFR3	FGFR3	-	TGFBR	Our data indicate that a subset of cell lines is dependent on TGF-mediated activation of the EGFR for cell proliferation and strongly suggest that pancreatic tumors expressing high levels of TGF and phosphorylated (activated) EGFR are EGFR-dependent in vitro and in vivo.	16585207	((FGF | (FGF & RUNX2)) & !FRS2 & !PKC & !TGFBR)	ERK
-FOS	FOS	+	AR	c-Jun, when complexed with Fos, exhibits a bell-shaped activity on androgen receptor-mediated transactivation which appears to be distinct from c-Jun's transactivation ability	9591784	(ERK | ETS1 | AR)	ERK
-FOS	FOS	+	ERK	From Fumia et al, 2013	23922675	(ERK | ETS1 | AR)	ERK
-FOS	FOS	+	ETS1	The c-ets proto-oncogenes encode transcription factors that cooperate with c-Fos and c-Jun for transcriptional activation.	2114554	(ERK | ETS1 | AR)	ERK
-FOXA1	FOXA1	+	FOXO	Genecard: according to QIAGEN binding sites: FOXO4 -> FOXA1	https://www.genecards.org/cgi-bin/carddisp.pl?gene=FOXA1&keywords=FOXA1	(FOXO)	ERK
-FOXO	FOXO1, FOXO3, FOXO4, FOXO6	-	AKT	From Fumia et al, 2013	23922675	(MAP3K1_3 & JNK & !AKT)	ERK
-FOXO	FOXO1, FOXO3, FOXO4, FOXO6	+	JNK	Braf(v600e) signaling through mitogen-activated protein kinase/extracellular signal-regulated kinase kinase resulted in increased reactive oxygen species levels and c-jun nh(2) terminal kinase-mediated activation of foxo4	20959475	(MAP3K1_3 & JNK & !AKT)	ERK
-FRS2	FRS2	+	EGFR	EGFR and FGFR signaling through FRS2 is subject to negative feedback control by ERK1/2	12974390	(!ERK & !EGFR & FGFR3 & !FRS2 & !TGFBR)	ERK
-FRS2	FRS2	-	ERK	EGFR and FGFR signaling through FRS2 is subject to negative feedback control by ERK1/2	12974390	(!ERK & !EGFR & FGFR3 & !FRS2 & !TGFBR)	ERK
-FRS2	FRS2	+	FGFR3	FGF stimulation induces tyrosine phosphorylation of a novel lipid anchored docking protein, termed FRS2	9182757	(!ERK & !EGFR & FGFR3 & !FRS2 & !TGFBR)	ERK
-FRS2	FRS2	-	FRS2	EGFR and FGFR signaling through FRS2 is subject to negative feedback control by ERK1/2	12974390	(!ERK & !EGFR & FGFR3 & !FRS2 & !TGFBR)	ERK
-FRS2	FRS2	-	TGFBR	TGFbR1 levels are increased when FRS2, an FGFR coactivator, is depleted using shRNA	23200853	(!ERK & !EGFR & FGFR3 & !FRS2 & !TGFBR)	ERK
+FGFR3	FGFR3	+	FGF	Crystal structure of a ternary fgf-fgfr-heparin complex reveals a dual role for heparin in fgfr binding and dimerization.	11030354	((FGF | (FGF & RUNX2)) & !FRS2 & !PKC & !TGFBR)	ERK pathw
+FGFR3	FGFR3	-	FRS2	FGF stimulation induces tyrosine phosphorylation of a novel lipid anchored docking protein, termed FRS2	9182757	((FGF | (FGF & RUNX2)) & !FRS2 & !PKC & !TGFBR)	ERK pathw
+FGFR3	FGFR3	-	PKC	Phosphorylation of serine 779 in fibroblast growth factor receptor 1 and 2 by protein kinase c(epsilon) regulates ras/mitogen-activated protein kinase signaling and neuronal differentiationour findings show that in addition to fgfr tyrosine phosphorylation, the phosphorylation of a conserved serine residue, ser(779), can quantitatively control ras/mapk signaling to promote specific cellular responses.	23564461	((FGF | (FGF & RUNX2)) & !FRS2 & !PKC & !TGFBR)	ERK pathw
+FGFR3	FGFR3	+	RUNX2	Runx2 is required for the proliferation of osteoblast progenitors and induces proliferation, at least partly, by regulating Fgfr2 and Fgfr3 expression	30202094	((FGF | (FGF & RUNX2)) & !FRS2 & !PKC & !TGFBR)	ERK pathw
+FGFR3	FGFR3	-	TGFBR	Our data indicate that a subset of cell lines is dependent on TGF-mediated activation of the EGFR for cell proliferation and strongly suggest that pancreatic tumors expressing high levels of TGF and phosphorylated (activated) EGFR are EGFR-dependent in vitro and in vivo.	16585207	((FGF | (FGF & RUNX2)) & !FRS2 & !PKC & !TGFBR)	ERK pathw
+FOS	FOS	+	AR	c-Jun, when complexed with Fos, exhibits a bell-shaped activity on androgen receptor-mediated transactivation which appears to be distinct from c-Jun's transactivation ability	9591784	(ERK | ETS1 | AR)	ERK pathw
+FOS	FOS	+	ERK	From Fumia et al, 2013	23922675	(ERK | ETS1 | AR)	ERK pathw
+FOS	FOS	+	ETS1	The c-ets proto-oncogenes encode transcription factors that cooperate with c-Fos and c-Jun for transcriptional activation.	2114554	(ERK | ETS1 | AR)	ERK pathw
+FOXA1	FOXA1	+	FOXO	Genecard: according to QIAGEN binding sites: FOXO4 -> FOXA1	https://www.genecards.org/cgi-bin/carddisp.pl?gene=FOXA1&keywords=FOXA1	(FOXO)	ERK pathw
+FOXO	FOXO1, FOXO3, FOXO4, FOXO6	-	AKT	From Fumia et al, 2013	23922675	(MAP3K1_3 & JNK & !AKT)	ERK pathw
+FOXO	FOXO1, FOXO3, FOXO4, FOXO6	+	JNK	Braf(v600e) signaling through mitogen-activated protein kinase/extracellular signal-regulated kinase kinase resulted in increased reactive oxygen species levels and c-jun nh(2) terminal kinase-mediated activation of foxo4	20959475	(MAP3K1_3 & JNK & !AKT)	ERK pathw
+FRS2	FRS2	+	EGFR	EGFR and FGFR signaling through FRS2 is subject to negative feedback control by ERK1/2	12974390	(!ERK & !EGFR & FGFR3 & !FRS2 & !TGFBR)	ERK pathw
+FRS2	FRS2	-	ERK	EGFR and FGFR signaling through FRS2 is subject to negative feedback control by ERK1/2	12974390	(!ERK & !EGFR & FGFR3 & !FRS2 & !TGFBR)	ERK pathw
+FRS2	FRS2	+	FGFR3	FGF stimulation induces tyrosine phosphorylation of a novel lipid anchored docking protein, termed FRS2	9182757	(!ERK & !EGFR & FGFR3 & !FRS2 & !TGFBR)	ERK pathw
+FRS2	FRS2	-	FRS2	EGFR and FGFR signaling through FRS2 is subject to negative feedback control by ERK1/2	12974390	(!ERK & !EGFR & FGFR3 & !FRS2 & !TGFBR)	ERK pathw
+FRS2	FRS2	-	TGFBR	TGFbR1 levels are increased when FRS2, an FGFR coactivator, is depleted using shRNA	23200853	(!ERK & !EGFR & FGFR3 & !FRS2 & !TGFBR)	ERK pathw
 fused_event	TMPRSS2	input	0/1	TMPRSS2-Ets gene fusions were identified in prostate cancers where the promoter of transmembrane protease, serine 2 (TMPRSS2) fused with coding sequence of the erythroblastosis virus E26 (Ets) gene family members. TMPRSS2, SLC45A3 and NDRG1 are the androgen induced genes fusioned with ERG. SLC45A3 is also fusioned with ETV1 sometimes but this is outside the scope of the model up to now.	23264855, 20118910	(fused_event)	Input
 fused_event	SLC45A3	input	0/1	TMPRSS2 and SLC45A3 were the only 5' partner in 78% and 6% of these ERG rearranged cases, respectively. TMPRSS2, SLC45A3 and NDRG1 are the androgen induced genes fusioned with ERG. SLC45A3 is also fusioned with ETV1 sometimes but this is outside the scope of the model up to now.	20118910	(fused_event)	Input
 fused_event	NDRG1	input	0/1	ERG gene rearrangements and mechanism of rearrangement, as well as rearrangements of TMPRSS2, SLC45A3, and NDRG1, were assessed using fluorescence in situ hybridization (FISH) on prostate cancer samples from 614 patients treated using radical prostatectomy. TMPRSS2, SLC45A3 and NDRG1 are the androgen induced genes fusioned with ERG. SLC45A3 is also fusioned with ETV1 sometimes but this is outside the scope of the model up to now.	20118910	(fused_event)	Input
-GADD45	GADD45A	+	p53	P53 acetylated at k120 subsequently bound to the promoters of its target apoptotic genes, bax and gadd45, to promote their expression and lead to apoptosis.	23576563	(SMAD | p53)	TGFb
-GADD45	GADD45A	+	SMAD	TGF-β-induced activation of p38 MAP kinase is required for TGF-β-induced apoptosis, epithelial-to-mesenchymal transition (EMT), but not growth arrest	12110587	(SMAD | p53)	TGFb
-GLI	GLI1, GLI2	+	SMO	The binding of SHH relieves SMO inhibition, leading to activation of the GLI transcription factors	11001584	((WNT | SMO) & !SPOP)	SHH
-GLI	GLI1, GLI2	-	SPOP	Stabilization of speckle-type POZ protein (Spop) by Daz interacting protein 1 (Dzip1) is essential for Gli turnover and the proper output of Hedgehog signaling.	24072710	((WNT | SMO) & !SPOP)	SHH
-GLI	GLI1, GLI2	+	WNT	nt/β-catenin signaling induces expression of an RNA-binding protein, CRD-BP, which, in turn, binds and stabilizes GLI1 mRNA, causing an elevation of GLI1 expression and transcriptional activity.	19887615	((WNT | SMO) & !SPOP)	SHH
-GLUT1	SLC2A1	+	AKT	From Fumia et al, 2013	23922675	((HIF1 | MYC_MAX | AKT) & Nutrients)	Nutrients
-GLUT1	SLC2A1	+	HIF1	From Fumia et al, 2013	23922675	((HIF1 | MYC_MAX | AKT) & Nutrients)	Nutrients
-GLUT1	SLC2A1	+	MYC_MAX	From Fumia et al, 2013	23922675	((HIF1 | MYC_MAX | AKT) & Nutrients)	Nutrients
-GLUT1	SLC2A1	+	Nutrients	GLUT1 transports glucose to begin Glycolysis.	29105798	((HIF1 | MYC_MAX | AKT) & Nutrients)	Nutrients
-GSH	GSS 	+	MYC_MAX	From Fumia et al, 2013	23922675	(MYC_MAX | NF_kB | p21)	Nutrients
-GSH	GSS 	+	NF_kB	From Fumia et al, 2013	23922675	(MYC_MAX | NF_kB | p21)	Nutrients
-GSH	GSS 	+	p21	From Fumia et al, 2013	23922675	(MYC_MAX | NF_kB | p21)	Nutrients
-GSK3	GSK3A, GSK3B	-	AKT	From Fumia et al, 2013	23922675	(!AKT & !Dsh & MEK1_2 & !mTORC2 & !p90RSK)	WNT
-GSK3	GSK3A, GSK3B	-	Dsh	From Fumia et al, 2013	23922675	(!AKT & !Dsh & MEK1_2 & !mTORC2 & !p90RSK)	WNT
-GSK3	GSK3A, GSK3B	+	MEK1_2	mek1/2 induces tyrosine phosphorylation of gsk-3beta and this cellular event might induce nuclear translocation of gsk-3beta	15020233	(!AKT & !Dsh & MEK1_2 & !mTORC2 & !p90RSK)	WNT
-GSK3	GSK3A, GSK3B	-	mTORC2	From Fumia et al, 2013	23922675	(!AKT & !Dsh & MEK1_2 & !mTORC2 & !p90RSK)	WNT
-GSK3	GSK3A, GSK3B	-	p90RSK	From Fumia et al, 2013	23922675	(!AKT & !Dsh & MEK1_2 & !mTORC2 & !p90RSK)	WNT
-HIF1	HIF1A	-	FOXO	FOXO3a inhibits HIF1-induced apoptosis by stimulating the transcription of CITED2	18158893	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients
-HIF1	HIF1A	+	HSPs	Many of the antivascular effects of Hsp90 inhibitors are likely due to the ability of this class of inhibitors to downregulate HIF activity. We and others have shown that both the HIF-1α and HIF-2α subunits are client proteins for Hsp90 and that chaperone activity is required for HIF stability and function. (PMID:2902748)	2902748	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients
-HIF1	HIF1A	+	Hypoxia	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients
-HIF1	HIF1A	+	mTORC1	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients
-HIF1	HIF1A	+	mTORC2	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients
-HIF1	HIF1A	+	MYC_MAX	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients
-HIF1	HIF1A	-	p53	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients
-HIF1	HIF1A	-	PHDs	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients
-HIF1	HIF1A	-	VHL	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients
-HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	-	AKT	First, the akt1, akt2, and akt3 isoforms can bind directly to hsp27 and can be found in a complex with p38 mapk, mk2, and hsp27 [98_100]. Second, rane and colleagues showed that akt could phosphorylate hsp27 at ser-82, but not ser-15 or ser-78, in vitro, while co-expression of an active akt mutant and hsp27 in hek cells resulted in hsp27 phosphorylation at the same residue.	19593530	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)	Nutrients
-HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	-	BRCA1	We report here that glucose-regulated protein (GRP)-78, a critical regulator of the unfolded protein response (UPR), is a novel downstream target of BRCA1. We showed that overexpression of wild-type BRCA1 suppressed the expression of GRP78, whereas expression of mutant BRCA1 gene or targeted inhibition of endogenous BRCA1 using small-interfering RNA (siRNA) enhanced GRP78 expression.	18776923	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)	Nutrients
-HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	+	Carcinogen	Although Hsp levels are not informative at the diagnostic level, they are useful biomarkers for carcinogenesis in some tissues	16038406	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)	Nutrients
-HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	-	E2F1	we show that E2F1 represses GRP78/BIP at the transcriptional level, and this requires its DNA binding domain.	18840615	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)	Nutrients
-HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	+	FOXA1	The results showed overexpression of Foxa1 promoted the expression of HSP72, while Foxa1 depletion, induced by antisense oligonucleotides, decreased the expression of HSP72 in MCF-7 cells under normal and heat stress condition.	19486887	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)	Nutrients
-HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	+	PKC	Hsp22 is phosphorylated by protein kinase c (at residues ser(14) and thr(63)) and by p44 mitogen-activated protein kinase (at residues ser(27) and thr(87)). Concerning the possible function of hsp22, no definitive conclusions can be drawn with the available data, although its function might be to bind to and modulate the activity of hsp27.Some Studies claimed that phosphorylation is required for the translocation	22721717	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)	Nutrients
+GADD45	GADD45A	+	p53	P53 acetylated at k120 subsequently bound to the promoters of its target apoptotic genes, bax and gadd45, to promote their expression and lead to apoptosis.	23576563	(SMAD | p53)	TGFb pathw
+GADD45	GADD45A	+	SMAD	TGF-β-induced activation of p38 MAP kinase is required for TGF-β-induced apoptosis, epithelial-to-mesenchymal transition (EMT), but not growth arrest	12110587	(SMAD | p53)	TGFb pathw
+GLI	GLI1, GLI2	+	SMO	The binding of SHH relieves SMO inhibition, leading to activation of the GLI transcription factors	11001584	((WNT | SMO) & !SPOP)	SHH pathw
+GLI	GLI1, GLI2	-	SPOP	Stabilization of speckle-type POZ protein (Spop) by Daz interacting protein 1 (Dzip1) is essential for Gli turnover and the proper output of Hedgehog signaling.	24072710	((WNT | SMO) & !SPOP)	SHH pathw
+GLI	GLI1, GLI2	+	WNT	nt/β-catenin signaling induces expression of an RNA-binding protein, CRD-BP, which, in turn, binds and stabilizes GLI1 mRNA, causing an elevation of GLI1 expression and transcriptional activity.	19887615	((WNT | SMO) & !SPOP)	SHH pathw
+GLUT1	SLC2A1	+	AKT	From Fumia et al, 2013	23922675	((HIF1 | MYC_MAX | AKT) & Nutrients)	Nutrients pathw
+GLUT1	SLC2A1	+	HIF1	From Fumia et al, 2013	23922675	((HIF1 | MYC_MAX | AKT) & Nutrients)	Nutrients pathw
+GLUT1	SLC2A1	+	MYC_MAX	From Fumia et al, 2013	23922675	((HIF1 | MYC_MAX | AKT) & Nutrients)	Nutrients pathw
+GLUT1	SLC2A1	+	Nutrients	GLUT1 transports glucose to begin Glycolysis.	29105798	((HIF1 | MYC_MAX | AKT) & Nutrients)	Nutrients pathw
+GSH	GSS 	+	MYC_MAX	From Fumia et al, 2013	23922675	(MYC_MAX | NF_kB | p21)	Nutrients pathw
+GSH	GSS 	+	NF_kB	From Fumia et al, 2013	23922675	(MYC_MAX | NF_kB | p21)	Nutrients pathw
+GSH	GSS 	+	p21	From Fumia et al, 2013	23922675	(MYC_MAX | NF_kB | p21)	Nutrients pathw
+GSK3	GSK3A, GSK3B	-	AKT	From Fumia et al, 2013	23922675	(!AKT & !Dsh & MEK1_2 & !mTORC2 & !p90RSK)	WNT pathw
+GSK3	GSK3A, GSK3B	-	Dsh	From Fumia et al, 2013	23922675	(!AKT & !Dsh & MEK1_2 & !mTORC2 & !p90RSK)	WNT pathw
+GSK3	GSK3A, GSK3B	+	MEK1_2	mek1/2 induces tyrosine phosphorylation of gsk-3beta and this cellular event might induce nuclear translocation of gsk-3beta	15020233	(!AKT & !Dsh & MEK1_2 & !mTORC2 & !p90RSK)	WNT pathw
+GSK3	GSK3A, GSK3B	-	mTORC2	From Fumia et al, 2013	23922675	(!AKT & !Dsh & MEK1_2 & !mTORC2 & !p90RSK)	WNT pathw
+GSK3	GSK3A, GSK3B	-	p90RSK	From Fumia et al, 2013	23922675	(!AKT & !Dsh & MEK1_2 & !mTORC2 & !p90RSK)	WNT pathw
+HIF1	HIF1A	-	FOXO	FOXO3a inhibits HIF1-induced apoptosis by stimulating the transcription of CITED2	18158893	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients pathw
+HIF1	HIF1A	+	HSPs	Many of the antivascular effects of Hsp90 inhibitors are likely due to the ability of this class of inhibitors to downregulate HIF activity. We and others have shown that both the HIF-1α and HIF-2α subunits are client proteins for Hsp90 and that chaperone activity is required for HIF stability and function. (PMID:2902748)	2902748	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients pathw
+HIF1	HIF1A	+	Hypoxia	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients pathw
+HIF1	HIF1A	+	mTORC1	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients pathw
+HIF1	HIF1A	+	mTORC2	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients pathw
+HIF1	HIF1A	+	MYC_MAX	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients pathw
+HIF1	HIF1A	-	p53	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients pathw
+HIF1	HIF1A	-	PHDs	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients pathw
+HIF1	HIF1A	-	VHL	From Fumia et al, 2013	23922675	(!PHDs & !VHL & !p53 & !FOXO & (HSPs | mTORC1 | mTORC2 | Hypoxia | MYC_MAX))	Nutrients pathw
+HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	-	AKT	First, the akt1, akt2, and akt3 isoforms can bind directly to hsp27 and can be found in a complex with p38 mapk, mk2, and hsp27 [98_100]. Second, rane and colleagues showed that akt could phosphorylate hsp27 at ser-82, but not ser-15 or ser-78, in vitro, while co-expression of an active akt mutant and hsp27 in hek cells resulted in hsp27 phosphorylation at the same residue.	19593530	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)	Nutrients pathw
+HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	-	BRCA1	We report here that glucose-regulated protein (GRP)-78, a critical regulator of the unfolded protein response (UPR), is a novel downstream target of BRCA1. We showed that overexpression of wild-type BRCA1 suppressed the expression of GRP78, whereas expression of mutant BRCA1 gene or targeted inhibition of endogenous BRCA1 using small-interfering RNA (siRNA) enhanced GRP78 expression.	18776923	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)	Nutrients pathw
+HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	+	Carcinogen	Although Hsp levels are not informative at the diagnostic level, they are useful biomarkers for carcinogenesis in some tissues	16038406	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)	Nutrients pathw
+HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	-	E2F1	we show that E2F1 represses GRP78/BIP at the transcriptional level, and this requires its DNA binding domain.	18840615	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)	Nutrients pathw
+HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	+	FOXA1	The results showed overexpression of Foxa1 promoted the expression of HSP72, while Foxa1 depletion, induced by antisense oligonucleotides, decreased the expression of HSP72 in MCF-7 cells under normal and heat stress condition.	19486887	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)	Nutrients pathw
+HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	+	PKC	Hsp22 is phosphorylated by protein kinase c (at residues ser(14) and thr(63)) and by p44 mitogen-activated protein kinase (at residues ser(27) and thr(87)). Concerning the possible function of hsp22, no definitive conclusions can be drawn with the available data, although its function might be to bind to and modulate the activity of hsp27.Some Studies claimed that phosphorylation is required for the translocation	22721717	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)	Nutrients pathw
 Hypoxia	input	input	0/1	Input of the model		(Hypoxia)	Input
-IDH1	IDH1	+	FOXA1	Genecard: Gene has two gene enhancers sequences: GH02I208264 and GH02I208251. SMAD and FOXA1 are part of the genes that could regulate these sequences	https://www.genecards.org/cgi-bin/carddisp.pl?gene=IDH1&keywords=idh1	(SMAD | FOXA1 | mTORC2 | ((SMAD | mTORC2 | FOXA1) & MEK1_2))	Nutrients
-IDH1	IDH1	+	MEK1_2	IDH1 gene transcription is sterol regulated and activated by SREBP-1a and SREBP-2 in human hepatoma HepG2 cells|evidence that IDH1 may regulate lipogenesis in hepatic cells	12923220	(SMAD | FOXA1 | mTORC2 | ((SMAD | mTORC2 | FOXA1) & MEK1_2))	Nutrients
-IDH1	IDH1	+	mTORC2	IDH1 gene transcription is sterol regulated and activated by SREBP-1a and SREBP-2 in human hepatoma HepG2 cells|evidence that IDH1 may regulate lipogenesis in hepatic cells	12923220	(SMAD | FOXA1 | mTORC2 | ((SMAD | mTORC2 | FOXA1) & MEK1_2))	Nutrients
-IDH1	IDH1	+	SMAD	Genecard: Gene has two gene enhancers sequences: GH02I208264 and GH02I208251. SMAD and FOXA1 are part of the genes that could regulate these sequences	https://www.genecards.org/cgi-bin/carddisp.pl?gene=IDH1&keywords=idh1	(SMAD | FOXA1 | mTORC2 | ((SMAD | mTORC2 | FOXA1) & MEK1_2))	Nutrients
-IKK	CHUK, IKBKB	+	AKT	From Fumia et al, 2013	23922675	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT
-IKK	CHUK, IKBKB	+	ETS1	The transcriptional induction of the IKKalpha gene is positively regulated by binding ETS-1	15469934	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT
-IKK	CHUK, IKBKB	+	mTORC2	From Fumia et al, 2013	23922675	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT
-IKK	CHUK, IKBKB	-	p53	From Fumia et al, 2013. ETS-1 mediated activation of IKKalpha is negatively regulated by p53 binding to ETS-1. 	15469934	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT
-IKK	CHUK, IKBKB	-	PHDs	From Fumia et al, 2013	23922675	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT
-IKK	CHUK, IKBKB	+	PKC	From Fumia et al, 2013	23922675	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT
-IKK	CHUK, IKBKB	+	TAK1	From Fumia et al, 2013	23922675	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT
+IDH1	IDH1	+	FOXA1	Genecard: Gene has two gene enhancers sequences: GH02I208264 and GH02I208251. SMAD and FOXA1 are part of the genes that could regulate these sequences	https://www.genecards.org/cgi-bin/carddisp.pl?gene=IDH1&keywords=idh1	(SMAD | FOXA1 | mTORC2 | ((SMAD | mTORC2 | FOXA1) & MEK1_2))	Nutrients pathw
+IDH1	IDH1	+	MEK1_2	IDH1 gene transcription is sterol regulated and activated by SREBP-1a and SREBP-2 in human hepatoma HepG2 cells|evidence that IDH1 may regulate lipogenesis in hepatic cells	12923220	(SMAD | FOXA1 | mTORC2 | ((SMAD | mTORC2 | FOXA1) & MEK1_2))	Nutrients pathw
+IDH1	IDH1	+	mTORC2	IDH1 gene transcription is sterol regulated and activated by SREBP-1a and SREBP-2 in human hepatoma HepG2 cells|evidence that IDH1 may regulate lipogenesis in hepatic cells	12923220	(SMAD | FOXA1 | mTORC2 | ((SMAD | mTORC2 | FOXA1) & MEK1_2))	Nutrients pathw
+IDH1	IDH1	+	SMAD	Genecard: Gene has two gene enhancers sequences: GH02I208264 and GH02I208251. SMAD and FOXA1 are part of the genes that could regulate these sequences	https://www.genecards.org/cgi-bin/carddisp.pl?gene=IDH1&keywords=idh1	(SMAD | FOXA1 | mTORC2 | ((SMAD | mTORC2 | FOXA1) & MEK1_2))	Nutrients pathw
+IKK	CHUK, IKBKB	+	AKT	From Fumia et al, 2013	23922675	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT pathw
+IKK	CHUK, IKBKB	+	ETS1	The transcriptional induction of the IKKalpha gene is positively regulated by binding ETS-1	15469934	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT pathw
+IKK	CHUK, IKBKB	+	mTORC2	From Fumia et al, 2013	23922675	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT pathw
+IKK	CHUK, IKBKB	-	p53	From Fumia et al, 2013. ETS-1 mediated activation of IKKalpha is negatively regulated by p53 binding to ETS-1. 	15469934	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT pathw
+IKK	CHUK, IKBKB	-	PHDs	From Fumia et al, 2013	23922675	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT pathw
+IKK	CHUK, IKBKB	+	PKC	From Fumia et al, 2013	23922675	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT pathw
+IKK	CHUK, IKBKB	+	TAK1	From Fumia et al, 2013	23922675	((mTORC2 | AKT) & (PKC | TAK1 | ETS1) & !PHDs & !p53)	AKT pathw
 Invasion	output	+	beta_catenin	Deletion of β-Catenin in a Pten deleted model of castration-resistant prostate cancer demonstrated it is dispensable for disease progression 	23300485	((CDH2 & SMAD) | (CDH2 & SMAD & EZH2) | beta_catenin)	Output
 Invasion	output	+	CDH2	N-cadherin is required for TGFbeta induced invasion 	15331629	((CDH2 & SMAD) | (CDH2 & SMAD & EZH2) | beta_catenin)	Output
 Invasion	output	+	EZH2	EZH2 regulates tumor invasion via the transcriptional repression of the metastasis suppressor RKIP in breast and prostate cancer.	22505648	((CDH2 & SMAD) | (CDH2 & SMAD & EZH2) | beta_catenin)	Output
 Invasion	output	+	SMAD	TGF-b induces MMP-2 and MMP-9 expresion, using SMAD (among others)	22614218	((CDH2 & SMAD) | (CDH2 & SMAD & EZH2) | beta_catenin)	Output
-JNK	MAPK8, MAPK9, MAPK10	+	ATM	DNA damage cuased by ROS activates ATM that activates JNK signalling	26791157	((ATM | GADD45 | TAK1 | MAP3K1_3) & !ERK & !p38)	ERK
-JNK	MAPK8, MAPK9, MAPK10	-	ERK	We found that ERK inhibition increased JNK activity. 	16849472	((ATM | GADD45 | TAK1 | MAP3K1_3) & !ERK & !p38)	ERK
-JNK	MAPK8, MAPK9, MAPK10	+	GADD45	From Fumia et al, 2013, via SMAD	23922675	((ATM | GADD45 | TAK1 | MAP3K1_3) & !ERK & !p38)	ERK
-JNK	MAPK8, MAPK9, MAPK10	+	MAP3K1_3	Here we report that MKK4 shows a striking preference for the tyrosine residue (Tyr-185), and MKK7 a striking preference for the threonine residue (Thr-183) in three SAPK1/JNK1 isoforms tested (JNK1 alpha 1, JNK2 alpha 2 and JNK3 alpha 1).	11062067	((ATM | GADD45 | TAK1 | MAP3K1_3) & !ERK & !p38)	ERK
-JNK	MAPK8, MAPK9, MAPK10	-	p38	Ablation of p38alpha results in excessive activation of JNK 	18704119	((ATM | GADD45 | TAK1 | MAP3K1_3) & !ERK & !p38)	ERK
-JNK	MAPK8, MAPK9, MAPK10	+	TAK1	From Fumia et al, 2013, via TGFBR	23922675	((ATM | GADD45 | TAK1 | MAP3K1_3) & !ERK & !p38)	ERK
-JUN	JUN	+	AR	c-Jun, when complexed with Fos, exhibits a bell-shaped activity on androgen receptor-mediated transactivation which appears to be distinct from c-Jun's transactivation ability	9591784	(AR | ETS1 | JNK)	ERK
-JUN	JUN	+	ETS1	The c-ets proto-oncogenes encode transcription factors that cooperate with c-Fos and c-Jun for transcriptional activation.	2114554	(AR | ETS1 | JNK)	ERK
-JUN	JUN	+	JNK	From Fumia et al, 2013	23922675	(AR | ETS1 | JNK)	ERK
-Lactic_acid	LDHA	+	LDHA	From Fumia et al, 2013	23922675	(LDHA)	Nutrients
-LDHA	LDHA	+	HIF1	From Fumia et al, 2013	23922675	(HIF1 | MYC_MAX | IDH1)	Nutrients
-LDHA	LDHA	+	IDH1	IDH1 mutation is associated with silencing of the lactate dehydrogenase A (LDHA) gene and decreased glycolysis	24986863	(HIF1 | MYC_MAX | IDH1)	Nutrients
-LDHA	LDHA	+	MYC_MAX	From Fumia et al, 2013	23922675	(HIF1 | MYC_MAX | IDH1)	Nutrients
-MAP3K1_3	MAP3K1, MAP3K2, MAP3K3	-	FOS	it was revealed that miR-145-5p was able to suppress EMT by inactivating the c-Jun N-terminal kinase (JNK) signaling pathway in NSCLC cells.	29344125	(RAS & !(FOS | JUN | JNK | p38))	ERK
-MAP3K1_3	MAP3K1, MAP3K2, MAP3K3	-	JNK	Overexpression of MAP3K1 was able to reverse the inhibition of EMT induced by miR-145-5p via the JNK signaling pathway. 	29344125	(RAS & !(FOS | JUN | JNK | p38))	ERK
-MAP3K1_3	MAP3K1, MAP3K2, MAP3K3	-	JUN	it was revealed that miR-145-5p was able to suppress EMT by inactivating the c-Jun N-terminal kinase (JNK) signaling pathway in NSCLC cells.	29344125	(RAS & !(FOS | JUN | JNK | p38))	ERK
-MAP3K1_3	MAP3K1, MAP3K2, MAP3K3	-	p38	Jnk and p38 mapk activation have antagonistic effects in many cases. From a mechanicistic point of view, the p38 mapk pathway can negatively regulate jnk activity at the level of map3ks, either by phosphorylating mlk3 or the tak1 regulatory subunit tab2	20626350	(RAS & !(FOS | JUN | JNK | p38))	ERK
-MAP3K1_3	MAP3K1, MAP3K2, MAP3K3	+	RAS	Activation of ras may lead to two distinct ras-dependent pathways involving either a raf1/mek/mapk module or a mekk/sek/sapk module; jnk/sapk binds to the d domain near the nh2 terminus of mekk1 from approximately residues 6270 (9, 10). Pak1 can phosphorylate mekk1 on serine 67 within its jnk/sapk-binding d domain. Phosphorylation of mekk1 on serine 67 alters the state of the d domain, thereby decreasing its affinity for jnk/sapk. Under these conditions jnk/sapk is not recruited into the mekk1 signaling module.	8649450	(RAS & !(FOS | JUN | JNK | p38))	ERK
-MDM2	MDM2	+	AKT	From Fumia et al, 2013	23922675	(((AKT | p53) & DAXX & !p14ARF & !ATR & !ATM))	DNA repair
-MDM2	MDM2	-	ATM	From Fumia et al, 2013	23922675	(((AKT | p53) & DAXX & !p14ARF & !ATR & !ATM))	DNA repair
-MDM2	MDM2	-	ATR	From Fumia et al, 2013	23922675	(((AKT | p53) & DAXX & !p14ARF & !ATR & !ATM))	DNA repair
-MDM2	MDM2	+	DAXX	The optimal function of mdm2 requires daxx, which stabilizes mdm2 through the deubiquitinase hausp/usp7 and also directly promotes mdm2's ubiquitin ligase activity towards p53.	23405218	(((AKT | p53) & DAXX & !p14ARF & !ATR & !ATM))	DNA repair
-MDM2	MDM2	-	p14ARF	From Fumia et al, 2013	23922675	(((AKT | p53) & DAXX & !p14ARF & !ATR & !ATM))	DNA repair
-MDM2	MDM2	+	p53	From Fumia et al, 2013	23922675	(((AKT | p53) & DAXX & !p14ARF & !ATR & !ATM))	DNA repair
-MED12	MED12	-	GLI	We propose that activated gli3 physically targets med12 in mediator to reverse mediator-dependent suppression of shh target gene (i.e., Gli1 or cyclin d1) transcription.	17000779	(!GLI)	SHH
-MEK1_2	MAP2K1, MAP2K2	+	MAP3K1_3	Signor: MAP3K1,2,3 -> MEK1	11343802	(MAP3K1_3 | RAF | PDK1)	ERK
-MEK1_2	MAP2K1, MAP2K2	+	PDK1	Signor: PDK1 -> MEK2	15175348	(MAP3K1_3 | RAF | PDK1)	ERK
-MEK1_2	MAP2K1, MAP2K2	+	RAF	Signor: RAF -> MEK1, 2	10359597, 8157000	(MAP3K1_3 | RAF | PDK1)	ERK
+JNK	MAPK8, MAPK9, MAPK10	+	ATM	DNA damage cuased by ROS activates ATM that activates JNK signalling	26791157	((ATM | GADD45 | TAK1 | MAP3K1_3) & !ERK & !p38)	ERK pathw
+JNK	MAPK8, MAPK9, MAPK10	-	ERK	We found that ERK inhibition increased JNK activity. 	16849472	((ATM | GADD45 | TAK1 | MAP3K1_3) & !ERK & !p38)	ERK pathw
+JNK	MAPK8, MAPK9, MAPK10	+	GADD45	From Fumia et al, 2013, via SMAD	23922675	((ATM | GADD45 | TAK1 | MAP3K1_3) & !ERK & !p38)	ERK pathw
+JNK	MAPK8, MAPK9, MAPK10	+	MAP3K1_3	Here we report that MKK4 shows a striking preference for the tyrosine residue (Tyr-185), and MKK7 a striking preference for the threonine residue (Thr-183) in three SAPK1/JNK1 isoforms tested (JNK1 alpha 1, JNK2 alpha 2 and JNK3 alpha 1).	11062067	((ATM | GADD45 | TAK1 | MAP3K1_3) & !ERK & !p38)	ERK pathw
+JNK	MAPK8, MAPK9, MAPK10	-	p38	Ablation of p38alpha results in excessive activation of JNK 	18704119	((ATM | GADD45 | TAK1 | MAP3K1_3) & !ERK & !p38)	ERK pathw
+JNK	MAPK8, MAPK9, MAPK10	+	TAK1	From Fumia et al, 2013, via TGFBR	23922675	((ATM | GADD45 | TAK1 | MAP3K1_3) & !ERK & !p38)	ERK pathw
+JUN	JUN	+	AR	c-Jun, when complexed with Fos, exhibits a bell-shaped activity on androgen receptor-mediated transactivation which appears to be distinct from c-Jun's transactivation ability	9591784	(AR | ETS1 | JNK)	ERK pathw
+JUN	JUN	+	ETS1	The c-ets proto-oncogenes encode transcription factors that cooperate with c-Fos and c-Jun for transcriptional activation.	2114554	(AR | ETS1 | JNK)	ERK pathw
+JUN	JUN	+	JNK	From Fumia et al, 2013	23922675	(AR | ETS1 | JNK)	ERK pathw
+Lactic_acid	LDHA	+	LDHA	From Fumia et al, 2013	23922675	(LDHA)	Nutrients pathw
+LDHA	LDHA	+	HIF1	From Fumia et al, 2013	23922675	(HIF1 | MYC_MAX | IDH1)	Nutrients pathw
+LDHA	LDHA	+	IDH1	IDH1 mutation is associated with silencing of the lactate dehydrogenase A (LDHA) gene and decreased glycolysis	24986863	(HIF1 | MYC_MAX | IDH1)	Nutrients pathw
+LDHA	LDHA	+	MYC_MAX	From Fumia et al, 2013	23922675	(HIF1 | MYC_MAX | IDH1)	Nutrients pathw
+MAP3K1_3	MAP3K1, MAP3K2, MAP3K3	-	FOS	it was revealed that miR-145-5p was able to suppress EMT by inactivating the c-Jun N-terminal kinase (JNK) signaling pathway in NSCLC cells.	29344125	(RAS & !(FOS | JUN | JNK | p38))	ERK pathw
+MAP3K1_3	MAP3K1, MAP3K2, MAP3K3	-	JNK	Overexpression of MAP3K1 was able to reverse the inhibition of EMT induced by miR-145-5p via the JNK signaling pathway. 	29344125	(RAS & !(FOS | JUN | JNK | p38))	ERK pathw
+MAP3K1_3	MAP3K1, MAP3K2, MAP3K3	-	JUN	it was revealed that miR-145-5p was able to suppress EMT by inactivating the c-Jun N-terminal kinase (JNK) signaling pathway in NSCLC cells.	29344125	(RAS & !(FOS | JUN | JNK | p38))	ERK pathw
+MAP3K1_3	MAP3K1, MAP3K2, MAP3K3	-	p38	Jnk and p38 mapk activation have antagonistic effects in many cases. From a mechanicistic point of view, the p38 mapk pathway can negatively regulate jnk activity at the level of map3ks, either by phosphorylating mlk3 or the tak1 regulatory subunit tab2	20626350	(RAS & !(FOS | JUN | JNK | p38))	ERK pathw
+MAP3K1_3	MAP3K1, MAP3K2, MAP3K3	+	RAS	Activation of ras may lead to two distinct ras-dependent pathways involving either a raf1/mek/mapk module or a mekk/sek/sapk module; jnk/sapk binds to the d domain near the nh2 terminus of mekk1 from approximately residues 6270 (9, 10). Pak1 can phosphorylate mekk1 on serine 67 within its jnk/sapk-binding d domain. Phosphorylation of mekk1 on serine 67 alters the state of the d domain, thereby decreasing its affinity for jnk/sapk. Under these conditions jnk/sapk is not recruited into the mekk1 signaling module.	8649450	(RAS & !(FOS | JUN | JNK | p38))	ERK pathw
+MDM2	MDM2	+	AKT	From Fumia et al, 2013	23922675	(((AKT | p53) & DAXX & !p14ARF & !ATR & !ATM))	DNA repair pathw
+MDM2	MDM2	-	ATM	From Fumia et al, 2013	23922675	(((AKT | p53) & DAXX & !p14ARF & !ATR & !ATM))	DNA repair pathw
+MDM2	MDM2	-	ATR	From Fumia et al, 2013	23922675	(((AKT | p53) & DAXX & !p14ARF & !ATR & !ATM))	DNA repair pathw
+MDM2	MDM2	+	DAXX	The optimal function of mdm2 requires daxx, which stabilizes mdm2 through the deubiquitinase hausp/usp7 and also directly promotes mdm2's ubiquitin ligase activity towards p53.	23405218	(((AKT | p53) & DAXX & !p14ARF & !ATR & !ATM))	DNA repair pathw
+MDM2	MDM2	-	p14ARF	From Fumia et al, 2013	23922675	(((AKT | p53) & DAXX & !p14ARF & !ATR & !ATM))	DNA repair pathw
+MDM2	MDM2	+	p53	From Fumia et al, 2013	23922675	(((AKT | p53) & DAXX & !p14ARF & !ATR & !ATM))	DNA repair pathw
+MED12	MED12	-	GLI	We propose that activated gli3 physically targets med12 in mediator to reverse mediator-dependent suppression of shh target gene (i.e., Gli1 or cyclin d1) transcription.	17000779	(!GLI)	SHH pathw
+MEK1_2	MAP2K1, MAP2K2	+	MAP3K1_3	Signor: MAP3K1,2,3 -> MEK1	11343802	(MAP3K1_3 | RAF | PDK1)	ERK pathw
+MEK1_2	MAP2K1, MAP2K2	+	PDK1	Signor: PDK1 -> MEK2	15175348	(MAP3K1_3 | RAF | PDK1)	ERK pathw
+MEK1_2	MAP2K1, MAP2K2	+	RAF	Signor: RAF -> MEK1, 2	10359597, 8157000	(MAP3K1_3 | RAF | PDK1)	ERK pathw
 Metastasis	output	+	AR_ERG	The overexpression of ERG is one of the key factors in transforming localised, Aggressive cancer into metastatic cancer.	25915839	(Migration & AR_ERG)	Output
 Metastasis	output	+	ERG	The overexpression of ERG is one of the key factors in transforming localised, Aggressive cancer into metastatic cancer.	25915839	(Migration & AR_ERG)	Output
 Metastasis	output	+	Migration	From Cohen et al, 2015	26528548	(Migration & AR_ERG)	Output
@@ -284,52 +284,52 @@ Migration	output	+	EMT	From Cohen et al, 2015	26528548	(((AKT & ERK) | (AKT & ET
 Migration	output	+	ERK	we provide evidence that propagation waves of extracellular signal-related kinase (ERK) mitogen-activated protein kinase activation determine the direction of the collective cell migration. 	29112851	(((AKT & ERK) | (AKT & ETV1)) & Invasion & EMT)	Output
 Migration	output	+	ETV1	ETV1 overexpressioni n human LNCaP prostate cancer cells increased cell migration.	23076342	(((AKT & ERK) | (AKT & ETV1)) & Invasion & EMT)	Output
 Migration	output	+	Invasion	From Cohen et al, 2015	26528548	(((AKT & ERK) | (AKT & ETV1)) & Invasion & EMT)	Output
-mTORC1	MTOR, RICTOR, MLST8, MAPKAP1, DEPTOR, TTI1, TELO2, RPTOR, AKT1S1	+	AKT	Furthermore, pras40 phosphorylation by akt and association with 14-3-3, a cytosolic anchor protein, are crucial for insulin to stimulate mtor. These findings identify pras40 as an important regulator of insulin sensitivity of the akt-mtor pathway and a potential target for the treatment of cancers, insulin resistance and hamartoma syndromes.	17277771	((AKT | (AKT & Rheb)) & !AMPK & !TSC1_2)	mTOR
-mTORC1	MTOR, RICTOR, MLST8, MAPKAP1, DEPTOR, TTI1, TELO2, RPTOR, AKT1S1	-	AMPK	AMPK inhibits mTORC1 through two means: first, through phosphorylation of TSC2 to activate its GAP (GTPase-activating protein) activity that converts Rheb into an inactive GDP-bound state, thus switching off mitogenic stimulation of mTORC1 [31], and, secondly, through phosphorylation of raptor at Ser722 and Ser792, which leads to 14-3-3 protein binding and mTORC1 inhibition	23863160	((AKT | (AKT & Rheb)) & !AMPK & !TSC1_2)	mTOR
-mTORC1	MTOR, RICTOR, MLST8, MAPKAP1, DEPTOR, TTI1, TELO2, RPTOR, AKT1S1	+	Rheb	These results suggest that Rheb induces alteration in the binding of 4E-BP1 with mTORC1 to regulate mTORC1 activation.	19299511, 19222999	((AKT | (AKT & Rheb)) & !AMPK & !TSC1_2)	mTOR
-mTORC1	MTOR, RICTOR, MLST8, MAPKAP1, DEPTOR, TTI1, TELO2, RPTOR, AKT1S1	-	TSC1_2	These findings strongly implicate the tuberin-hamartin tumor suppressor complex as an inhibitor of mtor	12271141	((AKT | (AKT & Rheb)) & !AMPK & !TSC1_2)	mTOR
-mTORC2	MTOR, RPTOR, MLST8, PRAS40, DEPTOR, EEF1A1, RICTOR, PRR5	+	AKT	From Fumia et al, 2013	23922675	((!AMPK & RAGS & Rheb) | (AKT & !AMPK & Rheb) | (AKT & !AMPK & RAGS) | (AKT & RAGS & Rheb & !AMPK))	mTOR
-mTORC2	MTOR, RPTOR, MLST8, PRAS40, DEPTOR, EEF1A1, RICTOR, PRR5	-	AMPK	From Fumia et al, 2013	23922675	((!AMPK & RAGS & Rheb) | (AKT & !AMPK & Rheb) | (AKT & !AMPK & RAGS) | (AKT & RAGS & Rheb & !AMPK))	mTOR
-mTORC2	MTOR, RPTOR, MLST8, PRAS40, DEPTOR, EEF1A1, RICTOR, PRR5	+	RAGS	From Fumia et al, 2013	23922675	((!AMPK & RAGS & Rheb) | (AKT & !AMPK & Rheb) | (AKT & !AMPK & RAGS) | (AKT & RAGS & Rheb & !AMPK))	mTOR
-mTORC2	MTOR, RPTOR, MLST8, PRAS40, DEPTOR, EEF1A1, RICTOR, PRR5	+	Rheb	From Fumia et al, 2013	23922675	((!AMPK & RAGS & Rheb) | (AKT & !AMPK & Rheb) | (AKT & !AMPK & RAGS) | (AKT & RAGS & Rheb & !AMPK))	mTOR
-MXI1	MXI1	+	HIF1	From Fumia et al, 2013	23922675	(HIF1)	Nutrients
-MYC	MYC	+	AR_ERG	ERG is a transcriptional factor that directly regulates EZH2, Oncogene c-Myc and tumor suppressor Nkx3.1 and many other targets in prostate cancer. 	doi:10.1158/1538-7445.AM2015-3661	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK
-MYC	MYC	+	E2F1	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK
-MYC	MYC	+	ERG	ERG is a transcriptional factor that directly regulates EZH2, Oncogene c-Myc and tumor suppressor Nkx3.1 and many other targets in prostate cancer. 	doi:10.1158/1538-7445.AM2015-3661	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK
-MYC	MYC	+	ERK	From Fumia et al, 2013, Phosphorylation of Ser 62 is required for Ras-induced stabilization of Myc, likely mediated through the action of ERK.	23922675, 11018017	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK
-MYC	MYC	+	FOS	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK
-MYC	MYC	+	GLI	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK
-MYC	MYC	-	HIF1	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK
-MYC	MYC	+	JUN	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK
-MYC	MYC	+	mTORC1	MTORC1 and mTORC2 converge on c-Myc to control metabolic reprogramming in cancer. mTORC1 and mTORC2 conspire to link growth factor receptor–PI3K signaling with c-Myc-dependent metabolic reprogramming by controlling both c-Myc levels and activity 	24856037	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK
-MYC	MYC	+	NF_kB	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK
-MYC	MYC	+	p38	The jnk pathway is selectively involved in the c-myc-mediated apoptosis and that the apoptotic function of c-myc is directly regulated by jnk pathway through phosphorylation at ser-62 and ser-71.	10551811	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK
-MYC	MYC	+	SHH	In the nucleus, the GLI transcription factors bind DNA and modulate the transcription of a multitude of genes including Fox, Myc, and cyclin D among others that are involved in tissue development, differentiation, epithelial-mesenchymal transition (EMT), and stem cell maintenance	26988232	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK
-MYC	MYC	+	TCF	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK
-MYC_MAX	MYC, MAX	-	MXI1	From Fumia et al, 2013	23922675	(MYC & !MXI1 & !TGFBR & !SMAD)	ERK
-MYC_MAX	MYC, MAX	+	MYC	From Fumia et al, 2013	23922675	(MYC & !MXI1 & !TGFBR & !SMAD)	ERK
-MYC_MAX	MYC, MAX	-	SMAD	From Fumia et al, 2013	23922675	(MYC & !MXI1 & !TGFBR & !SMAD)	ERK
-MYC_MAX	MYC, MAX	-	TGFBR	From Fumia et al, 2013	23922675	(MYC & !MXI1 & !TGFBR & !SMAD)	ERK
-NCOA3	NCOA3	+	p38	P38 MAPK and JNK can phosphorylate multiple sites on SRC-3, including S505, S543, S860, and S867. Our results suggest that several kinases are important for phosphorylating SRC-3 and enhancing its interaction with DNA-dependent transcription factors and other coactivators.	15383283	(!SPOP & p38)	AR
-NCOA3	NCOA3	-	SPOP	Mutations in SPOP represent the most common point mutations in primary prostate cancer,with recurrent mutations in SPOP in 6% to 15% of multiple independent cohorts. Wild-type SPOP will bind and promote the degradation of SRC-3,whereas prostate cancer–derived SPOP mutants lose this ability,leading to increased androgen signaling in certain model systems.	24239470	(!SPOP & p38)	AR
-NCOR1	NCOR1	-	AKT	Akt-induced phosphorylation of N-CoR at serine 1450 contributes to its misfolded conformational dependent loss (MCDL) in acute myeloid leukemia of the M5 subtype. 	23940660	(!AKT)	AR
-NCOR2	NCOR2	-	AKT	Akt-induced phosphorylation of N-CoR at serine 1450 contributes to its misfolded conformational dependent loss (MCDL) in acute myeloid leukemia of the M5 subtype. 	23940660	(!AKT & !FOXO)	AR
-NCOR2	NCOR2	-	FOXO	Foxo1 acts to aid displacement of Cs1-associated corepressors (NcoR/Smrt) allowing association of coactivators (Maml1).	18391971	(!AKT & !FOXO)	AR
-NF_kB	RELA, RELB, REL, NFKB1, NFKB2	+	DNA_Damage	This study particularly focuses on DNA damage-induced NF-κB signaling cascade and its physiological and pathological significance	28626800	((E_cadherin | IKK | DNA_Damage) & (NCOA3 | PIP3 | Snail))	AKT
-NF_kB	RELA, RELB, REL, NFKB1, NFKB2	+	E_cadherin	From Fumia et al, 2013	23922675	((E_cadherin | IKK | DNA_Damage) & (NCOA3 | PIP3 | Snail))	AKT
-NF_kB	RELA, RELB, REL, NFKB1, NFKB2	+	IKK	From Fumia et al, 2013	23922675	((E_cadherin | IKK | DNA_Damage) & (NCOA3 | PIP3 | Snail))	AKT
-NF_kB	RELA, RELB, REL, NFKB1, NFKB2	+	NCOA3	Identification of six functional in vivo SRC-3 phosphorylation sites. Interestingly, all phosphorylation sites are required for coactivation of estrogen and androgen receptors, but not all sites are required for coactivation of NF-kappaB. 	15383283	((E_cadherin | IKK | DNA_Damage) & (NCOA3 | PIP3 | Snail))	AKT
-NF_kB	RELA, RELB, REL, NFKB1, NFKB2	+	PIP3	From Fumia et al, 2013	23922675	((E_cadherin | IKK | DNA_Damage) & (NCOA3 | PIP3 | Snail))	AKT
-NF_kB	RELA, RELB, REL, NFKB1, NFKB2	+	Snail	From Fumia et al, 2013	23922675	((E_cadherin | IKK | DNA_Damage) & (NCOA3 | PIP3 | Snail))	AKT
-NF1	NF1	-	PKC	From Fumia et al, 2013	23922675	(!PKC)	Nutrients
-NKX3_1	NKX3-1	+	AR	NKX3-1 and AR directly regulate each other in a feed-forward regulatory loop.	22083957	(PKC & AR & !ERG & !AR_ERG)	AR
-NKX3_1	NKX3-1	-	AR_ERG	Increased expression of ERG or other ETS factors under control of androgen responsive promoter (TMPRSS2) is an inevitable consequence of the fusion events, and it activates transcriptional program that contributes to oncogenesis by upregulating expression of, among others, MYC, EZH2 and SOX9 and repressing NKX3.	25277175	(PKC & AR & !ERG & !AR_ERG)	AR
-NKX3_1	NKX3-1	-	ERG	Increased expression of ERG or other ETS factors under control of androgen responsive promoter (TMPRSS2) is an inevitable consequence of the fusion events, and it activates transcriptional program that contributes to oncogenesis by upregulating expression of, among others, MYC, EZH2 and SOX9 and repressing NKX3.	25277175	(PKC & AR & !ERG & !AR_ERG)	AR
-NKX3_1	NKX3-1	+	PKC	The NKX3.1 C154T polymorphism codes for a variant protein that contains an arginine-to-cysteine substitution at amino acid 52 (R52C) adjacent to a protein kinase C phosphorylation site at serine 48	11980664	(PKC & AR & !ERG & !AR_ERG)	AR
+mTORC1	MTOR, RICTOR, MLST8, MAPKAP1, DEPTOR, TTI1, TELO2, RPTOR, AKT1S1	+	AKT	Furthermore, pras40 phosphorylation by akt and association with 14-3-3, a cytosolic anchor protein, are crucial for insulin to stimulate mtor. These findings identify pras40 as an important regulator of insulin sensitivity of the akt-mtor pathway and a potential target for the treatment of cancers, insulin resistance and hamartoma syndromes.	17277771	((AKT | (AKT & Rheb)) & !AMPK & !TSC1_2)	mTOR pathw
+mTORC1	MTOR, RICTOR, MLST8, MAPKAP1, DEPTOR, TTI1, TELO2, RPTOR, AKT1S1	-	AMPK	AMPK inhibits mTORC1 through two means: first, through phosphorylation of TSC2 to activate its GAP (GTPase-activating protein) activity that converts Rheb into an inactive GDP-bound state, thus switching off mitogenic stimulation of mTORC1 [31], and, secondly, through phosphorylation of raptor at Ser722 and Ser792, which leads to 14-3-3 protein binding and mTORC1 inhibition	23863160	((AKT | (AKT & Rheb)) & !AMPK & !TSC1_2)	mTOR pathw
+mTORC1	MTOR, RICTOR, MLST8, MAPKAP1, DEPTOR, TTI1, TELO2, RPTOR, AKT1S1	+	Rheb	These results suggest that Rheb induces alteration in the binding of 4E-BP1 with mTORC1 to regulate mTORC1 activation.	19299511, 19222999	((AKT | (AKT & Rheb)) & !AMPK & !TSC1_2)	mTOR pathw
+mTORC1	MTOR, RICTOR, MLST8, MAPKAP1, DEPTOR, TTI1, TELO2, RPTOR, AKT1S1	-	TSC1_2	These findings strongly implicate the tuberin-hamartin tumor suppressor complex as an inhibitor of mtor	12271141	((AKT | (AKT & Rheb)) & !AMPK & !TSC1_2)	mTOR pathw
+mTORC2	MTOR, RPTOR, MLST8, PRAS40, DEPTOR, EEF1A1, RICTOR, PRR5	+	AKT	From Fumia et al, 2013	23922675	((!AMPK & RAGS & Rheb) | (AKT & !AMPK & Rheb) | (AKT & !AMPK & RAGS) | (AKT & RAGS & Rheb & !AMPK))	mTOR pathw
+mTORC2	MTOR, RPTOR, MLST8, PRAS40, DEPTOR, EEF1A1, RICTOR, PRR5	-	AMPK	From Fumia et al, 2013	23922675	((!AMPK & RAGS & Rheb) | (AKT & !AMPK & Rheb) | (AKT & !AMPK & RAGS) | (AKT & RAGS & Rheb & !AMPK))	mTOR pathw
+mTORC2	MTOR, RPTOR, MLST8, PRAS40, DEPTOR, EEF1A1, RICTOR, PRR5	+	RAGS	From Fumia et al, 2013	23922675	((!AMPK & RAGS & Rheb) | (AKT & !AMPK & Rheb) | (AKT & !AMPK & RAGS) | (AKT & RAGS & Rheb & !AMPK))	mTOR pathw
+mTORC2	MTOR, RPTOR, MLST8, PRAS40, DEPTOR, EEF1A1, RICTOR, PRR5	+	Rheb	From Fumia et al, 2013	23922675	((!AMPK & RAGS & Rheb) | (AKT & !AMPK & Rheb) | (AKT & !AMPK & RAGS) | (AKT & RAGS & Rheb & !AMPK))	mTOR pathw
+MXI1	MXI1	+	HIF1	From Fumia et al, 2013	23922675	(HIF1)	Nutrients pathw
+MYC	MYC	+	AR_ERG	ERG is a transcriptional factor that directly regulates EZH2, Oncogene c-Myc and tumor suppressor Nkx3.1 and many other targets in prostate cancer. 	doi:10.1158/1538-7445.AM2015-3661	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK pathw
+MYC	MYC	+	E2F1	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK pathw
+MYC	MYC	+	ERG	ERG is a transcriptional factor that directly regulates EZH2, Oncogene c-Myc and tumor suppressor Nkx3.1 and many other targets in prostate cancer. 	doi:10.1158/1538-7445.AM2015-3661	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK pathw
+MYC	MYC	+	ERK	From Fumia et al, 2013, Phosphorylation of Ser 62 is required for Ras-induced stabilization of Myc, likely mediated through the action of ERK.	23922675, 11018017	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK pathw
+MYC	MYC	+	FOS	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK pathw
+MYC	MYC	+	GLI	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK pathw
+MYC	MYC	-	HIF1	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK pathw
+MYC	MYC	+	JUN	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK pathw
+MYC	MYC	+	mTORC1	MTORC1 and mTORC2 converge on c-Myc to control metabolic reprogramming in cancer. mTORC1 and mTORC2 conspire to link growth factor receptor–PI3K signaling with c-Myc-dependent metabolic reprogramming by controlling both c-Myc levels and activity 	24856037	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK pathw
+MYC	MYC	+	NF_kB	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK pathw
+MYC	MYC	+	p38	The jnk pathway is selectively involved in the c-myc-mediated apoptosis and that the apoptotic function of c-myc is directly regulated by jnk pathway through phosphorylation at ser-62 and ser-71.	10551811	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK pathw
+MYC	MYC	+	SHH	In the nucleus, the GLI transcription factors bind DNA and modulate the transcription of a multitude of genes including Fox, Myc, and cyclin D among others that are involved in tissue development, differentiation, epithelial-mesenchymal transition (EMT), and stem cell maintenance	26988232	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK pathw
+MYC	MYC	+	TCF	From Fumia et al, 2013	23922675	((GLI | ERK | TCF | JUN | FOS | AR_ERG | ERG | NF_kB | SHH) & (mTORC1 | E2F1 | p38) & !HIF1)	ERK pathw
+MYC_MAX	MYC, MAX	-	MXI1	From Fumia et al, 2013	23922675	(MYC & !MXI1 & !TGFBR & !SMAD)	ERK pathw
+MYC_MAX	MYC, MAX	+	MYC	From Fumia et al, 2013	23922675	(MYC & !MXI1 & !TGFBR & !SMAD)	ERK pathw
+MYC_MAX	MYC, MAX	-	SMAD	From Fumia et al, 2013	23922675	(MYC & !MXI1 & !TGFBR & !SMAD)	ERK pathw
+MYC_MAX	MYC, MAX	-	TGFBR	From Fumia et al, 2013	23922675	(MYC & !MXI1 & !TGFBR & !SMAD)	ERK pathw
+NCOA3	NCOA3	+	p38	P38 MAPK and JNK can phosphorylate multiple sites on SRC-3, including S505, S543, S860, and S867. Our results suggest that several kinases are important for phosphorylating SRC-3 and enhancing its interaction with DNA-dependent transcription factors and other coactivators.	15383283	(!SPOP & p38)	AR pathw
+NCOA3	NCOA3	-	SPOP	Mutations in SPOP represent the most common point mutations in primary prostate cancer,with recurrent mutations in SPOP in 6% to 15% of multiple independent cohorts. Wild-type SPOP will bind and promote the degradation of SRC-3,whereas prostate cancer–derived SPOP mutants lose this ability,leading to increased androgen signaling in certain model systems.	24239470	(!SPOP & p38)	AR pathw
+NCOR1	NCOR1	-	AKT	Akt-induced phosphorylation of N-CoR at serine 1450 contributes to its misfolded conformational dependent loss (MCDL) in acute myeloid leukemia of the M5 subtype. 	23940660	(!AKT)	AR pathw
+NCOR2	NCOR2	-	AKT	Akt-induced phosphorylation of N-CoR at serine 1450 contributes to its misfolded conformational dependent loss (MCDL) in acute myeloid leukemia of the M5 subtype. 	23940660	(!AKT & !FOXO)	AR pathw
+NCOR2	NCOR2	-	FOXO	Foxo1 acts to aid displacement of Cs1-associated corepressors (NcoR/Smrt) allowing association of coactivators (Maml1).	18391971	(!AKT & !FOXO)	AR pathw
+NF_kB	RELA, RELB, REL, NFKB1, NFKB2	+	DNA_Damage	This study particularly focuses on DNA damage-induced NF-κB signaling cascade and its physiological and pathological significance	28626800	((E_cadherin | IKK | DNA_Damage) & (NCOA3 | PIP3 | Snail))	AKT pathw
+NF_kB	RELA, RELB, REL, NFKB1, NFKB2	+	E_cadherin	From Fumia et al, 2013	23922675	((E_cadherin | IKK | DNA_Damage) & (NCOA3 | PIP3 | Snail))	AKT pathw
+NF_kB	RELA, RELB, REL, NFKB1, NFKB2	+	IKK	From Fumia et al, 2013	23922675	((E_cadherin | IKK | DNA_Damage) & (NCOA3 | PIP3 | Snail))	AKT pathw
+NF_kB	RELA, RELB, REL, NFKB1, NFKB2	+	NCOA3	Identification of six functional in vivo SRC-3 phosphorylation sites. Interestingly, all phosphorylation sites are required for coactivation of estrogen and androgen receptors, but not all sites are required for coactivation of NF-kappaB. 	15383283	((E_cadherin | IKK | DNA_Damage) & (NCOA3 | PIP3 | Snail))	AKT pathw
+NF_kB	RELA, RELB, REL, NFKB1, NFKB2	+	PIP3	From Fumia et al, 2013	23922675	((E_cadherin | IKK | DNA_Damage) & (NCOA3 | PIP3 | Snail))	AKT pathw
+NF_kB	RELA, RELB, REL, NFKB1, NFKB2	+	Snail	From Fumia et al, 2013	23922675	((E_cadherin | IKK | DNA_Damage) & (NCOA3 | PIP3 | Snail))	AKT pathw
+NF1	NF1	-	PKC	From Fumia et al, 2013	23922675	(!PKC)	Nutrients pathw
+NKX3_1	NKX3-1	+	AR	NKX3-1 and AR directly regulate each other in a feed-forward regulatory loop.	22083957	(PKC & AR & !ERG & !AR_ERG)	AR pathw
+NKX3_1	NKX3-1	-	AR_ERG	Increased expression of ERG or other ETS factors under control of androgen responsive promoter (TMPRSS2) is an inevitable consequence of the fusion events, and it activates transcriptional program that contributes to oncogenesis by upregulating expression of, among others, MYC, EZH2 and SOX9 and repressing NKX3.	25277175	(PKC & AR & !ERG & !AR_ERG)	AR pathw
+NKX3_1	NKX3-1	-	ERG	Increased expression of ERG or other ETS factors under control of androgen responsive promoter (TMPRSS2) is an inevitable consequence of the fusion events, and it activates transcriptional program that contributes to oncogenesis by upregulating expression of, among others, MYC, EZH2 and SOX9 and repressing NKX3.	25277175	(PKC & AR & !ERG & !AR_ERG)	AR pathw
+NKX3_1	NKX3-1	+	PKC	The NKX3.1 C154T polymorphism codes for a variant protein that contains an arginine-to-cysteine substitution at amino acid 52 (R52C) adjacent to a protein kinase C phosphorylation site at serine 48	11980664	(PKC & AR & !ERG & !AR_ERG)	AR pathw
 Nutrients	input	input	0/1	Input of the model		(Nutrients)	Input
-p14ARF	CDKN2A	+	E2F1	Ectopic expression of a variety of oncogenes such as Ras, cmyc, E1A and E2F1 upregulates p19ARF expression (mice equivalent of p14ARF ) as part of a checkpoint response that limits cell cycle progression in response to hyperproliferative signals	15878778	(E2F1 & MYC_MAX & RAS)	DNA repair
-p14ARF	CDKN2A	+	MYC_MAX	Ectopic expression of a variety of oncogenes such as Ras, cmyc, E1A and E2F1 upregulates p19ARF expression (mice equivalent of p14ARF ) as part of a checkpoint response that limits cell cycle progression in response to hyperproliferative signals	15878778	(E2F1 & MYC_MAX & RAS)	DNA repair
-p14ARF	CDKN2A	+	RAS	Ectopic expression of a variety of oncogenes such as Ras, cmyc, E1A and E2F1 upregulates p19ARF expression (mice equivalent of p14ARF ) as part of a checkpoint response that limits cell cycle progression in response to hyperproliferative signals	15878778	(E2F1 & MYC_MAX & RAS)	DNA repair
+p14ARF	CDKN2A	+	E2F1	Ectopic expression of a variety of oncogenes such as Ras, cmyc, E1A and E2F1 upregulates p19ARF expression (mice equivalent of p14ARF ) as part of a checkpoint response that limits cell cycle progression in response to hyperproliferative signals	15878778	(E2F1 & MYC_MAX & RAS)	DNA repair pathw
+p14ARF	CDKN2A	+	MYC_MAX	Ectopic expression of a variety of oncogenes such as Ras, cmyc, E1A and E2F1 upregulates p19ARF expression (mice equivalent of p14ARF ) as part of a checkpoint response that limits cell cycle progression in response to hyperproliferative signals	15878778	(E2F1 & MYC_MAX & RAS)	DNA repair pathw
+p14ARF	CDKN2A	+	RAS	Ectopic expression of a variety of oncogenes such as Ras, cmyc, E1A and E2F1 upregulates p19ARF expression (mice equivalent of p14ARF ) as part of a checkpoint response that limits cell cycle progression in response to hyperproliferative signals	15878778	(E2F1 & MYC_MAX & RAS)	DNA repair pathw
 p15	CDKN2B	+	ZBTB17	From Fumia et al, 2013	23922675	(ZBTB17)	Cell cycle
 p21	CDKN1A	-	AKT	From Fumia et al, 2013	23922675	((p53 | SMAD | HIF1 | ZBTB17) & !TERT & !MYC_MAX & !MDM2 & !AKT & !ERK)	Cell cycle
 p21	CDKN1A	-	ERK	Extracellular signal-regulated kinase 2-dependent phosphorylation induces cytoplasmic localization and degradation of p21cip1.	19364816	((p53 | SMAD | HIF1 | ZBTB17) & !TERT & !MYC_MAX & !MDM2 & !AKT & !ERK)	Cell cycle
@@ -340,124 +340,124 @@ p21	CDKN1A	+	p53	From Fumia et al, 2013	23922675	((p53 | SMAD | HIF1 | ZBTB17) &
 p21	CDKN1A	+	SMAD	From Fumia et al, 2013	23922675	((p53 | SMAD | HIF1 | ZBTB17) & !TERT & !MYC_MAX & !MDM2 & !AKT & !ERK)	Cell cycle
 p21	CDKN1A	-	TERT	From Fumia et al, 2013	23922675	((p53 | SMAD | HIF1 | ZBTB17) & !TERT & !MYC_MAX & !MDM2 & !AKT & !ERK)	Cell cycle
 p21	CDKN1A	+	ZBTB17	From Fumia et al, 2013	23922675	((p53 | SMAD | HIF1 | ZBTB17) & !TERT & !MYC_MAX & !MDM2 & !AKT & !ERK)	Cell cycle
-p38	MAPK14	-	ERK	In addition, immunoblot and immunostaining analysis revealed that phosphorylation of erk was increased by treatment with sb203580;whereas pd98059 increased the phosphorylation of p38, which implies a seesaw-like balance between erk and p38 phosphorylation.	18481201	(MAP3K1_3 & !ERK & !GADD45)	ERK
-p38	MAPK14	+	GADD45	Both phosphorylation of p38 ty323 and the activity of this phosphorylated species are inhibited by binding gadd45alpha, thus preventing these low-treshold signals from activating p38	15735649	(MAP3K1_3 & !ERK & !GADD45)	ERK
-p38	MAPK14	+	MAP3K1_3	We found that mekk1/mekk4 as opposed to ask1, are responsible for trail-induced c-jun nh2-terminal kinase (jnk) or p38 activation,	21152872	(MAP3K1_3 & !ERK & !GADD45)	ERK
-p53	TP53	+	Acidosis	In the case of DNA-damage, phosphorylation of both p53 and Mdm2 by the checkpoint kinases ATM, ATR, Chk1 and Chk2 contributes to the dissociation of the Mdm2-p53 complex, leading to enhanced cellular p53 levels that primarily accumulate in the nucleus.	19879762	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair
-p53	TP53	-	BCL2	From Fumia et al, 2013	23922675	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair
-p53	TP53	+	Carcinogen	In the case of DNA-damage, phosphorylation of both p53 and Mdm2 by the checkpoint kinases ATM, ATR, Chk1 and Chk2 contributes to the dissociation of the Mdm2-p53 complex, leading to enhanced cellular p53 levels that primarily accumulate in the nucleus.	19879762	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair
-p53	TP53	+	CHK1_2	From Fumia et al, 2013	23922675	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair
-p53	TP53	+	HIF1	From Fumia et al, 2013	23922675	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair
-p53	TP53	-	HSPs	p53 stabilization depends on the impaired ubiquitination due to both the loss of wt p53 function and the hsp90 association	10557093, 11507088, 12427754, 21460846	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair
-p53	TP53	-	MDM2	From Fumia et al, 2013	23922675	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair
-p53	TP53	+	p14ARF	P14/p19 ARF functions by antagonizing MDM2 and thereby stabilizing p53 (refs. 17,18). Thus, loss of p14/p19ARF impairs p53-mediated growth arrest and/or apoptosis in response to activated oncogenes	12091906	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair
-p53	TP53	+	p38	P38 regulates p53, but also in p53-defective tumor cells rewire their checkpoint response and become dependent in the p38/mk2 pathway in mcf-7 cells, p38 kinase activated p53 more effectively than other members of the ras pathway. p53 and p38 kinase exist in the same physical complex, and co-expression of p38 stabilized p53 protein. In vitro, p38 kinase phosphorylated p53 at ser33 and ser46, a newly identified site.	10581258	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair
-p70S6kab	RPS6KB1, RPS6KB2	+	mTORC2	From Fumia et al, 2013	23922675	(mTORC2 | PDK1)	AKT
-p70S6kab	RPS6KB1, RPS6KB2	+	PDK1	From Fumia et al, 2013	23922675	(mTORC2 | PDK1)	AKT
-p90RSK	RPS6KA1	+	ERK	From Fumia et al, 2013	23922675	(PDK1 | ERK)	AKT
-p90RSK	RPS6KA1	+	PDK1	From Fumia et al, 2013	23922675	(PDK1 | ERK)	AKT
-PDK1	PDK1	+	HIF1	From Fumia et al, 2013	23922675	(HIF1 | MYC_MAX | PIP3)	AKT
-PDK1	PDK1	+	MYC_MAX	From Fumia et al, 2013	23922675	(HIF1 | MYC_MAX | PIP3)	AKT
-PDK1	PDK1	+	PIP3	From Fumia et al, 2013	23922675	(HIF1 | MYC_MAX | PIP3)	AKT
-PHDs	EGLN1, EGLN2, EGLN3	-	Hypoxia	From Fumia et al, 2013	23922675	(!Hypoxia & ROS)	Nutrients
-PHDs	EGLN1, EGLN2, EGLN3	+	ROS	From Fumia et al, 2013	23922675	(!Hypoxia & ROS)	Nutrients
-PI3K	PIK3CA, PIK3CB, PIK3CG, PIK3CD, PIK3R1, PIK3R2, PIK3R3, PIK3R4, PIK3R5, PIK3R6, PIK3C2A, PIK3C2B, PIK3C2G, PIK3C6	+	EGFR	P85alpha promotes nucleolin transcription and subsequently enhances EGFR mRNA stability and EGF-induced malignant cellular transformation.	26918608	(TGFBR | FRS2 | EGFR)	AKT
-PI3K	PIK3CA, PIK3CB, PIK3CG, PIK3CD, PIK3R1, PIK3R2, PIK3R3, PIK3R4, PIK3R5, PIK3R6, PIK3C2A, PIK3C2B, PIK3C2G, PIK3C4	+	FRS2	Activated FRS2α initiates downstream signalling through the RAS–MAPK pathway or the PI3K–AKT pathway	11353842	(TGFBR | FRS2 | EGFR)	AKT
-PI3K	PIK3CA, PIK3CB, PIK3CG, PIK3CD, PIK3R1, PIK3R2, PIK3R3, PIK3R4, PIK3R5, PIK3R6, PIK3C2A, PIK3C2B, PIK3C2G, PIK3C5	+	TGFBR	These studies revealed that PI 3-kinase is associated in vivo with both TGF-_ receptor subtypes and that TGF-_1 stimulation enhances PI 3-kinase activity associated with type I TGF-_ receptor in hASM cells.	9435577	(TGFBR | FRS2 | EGFR)	AKT
-PIP3	PIK3CA	-	p53	From Fumia et al, 2013	23922675	((!p53 & PI3K & !PTEN) | (!p53 & PI3K))	AKT
-PIP3	PIK3CA	+	PI3K	From Fumia et al, 2013	23922675	((!p53 & PI3K & !PTEN) | (!p53 & PI3K))	AKT
-PIP3	PIK3CA	-	PTEN	From Fumia et al, 2013	23922675	((!p53 & PI3K & !PTEN) | (!p53 & PI3K))	AKT
-PKC	PRKD3, PRKD2, PKN3, PRKCA, PRKCB, PRKCD, PRKCE, PRKCG, PRKCH, PRKCI, PKN1, PKN2, PRKD1, PRKCQ, PRKCZ	+	RTK	From Fumia et al, 2013	23922675	(RTK & WNT)	WNT
-PKC	PRKD3, PRKD2, PKN3, PRKCA, PRKCB, PRKCD, PRKCE, PRKCG, PRKCH, PRKCI, PKN1, PKN2, PRKD1, PRKCQ, PRKCZ	+	WNT	From Fumia et al, 2013	23922675	(RTK & WNT)	WNT
+p38	MAPK14	-	ERK	In addition, immunoblot and immunostaining analysis revealed that phosphorylation of erk was increased by treatment with sb203580;whereas pd98059 increased the phosphorylation of p38, which implies a seesaw-like balance between erk and p38 phosphorylation.	18481201	(MAP3K1_3 & !ERK & !GADD45)	ERK pathw
+p38	MAPK14	+	GADD45	Both phosphorylation of p38 ty323 and the activity of this phosphorylated species are inhibited by binding gadd45alpha, thus preventing these low-treshold signals from activating p38	15735649	(MAP3K1_3 & !ERK & !GADD45)	ERK pathw
+p38	MAPK14	+	MAP3K1_3	We found that mekk1/mekk4 as opposed to ask1, are responsible for trail-induced c-jun nh2-terminal kinase (jnk) or p38 activation,	21152872	(MAP3K1_3 & !ERK & !GADD45)	ERK pathw
+p53	TP53	+	Acidosis	In the case of DNA-damage, phosphorylation of both p53 and Mdm2 by the checkpoint kinases ATM, ATR, Chk1 and Chk2 contributes to the dissociation of the Mdm2-p53 complex, leading to enhanced cellular p53 levels that primarily accumulate in the nucleus.	19879762	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair pathw
+p53	TP53	-	BCL2	From Fumia et al, 2013	23922675	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair pathw
+p53	TP53	+	Carcinogen	In the case of DNA-damage, phosphorylation of both p53 and Mdm2 by the checkpoint kinases ATM, ATR, Chk1 and Chk2 contributes to the dissociation of the Mdm2-p53 complex, leading to enhanced cellular p53 levels that primarily accumulate in the nucleus.	19879762	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair pathw
+p53	TP53	+	CHK1_2	From Fumia et al, 2013	23922675	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair pathw
+p53	TP53	+	HIF1	From Fumia et al, 2013	23922675	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair pathw
+p53	TP53	-	HSPs	p53 stabilization depends on the impaired ubiquitination due to both the loss of wt p53 function and the hsp90 association	10557093, 11507088, 12427754, 21460846	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair pathw
+p53	TP53	-	MDM2	From Fumia et al, 2013	23922675	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair pathw
+p53	TP53	+	p14ARF	P14/p19 ARF functions by antagonizing MDM2 and thereby stabilizing p53 (refs. 17,18). Thus, loss of p14/p19ARF impairs p53-mediated growth arrest and/or apoptosis in response to activated oncogenes	12091906	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair pathw
+p53	TP53	+	p38	P38 regulates p53, but also in p53-defective tumor cells rewire their checkpoint response and become dependent in the p38/mk2 pathway in mcf-7 cells, p38 kinase activated p53 more effectively than other members of the ras pathway. p53 and p38 kinase exist in the same physical complex, and co-expression of p38 stabilized p53 protein. In vitro, p38 kinase phosphorylated p53 at ser33 and ser46, a newly identified site.	10581258	((Acidosis | CHK1_2 | p38 | HIF1) & !BCL2 & !MDM2 & !HSPs & !Snail)	DNA repair pathw
+p70S6kab	RPS6KB1, RPS6KB2	+	mTORC2	From Fumia et al, 2013	23922675	(mTORC2 | PDK1)	AKT pathw
+p70S6kab	RPS6KB1, RPS6KB2	+	PDK1	From Fumia et al, 2013	23922675	(mTORC2 | PDK1)	AKT pathw
+p90RSK	RPS6KA1	+	ERK	From Fumia et al, 2013	23922675	(PDK1 | ERK)	AKT pathw
+p90RSK	RPS6KA1	+	PDK1	From Fumia et al, 2013	23922675	(PDK1 | ERK)	AKT pathw
+PDK1	PDK1	+	HIF1	From Fumia et al, 2013	23922675	(HIF1 | MYC_MAX | PIP3)	AKT pathw
+PDK1	PDK1	+	MYC_MAX	From Fumia et al, 2013	23922675	(HIF1 | MYC_MAX | PIP3)	AKT pathw
+PDK1	PDK1	+	PIP3	From Fumia et al, 2013	23922675	(HIF1 | MYC_MAX | PIP3)	AKT pathw
+PHDs	EGLN1, EGLN2, EGLN3	-	Hypoxia	From Fumia et al, 2013	23922675	(!Hypoxia & ROS)	Nutrients pathw
+PHDs	EGLN1, EGLN2, EGLN3	+	ROS	From Fumia et al, 2013	23922675	(!Hypoxia & ROS)	Nutrients pathw
+PI3K	PIK3CA, PIK3CB, PIK3CG, PIK3CD, PIK3R1, PIK3R2, PIK3R3, PIK3R4, PIK3R5, PIK3R6, PIK3C2A, PIK3C2B, PIK3C2G, PIK3C6	+	EGFR	P85alpha promotes nucleolin transcription and subsequently enhances EGFR mRNA stability and EGF-induced malignant cellular transformation.	26918608	(TGFBR | FRS2 | EGFR)	AKT pathw
+PI3K	PIK3CA, PIK3CB, PIK3CG, PIK3CD, PIK3R1, PIK3R2, PIK3R3, PIK3R4, PIK3R5, PIK3R6, PIK3C2A, PIK3C2B, PIK3C2G, PIK3C4	+	FRS2	Activated FRS2α initiates downstream signalling through the RAS–MAPK pathway or the PI3K–AKT pathway	11353842	(TGFBR | FRS2 | EGFR)	AKT pathw
+PI3K	PIK3CA, PIK3CB, PIK3CG, PIK3CD, PIK3R1, PIK3R2, PIK3R3, PIK3R4, PIK3R5, PIK3R6, PIK3C2A, PIK3C2B, PIK3C2G, PIK3C5	+	TGFBR	These studies revealed that PI 3-kinase is associated in vivo with both TGF-_ receptor subtypes and that TGF-_1 stimulation enhances PI 3-kinase activity associated with type I TGF-_ receptor in hASM cells.	9435577	(TGFBR | FRS2 | EGFR)	AKT pathw
+PIP3	PIK3CA	-	p53	From Fumia et al, 2013	23922675	((!p53 & PI3K & !PTEN) | (!p53 & PI3K))	AKT pathw
+PIP3	PIK3CA	+	PI3K	From Fumia et al, 2013	23922675	((!p53 & PI3K & !PTEN) | (!p53 & PI3K))	AKT pathw
+PIP3	PIK3CA	-	PTEN	From Fumia et al, 2013	23922675	((!p53 & PI3K & !PTEN) | (!p53 & PI3K))	AKT pathw
+PKC	PRKD3, PRKD2, PKN3, PRKCA, PRKCB, PRKCD, PRKCE, PRKCG, PRKCH, PRKCI, PKN1, PKN2, PRKD1, PRKCQ, PRKCZ	+	RTK	From Fumia et al, 2013	23922675	(RTK & WNT)	WNT pathw
+PKC	PRKD3, PRKD2, PKN3, PRKCA, PRKCB, PRKCD, PRKCE, PRKCG, PRKCH, PRKCI, PKN1, PKN2, PRKD1, PRKCQ, PRKCZ	+	WNT	From Fumia et al, 2013	23922675	(RTK & WNT)	WNT pathw
 Proliferation	output	+	CyclinB	Read-out from model	output	(CyclinB | CyclinD)	Output
 Proliferation	output	+	CyclinD	Read-out from model	output	(CyclinB | CyclinD)	Output
-PTCH1	PTCH1	+	GLI	Gli activators bind to gaccaccca motif to regulate transcription of gli1, ptch1, ptch2, hhip1, mycn, ccnd1, ccnd2, bcl2, cflar, foxf1, foxl1, prdm1 (blimp1), jag2, grem1, and follistatin	19860666	(!SHH & GLI)	SHH
-PTCH1	PTCH1	-	SHH	In the responding cell, active Hedgehog binds to its receptor Patched, a 12-pass transmembrane protein, which frees Smoothened, an adjacent 7-pass transmembrane protein, for downstream signaling.Thus, a balance is created by the antagonism of Hedgehog and Patched, whose relative concentrations alternate with respect to each other.	14556242	(!SHH & GLI)	SHH
-PTEN	PTEN	+	FGFR3	Fgfrs phosphorylate pten at tyrosine 240	22891331	((!NF_kB & !Snail & FGFR3 & p53) | (!NF_kB & !Snail & p53))	AKT
-PTEN	PTEN	-	NF_kB	NF-κB activation was necessary and sufficient for inhibition of PTEN expression	14729949	((!NF_kB & !Snail & FGFR3 & p53) | (!NF_kB & !Snail & p53))	AKT
-PTEN	PTEN	+	p53	Transgenic ERG expression in mice blocked Pten/Trp53 alteration-induced decrease of AR expression and downstream luminal epithelial genes	doi: 10.1158/1078-0432.CCR-18-0653	((!NF_kB & !Snail & FGFR3 & p53) | (!NF_kB & !Snail & p53))	AKT
-PTEN	PTEN	-	Snail	Snail prevents the expression of epithelium-specific genes such as PTEN, Muc1, Claudin, and Occludin as well as some nuclear factor receptors (Vitamin D receptor, HNF-1α).	PMC2930904	((!NF_kB & !Snail & FGFR3 & p53) | (!NF_kB & !Snail & p53))	AKT
-RAF	RAF1, ARAF, BRAF	+	EZH2	EZH2 regulates tumor invasion via the transcriptional repression of the Raf-1 kinase inhibitor protein RKIP (PEBP1).	22505648	(!EZH2 & RAS) | (EZH2)	ERK
-RAF	RAF1, ARAF, BRAF	+	RAS	From Fumia et al, 2013	23922675	(!EZH2 & RAS) | (EZH2)	ERK
-RAGS	RAG1, RAG2	-	Hypoxia	From Fumia et al, 2013	23922675	(!Hypoxia & Nutrients)	mTOR
-RAGS	RAG1, RAG2	+	Nutrients	From Fumia et al, 2013	23922675	(!Hypoxia & Nutrients)	mTOR
-RAS	KRAS, RASA1, HRAS, NRAS	+	EGFR	We conclude that tyr-460 is a site of gap tyrosine phosphorylation by the egf receptor in vitro and likely in vivo. Gap tyr-460 is located immediately c terminal to the second gap sh2 domain, suggesting that its phosphorylation might have a role in regulating protein-protein interactions.	1850098	(EGFR | TGFBR | FRS2 | FGFR3)	ERK
-RAS	KRAS, RASA1, HRAS, NRAS	+	FRS2	Activated FRS2α initiates downstream signalling through the RAS–MAPK pathway or the PI3K–AKT pathway	11353842	(EGFR | TGFBR | FRS2 | FGFR3)	ERK
-RAS	KRAS, RASA1, HRAS, NRAS	+	FGFR3	FGFR3 activates RAS through FRS2	24052019	(EGFR | TGFBR | FRS2 | FGFR3)	ERK
-RAS	KRAS, RASA1, HRAS, NRAS	+	RTK	From Fumia et al, 2013	23922675	(EGFR | TGFBR | FRS2 | FGFR3)	ERK
-RAS	KRAS, RASA1, HRAS, NRAS	+	TGFBR	In addition to the SMAD dependent pathway, [...] RAS [...] are regulated by TGF-β.	29051866	(EGFR | TGFBR | FRS2 | FGFR3)	ERK
+PTCH1	PTCH1	+	GLI	Gli activators bind to gaccaccca motif to regulate transcription of gli1, ptch1, ptch2, hhip1, mycn, ccnd1, ccnd2, bcl2, cflar, foxf1, foxl1, prdm1 (blimp1), jag2, grem1, and follistatin	19860666	(!SHH & GLI)	SHH pathw
+PTCH1	PTCH1	-	SHH	In the responding cell, active Hedgehog binds to its receptor Patched, a 12-pass transmembrane protein, which frees Smoothened, an adjacent 7-pass transmembrane protein, for downstream signaling.Thus, a balance is created by the antagonism of Hedgehog and Patched, whose relative concentrations alternate with respect to each other.	14556242	(!SHH & GLI)	SHH pathw
+PTEN	PTEN	+	FGFR3	Fgfrs phosphorylate pten at tyrosine 240	22891331	((!NF_kB & !Snail & FGFR3 & p53) | (!NF_kB & !Snail & p53))	AKT pathw
+PTEN	PTEN	-	NF_kB	NF-κB activation was necessary and sufficient for inhibition of PTEN expression	14729949	((!NF_kB & !Snail & FGFR3 & p53) | (!NF_kB & !Snail & p53))	AKT pathw
+PTEN	PTEN	+	p53	Transgenic ERG expression in mice blocked Pten/Trp53 alteration-induced decrease of AR expression and downstream luminal epithelial genes	doi: 10.1158/1078-0432.CCR-18-0653	((!NF_kB & !Snail & FGFR3 & p53) | (!NF_kB & !Snail & p53))	AKT pathw
+PTEN	PTEN	-	Snail	Snail prevents the expression of epithelium-specific genes such as PTEN, Muc1, Claudin, and Occludin as well as some nuclear factor receptors (Vitamin D receptor, HNF-1α).	PMC2930904	((!NF_kB & !Snail & FGFR3 & p53) | (!NF_kB & !Snail & p53))	AKT pathw
+RAF	RAF1, ARAF, BRAF	+	EZH2	EZH2 regulates tumor invasion via the transcriptional repression of the Raf-1 kinase inhibitor protein RKIP (PEBP1).	22505648	(!EZH2 & RAS) | (EZH2)	ERK pathw
+RAF	RAF1, ARAF, BRAF	+	RAS	From Fumia et al, 2013	23922675	(!EZH2 & RAS) | (EZH2)	ERK pathw
+RAGS	RAG1, RAG2	-	Hypoxia	From Fumia et al, 2013	23922675	(!Hypoxia & Nutrients)	mTOR pathw
+RAGS	RAG1, RAG2	+	Nutrients	From Fumia et al, 2013	23922675	(!Hypoxia & Nutrients)	mTOR pathw
+RAS	KRAS, RASA1, HRAS, NRAS	+	EGFR	We conclude that tyr-460 is a site of gap tyrosine phosphorylation by the egf receptor in vitro and likely in vivo. Gap tyr-460 is located immediately c terminal to the second gap sh2 domain, suggesting that its phosphorylation might have a role in regulating protein-protein interactions.	1850098	(EGFR | TGFBR | FRS2 | FGFR3)	ERK pathw
+RAS	KRAS, RASA1, HRAS, NRAS	+	FRS2	Activated FRS2α initiates downstream signalling through the RAS–MAPK pathway or the PI3K–AKT pathway	11353842	(EGFR | TGFBR | FRS2 | FGFR3)	ERK pathw
+RAS	KRAS, RASA1, HRAS, NRAS	+	FGFR3	FGFR3 activates RAS through FRS2	24052019	(EGFR | TGFBR | FRS2 | FGFR3)	ERK pathw
+RAS	KRAS, RASA1, HRAS, NRAS	+	RTK	From Fumia et al, 2013	23922675	(EGFR | TGFBR | FRS2 | FGFR3)	ERK pathw
+RAS	KRAS, RASA1, HRAS, NRAS	+	TGFBR	In addition to the SMAD dependent pathway, [...] RAS [...] are regulated by TGF-β.	29051866	(EGFR | TGFBR | FRS2 | FGFR3)	ERK pathw
 RB1	RB1	-	AMPK	From Traynard et al, 2016	27587700	(!CyclinB & !CyclinD & CHK1_2 & !p53 & !AMPK)	Cell cycle
 RB1	RB1	+	CHK1_2	This study reveals that chk1-mediated phosphorylation of rassf1a, at serine 184, plays an important role in cell-cycle regulation	24197116	(!CyclinB & !CyclinD & CHK1_2 & !p53 & !AMPK)	Cell cycle
 RB1	RB1	-	CyclinB	From Traynard et al, 2016	27587700	(!CyclinB & !CyclinD & CHK1_2 & !p53 & !AMPK)	Cell cycle
 RB1	RB1	-	CyclinD	From Traynard et al, 2016	27587700	(!CyclinB & !CyclinD & CHK1_2 & !p53 & !AMPK)	Cell cycle
 RB1	RB1	-	p53	From Traynard et al, 2016	27587700	(!CyclinB & !CyclinD & CHK1_2 & !p53 & !AMPK)	Cell cycle
-Rheb	RHEB	-	TSC1_2	From Fumia et al, 2013	23922675	(!TSC1_2)	mTOR
-ROS	NOX1, NOX2, NOX3, NOX4	+	COX4I2	an up-regulation of COX IV-2 which was accompanied by increased ROS production and necrotic cell death	20734249	((COX4I2 | Hypoxia) & !GSH)	Nutrients
-ROS	NOX1, NOX2, NOX3, NOX4	-	GSH	Mechanistic study showed that LBL21 induced a rapid depletion of intracellular glutathione (GSH), leading to abnormal ROS accumulation and mitochondrial dysfunction, evident by a decrease in mitochondrial respiration and transmembrane potential	28640251	((COX4I2 | Hypoxia) & !GSH)	Nutrients
-ROS	NOX1, NOX2, NOX3, NOX4	+	Hypoxia	Thus, hypoxia activates transcription via a mitochondria-dependent signaling process involving increased ROS	9751731	((COX4I2 | Hypoxia) & !GSH)	Nutrients
-RTK	ERBB2, ERBB3, ERBB4, IGF1R, AATK, ALK, AXL, CSF1R, DDR1, DDR2, FLT1, FLT3, FLT4, INSR, INSRR, KDR, KIT, LMTK2, LMTK3, LTK, MERTK, MET, MST1R, MUSK, NTRK1, NTRK2, NTRK3, PDGFRA, PDGFRB, PTK7, RET, ROR1, ROR2, ROS1, RYK, STYK1, TEK, TIE1, TYRO3	+	EGFR	From Fumia et al, 2013 as GFs	23922675	(EGFR | FGFR3)	ERK
-RTK	ERBB2, ERBB3, ERBB4, IGF1R, AATK, ALK, AXL, CSF1R, DDR1, DDR2, FLT1, FLT3, FLT4, INSR, INSRR, KDR, KIT, LMTK2, LMTK3, LTK, MERTK, MET, MST1R, MUSK, NTRK1, NTRK2, NTRK3, PDGFRA, PDGFRB, PTK7, RET, ROR1, ROR2, ROS1, RYK, STYK1, TEK, TIE1, TYRO3	+	FGFR3	From Fumia et al, 2013 as GFs	23922675	(EGFR | FGFR3)	ERK
-RUNX2	RUNX2	+	ETS1	Runx2 and Ets1 may co-operatively bind to and activate the Fgfr1 promoter	30202094	(!ETS1 & !FOXO & Slug) | (ETS1 & !FOXO)	ERK
-RUNX2	RUNX2	-	FOXO	FOXO1 targets and inhibits RUNX2	21505104	(!ETS1 & !FOXO & Slug) | (ETS1 & !FOXO)	ERK
-RUNX2	RUNX2	+	p38	Mechanistic analysis revealed that the TAK1–MKK3/6–p38 MAPK axis phosphorylated Runx2, promoting its association with the coactivator CREB-binding protein (CBP), which was required to regulate osteoblast genetic programs. These findings reveal an in vivo function for p38β and establish that MAPK signaling is essential for bone formation in vivo.	20551513	(!ETS1 & !FOXO & Slug) | (ETS1 & !FOXO)	ERK
-RUNX2	RUNX2	+	Slug	Slug binds to RUNX2 and SOC9 promoters and may act as a positive and negative transcription regulator.	Uniprot	(!ETS1 & !FOXO & Slug) | (ETS1 & !FOXO)	ERK
-RUNX2	RUNX2	+	SMAD	The Runx2 WT and deletion constructs all physically interact with the BMP2 responsive Smad 4	15573378	(!ETS1 & !FOXO & Slug) | (ETS1 & !FOXO)	ERK
-SHH	SHH	-	ATR	Ptc1(+/-) mice have a defect in the IR-induced activation of the ATR-Chk1 checkpoint signaling pathway	22266795, 18955550	(!BMP2 & !ATR)	SHH
-SHH	SHH	-	BMP2	On the other hand, bmp activity negatively regulates shh transcription and a bmp-shh negative-feedback loop serves to confine shh expression during limb development.	19855020, doi: 10.1242/dev.036418, 25605783	(!BMP2 & !ATR)	SHH
-Slug	SNAI2	-	DAXX	From Fumia et al, 2013	23922675	((TCF | NF_kB) & !DAXX & !p53 & !MDM2)	Invasion
-Slug	SNAI2	-	MDM2	From Fumia et al, 2013	23922675	((TCF | NF_kB) & !DAXX & !p53 & !MDM2)	Invasion
-Slug	SNAI2	+	NF_kB	From Fumia et al, 2013	23922675	((TCF | NF_kB) & !DAXX & !p53 & !MDM2)	Invasion
-Slug	SNAI2	-	p53	From Fumia et al, 2013	23922675	((TCF | NF_kB) & !DAXX & !p53 & !MDM2)	Invasion
-Slug	SNAI2	+	TCF	From Fumia et al, 2013	23922675	((TCF | NF_kB) & !DAXX & !p53 & !MDM2)	Invasion
-SMAD	SMAD2, SMAD3, SMAD4	-	AR	In the human prostate adenocarcinoma cell line, LNCaP, Ligand-bound AR inhibits TGF-beta transcriptional responses through selectively repressing the binding of SMAD to SBE.	11707452	((TNFalpha | TGFBR) & !AR)	TGFb
-SMAD	SMAD2, SMAD3, SMAD4	+	TGFBR	From Fumia et al, 2013	23922675	((TNFalpha | TGFBR) & !AR)	TGFb
-SMAD	SMAD2, SMAD3, SMAD4	+	TNFalpha	From Fumia et al, 2013	23922675	((TNFalpha | TGFBR) & !AR)	TGFb
-SMO	SMO	-	PTCH1	In the responding cell, active Hedgehog binds to its receptor Patched, a 12-pass transmembrane protein, which frees Smoothened, an adjacent 7-pass transmembrane protein, for downstream signaling.Thus, a balance is created by the antagonism of Hedgehog and Patched, whose relative concentrations alternate with respect to each other.	14556242, 26891329	(!PTCH1 & SHH)	SHH
-SMO	SMO	+	SHH	Binding of Hh to Ptch relieves the repression of Smo, allowing Smo to signal.	16885213	(!PTCH1 & SHH)	SHH
-Snail	SNAI1	-	beta_catenin	From Cohen et al, 2015	26528548	((GLI | NF_kB | SMAD | beta_catenin) & !GSK3 & !p53)	Invasion
-Snail	SNAI1	+	GLI	The Hedgehog pathway transcription factor Gli1 induces transformation of epithelial cells via induction of Snail, a repressor of E-cadherin (E-cad). 	1729746	((GLI | NF_kB | SMAD | beta_catenin) & !GSK3 & !p53)	Invasion
-Snail	SNAI1	-	GSK3	From Fumia et al, 2013	23922675	((GLI | NF_kB | SMAD | beta_catenin) & !GSK3 & !p53)	Invasion
-Snail	SNAI1	+	NF_kB	From Fumia et al, 2013	23922675	((GLI | NF_kB | SMAD | beta_catenin) & !GSK3 & !p53)	Invasion
-Snail	SNAI1	+	SMAD	From Fumia et al, 2013	23922675	((GLI | NF_kB | SMAD | beta_catenin) & !GSK3 & !p53)	Invasion
+Rheb	RHEB	-	TSC1_2	From Fumia et al, 2013	23922675	(!TSC1_2)	mTOR pathw
+ROS	NOX1, NOX2, NOX3, NOX4	+	COX4I2	an up-regulation of COX IV-2 which was accompanied by increased ROS production and necrotic cell death	20734249	((COX4I2 | Hypoxia) & !GSH)	Nutrients pathw
+ROS	NOX1, NOX2, NOX3, NOX4	-	GSH	Mechanistic study showed that LBL21 induced a rapid depletion of intracellular glutathione (GSH), leading to abnormal ROS accumulation and mitochondrial dysfunction, evident by a decrease in mitochondrial respiration and transmembrane potential	28640251	((COX4I2 | Hypoxia) & !GSH)	Nutrients pathw
+ROS	NOX1, NOX2, NOX3, NOX4	+	Hypoxia	Thus, hypoxia activates transcription via a mitochondria-dependent signaling process involving increased ROS	9751731	((COX4I2 | Hypoxia) & !GSH)	Nutrients pathw
+RTK	ERBB2, ERBB3, ERBB4, IGF1R, AATK, ALK, AXL, CSF1R, DDR1, DDR2, FLT1, FLT3, FLT4, INSR, INSRR, KDR, KIT, LMTK2, LMTK3, LTK, MERTK, MET, MST1R, MUSK, NTRK1, NTRK2, NTRK3, PDGFRA, PDGFRB, PTK7, RET, ROR1, ROR2, ROS1, RYK, STYK1, TEK, TIE1, TYRO3	+	EGFR	From Fumia et al, 2013 as GFs	23922675	(EGFR | FGFR3)	ERK pathw
+RTK	ERBB2, ERBB3, ERBB4, IGF1R, AATK, ALK, AXL, CSF1R, DDR1, DDR2, FLT1, FLT3, FLT4, INSR, INSRR, KDR, KIT, LMTK2, LMTK3, LTK, MERTK, MET, MST1R, MUSK, NTRK1, NTRK2, NTRK3, PDGFRA, PDGFRB, PTK7, RET, ROR1, ROR2, ROS1, RYK, STYK1, TEK, TIE1, TYRO3	+	FGFR3	From Fumia et al, 2013 as GFs	23922675	(EGFR | FGFR3)	ERK pathw
+RUNX2	RUNX2	+	ETS1	Runx2 and Ets1 may co-operatively bind to and activate the Fgfr1 promoter	30202094	(!ETS1 & !FOXO & Slug) | (ETS1 & !FOXO)	ERK pathw
+RUNX2	RUNX2	-	FOXO	FOXO1 targets and inhibits RUNX2	21505104	(!ETS1 & !FOXO & Slug) | (ETS1 & !FOXO)	ERK pathw
+RUNX2	RUNX2	+	p38	Mechanistic analysis revealed that the TAK1–MKK3/6–p38 MAPK axis phosphorylated Runx2, promoting its association with the coactivator CREB-binding protein (CBP), which was required to regulate osteoblast genetic programs. These findings reveal an in vivo function for p38β and establish that MAPK signaling is essential for bone formation in vivo.	20551513	(!ETS1 & !FOXO & Slug) | (ETS1 & !FOXO)	ERK pathw
+RUNX2	RUNX2	+	Slug	Slug binds to RUNX2 and SOC9 promoters and may act as a positive and negative transcription regulator.	Uniprot	(!ETS1 & !FOXO & Slug) | (ETS1 & !FOXO)	ERK pathw
+RUNX2	RUNX2	+	SMAD	The Runx2 WT and deletion constructs all physically interact with the BMP2 responsive Smad 4	15573378	(!ETS1 & !FOXO & Slug) | (ETS1 & !FOXO)	ERK pathw
+SHH	SHH	-	ATR	Ptc1(+/-) mice have a defect in the IR-induced activation of the ATR-Chk1 checkpoint signaling pathway	22266795, 18955550	(!BMP2 & !ATR)	SHH pathw
+SHH	SHH	-	BMP2	On the other hand, bmp activity negatively regulates shh transcription and a bmp-shh negative-feedback loop serves to confine shh expression during limb development.	19855020, doi: 10.1242/dev.036418, 25605783	(!BMP2 & !ATR)	SHH pathw
+Slug	SNAI2	-	DAXX	From Fumia et al, 2013	23922675	((TCF | NF_kB) & !DAXX & !p53 & !MDM2)	Invasion pathw
+Slug	SNAI2	-	MDM2	From Fumia et al, 2013	23922675	((TCF | NF_kB) & !DAXX & !p53 & !MDM2)	Invasion pathw
+Slug	SNAI2	+	NF_kB	From Fumia et al, 2013	23922675	((TCF | NF_kB) & !DAXX & !p53 & !MDM2)	Invasion pathw
+Slug	SNAI2	-	p53	From Fumia et al, 2013	23922675	((TCF | NF_kB) & !DAXX & !p53 & !MDM2)	Invasion pathw
+Slug	SNAI2	+	TCF	From Fumia et al, 2013	23922675	((TCF | NF_kB) & !DAXX & !p53 & !MDM2)	Invasion pathw
+SMAD	SMAD2, SMAD3, SMAD4	-	AR	In the human prostate adenocarcinoma cell line, LNCaP, Ligand-bound AR inhibits TGF-beta transcriptional responses through selectively repressing the binding of SMAD to SBE.	11707452	((TNFalpha | TGFBR) & !AR)	TGFb pathw
+SMAD	SMAD2, SMAD3, SMAD4	+	TGFBR	From Fumia et al, 2013	23922675	((TNFalpha | TGFBR) & !AR)	TGFb pathw
+SMAD	SMAD2, SMAD3, SMAD4	+	TNFalpha	From Fumia et al, 2013	23922675	((TNFalpha | TGFBR) & !AR)	TGFb pathw
+SMO	SMO	-	PTCH1	In the responding cell, active Hedgehog binds to its receptor Patched, a 12-pass transmembrane protein, which frees Smoothened, an adjacent 7-pass transmembrane protein, for downstream signaling.Thus, a balance is created by the antagonism of Hedgehog and Patched, whose relative concentrations alternate with respect to each other.	14556242, 26891329	(!PTCH1 & SHH)	SHH pathw
+SMO	SMO	+	SHH	Binding of Hh to Ptch relieves the repression of Smo, allowing Smo to signal.	16885213	(!PTCH1 & SHH)	SHH pathw
+Snail	SNAI1	-	beta_catenin	From Cohen et al, 2015	26528548	((GLI | NF_kB | SMAD | beta_catenin) & !GSK3 & !p53)	Invasion pathw
+Snail	SNAI1	+	GLI	The Hedgehog pathway transcription factor Gli1 induces transformation of epithelial cells via induction of Snail, a repressor of E-cadherin (E-cad). 	1729746	((GLI | NF_kB | SMAD | beta_catenin) & !GSK3 & !p53)	Invasion pathw
+Snail	SNAI1	-	GSK3	From Fumia et al, 2013	23922675	((GLI | NF_kB | SMAD | beta_catenin) & !GSK3 & !p53)	Invasion pathw
+Snail	SNAI1	+	NF_kB	From Fumia et al, 2013	23922675	((GLI | NF_kB | SMAD | beta_catenin) & !GSK3 & !p53)	Invasion pathw
+Snail	SNAI1	+	SMAD	From Fumia et al, 2013	23922675	((GLI | NF_kB | SMAD | beta_catenin) & !GSK3 & !p53)	Invasion pathw
 SPOP	SPOP	input	0/1	Input of the model		(SPOP)	Input
-TAK1	MAP3K7	+	TGFBR	From Fumia et al, 2013	23922675	(TGFBR | TNFalpha)	ERK
-TAK1	MAP3K7	+	TNFalpha	From Fumia et al, 2013	23922675	(TGFBR | TNFalpha)	ERK
-TCF	TCF4, TCF7, TCF7L1, TCF7L2	+	AR_ERG	LEF1 expression is significantly upregulated in ERG-high human prostate cancers.	23913826	((beta_catenin | AR_ERG | ERG) & !TAK1)	WNT
-TCF	TCF4, TCF7, TCF7L1, TCF7L2	+	beta_catenin	From Fumia et al, 2013	23922675	((beta_catenin | AR_ERG | ERG) & !TAK1)	WNT
-TCF	TCF4, TCF7, TCF7L1, TCF7L2	+	ERG	LEF1 expression is significantly upregulated in ERG-high human prostate cancers.	23913826	((beta_catenin | AR_ERG | ERG) & !TAK1)	WNT
-TCF	TCF4, TCF7, TCF7L1, TCF7L2	-	TAK1	From Fumia et al, 2013	23922675	((beta_catenin | AR_ERG | ERG) & !TAK1)	WNT
-TERT	TERT	+	AKT	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients
-TERT	TERT	-	eEF2	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients
-TERT	TERT	+	GLI	Recently, it has been shown that GLI1 and GLI2 drive human TERT in colon and prostate cancers	27000000	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients
-TERT	TERT	+	HIF1	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients
-TERT	TERT	+	MYC_MAX	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients
-TERT	TERT	+	NF_kB	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients
-TERT	TERT	+	NF1	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients
-TERT	TERT	-	p53	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients
-TERT	TERT	-	SMAD	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients
-TERT	TERT	-	ZBTB17	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients
+TAK1	MAP3K7	+	TGFBR	From Fumia et al, 2013	23922675	(TGFBR | TNFalpha)	ERK pathw
+TAK1	MAP3K7	+	TNFalpha	From Fumia et al, 2013	23922675	(TGFBR | TNFalpha)	ERK pathw
+TCF	TCF4, TCF7, TCF7L1, TCF7L2	+	AR_ERG	LEF1 expression is significantly upregulated in ERG-high human prostate cancers.	23913826	((beta_catenin | AR_ERG | ERG) & !TAK1)	WNT pathw
+TCF	TCF4, TCF7, TCF7L1, TCF7L2	+	beta_catenin	From Fumia et al, 2013	23922675	((beta_catenin | AR_ERG | ERG) & !TAK1)	WNT pathw
+TCF	TCF4, TCF7, TCF7L1, TCF7L2	+	ERG	LEF1 expression is significantly upregulated in ERG-high human prostate cancers.	23913826	((beta_catenin | AR_ERG | ERG) & !TAK1)	WNT pathw
+TCF	TCF4, TCF7, TCF7L1, TCF7L2	-	TAK1	From Fumia et al, 2013	23922675	((beta_catenin | AR_ERG | ERG) & !TAK1)	WNT pathw
+TERT	TERT	+	AKT	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients pathw
+TERT	TERT	-	eEF2	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients pathw
+TERT	TERT	+	GLI	Recently, it has been shown that GLI1 and GLI2 drive human TERT in colon and prostate cancers	27000000	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients pathw
+TERT	TERT	+	HIF1	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients pathw
+TERT	TERT	+	MYC_MAX	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients pathw
+TERT	TERT	+	NF_kB	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients pathw
+TERT	TERT	+	NF1	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients pathw
+TERT	TERT	-	p53	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients pathw
+TERT	TERT	-	SMAD	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients pathw
+TERT	TERT	-	ZBTB17	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)	Nutrients pathw
 TGFb	TGFB1, TGFB2, TGFB3	input	0/1	Input of the model		(TGFb)	Input
-TGFBR	TGFBR1, TGFBR2, TGFBR3	+	HIF1	From Fumia et al, 2013	23922675	((TGFb | (HIF1 & TGFb)) & !MED12)	TGFb
-TGFBR	TGFBR1, TGFBR2, TGFBR3	-	MED12	MED12 is in part cytoplasmic where it negatively regulates TGF-βR2 through physical interaction	23178117	((TGFb | (HIF1 & TGFb)) & !MED12)	TGFb
-TGFBR	TGFBR1, TGFBR2, TGFBR3	+	TGFb	From Fumia et al, 2013	23922675	((TGFb | (HIF1 & TGFb)) & !MED12)	TGFb
+TGFBR	TGFBR1, TGFBR2, TGFBR3	+	HIF1	From Fumia et al, 2013	23922675	((TGFb | (HIF1 & TGFb)) & !MED12)	TGFb pathw
+TGFBR	TGFBR1, TGFBR2, TGFBR3	-	MED12	MED12 is in part cytoplasmic where it negatively regulates TGF-βR2 through physical interaction	23178117	((TGFb | (HIF1 & TGFb)) & !MED12)	TGFb pathw
+TGFBR	TGFBR1, TGFBR2, TGFBR3	+	TGFb	From Fumia et al, 2013	23922675	((TGFb | (HIF1 & TGFb)) & !MED12)	TGFb pathw
 TNFalpha	EDAR, TNFRSF1A, TNFRSF1B, LTBR, TNFRSF4, CD40, FAS, TNFRSF6B, CD27, TNFRSF8, TNFRSF9, TNFRSF10A, TNFRSF10B, TNFRSF10C, TNFRSF10D, TNFRSF11A, TNFRSF11B, TNFRSF12A, TNFRSF13B, TNFRSF13C, TNFRSF14, NGFR, TNFRSF17, TNFRSF18, TNFRSF19, RELT, TNFRSF21, TNFRSF25, EDA2R	input	0/1	Input of the model		(TNFalpha)	Input
-TSC1_2	TSC1, TSC2	-	AKT	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR
-TSC1_2	TSC1, TSC2	+	AMPK	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR
-TSC1_2	TSC1, TSC2	-	ERK	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR
-TSC1_2	TSC1, TSC2	+	HIF1	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR
-TSC1_2	TSC1, TSC2	+	p53	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR
-TSC1_2	TSC1, TSC2	-	p90RSK	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR
-TSC1_2	TSC1, TSC2	-	RAF	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR
-TWIST1	TWIST1	+	beta_catenin	From Cohen et al, 2015	26528548	(Snail | beta_catenin)	Invasion
-TWIST1	TWIST1	+	Snail	From Cohen et al, 2015	26528548	(Snail | beta_catenin)	Invasion
-VEGF	VEGFA, VEGFB, VEGFC, VEGFD	+	HIF1	From Fumia et al, 2013	23922675	(HIF1 & MYC_MAX)	Nutrients
-VEGF	VEGFA, VEGFB, VEGFC, VEGFD	+	MYC_MAX	From Fumia et al, 2013	23922675	(HIF1 & MYC_MAX)	Nutrients
-VHL	VHL	-	Hypoxia	From Fumia et al, 2013	23922675	(!Hypoxia & !ROS)	Nutrients
-VHL	VHL	-	ROS	From Fumia et al, 2013	23922675	(!Hypoxia & !ROS)	Nutrients
-WNT	WNT1, WNT2, WNT2B, WNT3, WNT3A, WNT4, WNT5A, WNT5B, WNT6, WNT7A, WNT7B, WNT8A, WNT8B, WNT9A, WNT9B, WNT10A, WNT10B, WNT11, WNT16	+	AR_ERG	ERG overexpression and nuclear translocation activates the activity of Wnt signaling. 	21680704	((((ERG | AR_ERG) & GLI) | ERG | AR_ERG) & !p53)	WNT
-WNT	WNT1, WNT2, WNT2B, WNT3, WNT3A, WNT4, WNT5A, WNT5B, WNT6, WNT7A, WNT7B, WNT8A, WNT8B, WNT9A, WNT9B, WNT10A, WNT10B, WNT11, WNT16	+	ERG	ERG overexpression and nuclear translocation activates the activity of Wnt signaling. 	21680704	((((ERG | AR_ERG) & GLI) | ERG | AR_ERG) & !p53)	WNT
-WNT	WNT1, WNT2, WNT2B, WNT3, WNT3A, WNT4, WNT5A, WNT5B, WNT6, WNT7A, WNT7B, WNT8A, WNT8B, WNT9A, WNT9B, WNT10A, WNT10B, WNT11, WNT16	+	GLI	From Fumia et al, 2013	23922675	((((ERG | AR_ERG) & GLI) | ERG | AR_ERG) & !p53)	WNT
-WNT	WNT1, WNT2, WNT2B, WNT3, WNT3A, WNT4, WNT5A, WNT5B, WNT6, WNT7A, WNT7B, WNT8A, WNT8B, WNT9A, WNT9B, WNT10A, WNT10B, WNT11, WNT16	-	p53	From Fumia et al, 2013	23922675	((((ERG | AR_ERG) & GLI) | ERG | AR_ERG) & !p53)	WNT
-YWHAZ	YWHAZ	+	AR	YWHAZ is under the transcriptional regulation of androgen receptor	22904106	(AR)	Invasion
+TSC1_2	TSC1, TSC2	-	AKT	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR pathw
+TSC1_2	TSC1, TSC2	+	AMPK	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR pathw
+TSC1_2	TSC1, TSC2	-	ERK	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR pathw
+TSC1_2	TSC1, TSC2	+	HIF1	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR pathw
+TSC1_2	TSC1, TSC2	+	p53	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR pathw
+TSC1_2	TSC1, TSC2	-	p90RSK	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR pathw
+TSC1_2	TSC1, TSC2	-	RAF	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)	mTOR pathw
+TWIST1	TWIST1	+	beta_catenin	From Cohen et al, 2015	26528548	(Snail | beta_catenin)	Invasion pathw
+TWIST1	TWIST1	+	Snail	From Cohen et al, 2015	26528548	(Snail | beta_catenin)	Invasion pathw
+VEGF	VEGFA, VEGFB, VEGFC, VEGFD	+	HIF1	From Fumia et al, 2013	23922675	(HIF1 & MYC_MAX)	Nutrients pathw
+VEGF	VEGFA, VEGFB, VEGFC, VEGFD	+	MYC_MAX	From Fumia et al, 2013	23922675	(HIF1 & MYC_MAX)	Nutrients pathw
+VHL	VHL	-	Hypoxia	From Fumia et al, 2013	23922675	(!Hypoxia & !ROS)	Nutrients pathw
+VHL	VHL	-	ROS	From Fumia et al, 2013	23922675	(!Hypoxia & !ROS)	Nutrients pathw
+WNT	WNT1, WNT2, WNT2B, WNT3, WNT3A, WNT4, WNT5A, WNT5B, WNT6, WNT7A, WNT7B, WNT8A, WNT8B, WNT9A, WNT9B, WNT10A, WNT10B, WNT11, WNT16	+	AR_ERG	ERG overexpression and nuclear translocation activates the activity of Wnt signaling. 	21680704	((((ERG | AR_ERG) & GLI) | ERG | AR_ERG) & !p53)	WNT pathw
+WNT	WNT1, WNT2, WNT2B, WNT3, WNT3A, WNT4, WNT5A, WNT5B, WNT6, WNT7A, WNT7B, WNT8A, WNT8B, WNT9A, WNT9B, WNT10A, WNT10B, WNT11, WNT16	+	ERG	ERG overexpression and nuclear translocation activates the activity of Wnt signaling. 	21680704	((((ERG | AR_ERG) & GLI) | ERG | AR_ERG) & !p53)	WNT pathw
+WNT	WNT1, WNT2, WNT2B, WNT3, WNT3A, WNT4, WNT5A, WNT5B, WNT6, WNT7A, WNT7B, WNT8A, WNT8B, WNT9A, WNT9B, WNT10A, WNT10B, WNT11, WNT16	+	GLI	From Fumia et al, 2013	23922675	((((ERG | AR_ERG) & GLI) | ERG | AR_ERG) & !p53)	WNT pathw
+WNT	WNT1, WNT2, WNT2B, WNT3, WNT3A, WNT4, WNT5A, WNT5B, WNT6, WNT7A, WNT7B, WNT8A, WNT8B, WNT9A, WNT9B, WNT10A, WNT10B, WNT11, WNT16	-	p53	From Fumia et al, 2013	23922675	((((ERG | AR_ERG) & GLI) | ERG | AR_ERG) & !p53)	WNT pathw
+YWHAZ	YWHAZ	+	AR	YWHAZ is under the transcriptional regulation of androgen receptor	22904106	(AR)	Invasion pathw
 ZBTB17	ZBTB17	+	AR	From Fumia et al, 2013	23922675	(!MYC_MAX & AR)	Cell cycle
 ZBTB17	ZBTB17	-	MYC_MAX	From Fumia et al, 2013 as MYC	23922675	(!MYC_MAX & AR)	Cell cycle
