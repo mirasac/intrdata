@@ -1,5 +1,4 @@
 Target node	HUGO names	Interaction type	Source	Description	Reference: PMID	Logical rule
-Acidosis	input	input	0/1	Input of the model		(Acidosis)
 AKT	AKT1, AKT2, AKT3	+	HSPs	Hsp90 plays an important role in maintaining Akt kinase activity by binding Akt and preventing PP2A-mediated dephosphorylation	10995457	((HSPs | (PDK1 & PIP3) | PIP3 | (SHH & PIP3)) & !PTCH1)
 AKT	AKT1, AKT2, AKT3	+	PDK1	From Fumia et al, 2013	23922675	((HSPs | (PDK1 & PIP3) | PIP3 | (SHH & PIP3)) & !PTCH1)
 AKT	AKT1, AKT2, AKT3	+	PIP3	From Fumia et al, 2013	23922675	((HSPs | (PDK1 & PIP3) | PIP3 | (SHH & PIP3)) & !PTCH1)
@@ -12,7 +11,6 @@ AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	+	ATR	From Fumia et 
 AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	-	EGFR	From Fumia et al, 2013 as GF	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3
 AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	-	FGFR3	From Fumia et al, 2013 as GF	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3
 AMPK	PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3	+	HIF1	From Fumia et al, 2013	23922675	(ATR | HIF1 | AMP_ATP | ATM) & !FGFR3
-Androgen	input	input	0/1	Input of the model		(Androgen)
 APAF1	APAF1	-	AKT	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)
 APAF1	APAF1	+	Bak	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)
 APAF1	APAF1	+	BAX	From Fumia et al, 2013	23922675	((Caspase8 | BAX | p53 | Bak | HSPs) & !Bcl_XL & !BCL2 & !AKT)
@@ -87,7 +85,6 @@ BRCA1	BRCA1	+	EP300	ATM-dependent phosphorylation of p300 is required for stabil
 BRCA2	BRCA2	+	ATM	An essential step in homology‐directed repair (HDR) of DNA breaks is the formation of RAD51 nucleofilaments mediated by PALB2–BRCA2	15734731	(ATM & ATR & EP300)
 BRCA2	BRCA2	+	ATR	An essential step in homology‐directed repair (HDR) of DNA breaks is the formation of RAD51 nucleofilaments mediated by PALB2–BRCA2	15734731	(ATM & ATR & EP300)
 BRCA2	BRCA2	+	EP300	ATM-dependent phosphorylation of p300 is required for stabilization of NBS1 proteins in response to DNA damage. (20471956)	20471956	(ATM & ATR & EP300)
-Carcinogen	input	input	0/1	From Fumia et al, 2013	23922675	(Carcinogen)
 Caspase3	CASP3	+	Caspase8	Triggering of the DISC leads to caspase-8 activation. Active caspase-8 cleaves caspase-3 which, in type I cells, leads to cell death induction	10988287, 21295084	(Caspase8 | Caspase9)
 Caspase3	CASP3	+	Caspase9	Following autoprocessing in the apoptosome, caspase-9 cleaves and activates caspase-3	9390557, 15657060	(Caspase8 | Caspase9)
 Caspase8	CASP8	-	cFLAR	Also called c-FLIP. It is directly targeted by AR and is involved in regulation of Fas/FasL mediated apoptosis: plays a role in apoptosis inhibition in androgen dependent prostate cancer cell line. 	15731171	(!cFLAR & FADD)
@@ -149,7 +146,6 @@ E2F1	E2F1, E2F2, E2F3	-	RB1	From Traynard et al, 2016	27587700	((AR | (FOXA1 & A
 eEF2	EEF2	-	eEF2K	From Fumia et al, 2013	23922675	(!eEF2K)
 eEF2K	EEF2K	+	p70S6kab	From Fumia et al, 2013	23922675	(p90RSK | p70S6kab)
 eEF2K	EEF2K	+	p90RSK	From Fumia et al, 2013	23922675	(p90RSK | p70S6kab)
-EGF	input	input	0/1	Input of the model		(EGF)
 EGFR	EGFR	+	Androgen	presence of the AR affect EGF receptor (EGFR)-mediated signaling in response to EGF	15288768, 19318561	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))
 EGFR	EGFR	+	EGF	After binding of epidermal growth factor (EGF), the EGF receptor (EGFR) becomes autophosphorylated via tyrosine.	10653583	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))
 EGFR	EGFR	-	EGFR	Initially, an autophosphorylation reaction creates docking sites for several signaling proteins, including a Cbl binding site at tyrosine 1045 of EGFR. Second, EGFR trans-phosphorylates Cbl at a linker domain, which activates an associated ubiquitin ligase activity.	10635327	((!TGFBR & !FRS2 & !EGFR & !PKC & (ERK | Androgen | EGF)) | (!TGFBR & !FRS2 & (Androgen | EGF)))
@@ -179,7 +175,6 @@ FADD	FADD	-	MAP3K1_3	The results clearly show that fadd phosphorylation at ser19
 FADD	FADD	+	PTCH1	Aggregation-induced conformational changes in fas lead to the formation of the death-inducing signalling complex (disc) which involves recruitment of the adaptor protein fadd/mort1 through a homotypic interaction of death domains, present in both the intracellular region of fas and the c-terminus of fadd.	21959933	(PTCH1 | TNFalpha) & !SHH & !MAP3K1_3
 FADD	FADD	-	SHH	SHH -| PTCH1 -> FADD	14556242, 21959933	(PTCH1 | TNFalpha) & !SHH & !MAP3K1_3
 FADD	FADD	+	TNFalpha	From Fumia et al, 2013	23922675	(PTCH1 | TNFalpha) & !SHH & !MAP3K1_3
-FGF	FGF1, FGF2, FGF3, FGF4, FGF5, FGF6, FGF7, FGF8, FGF9, FGF10	input	0/1	Input of the model		(FGF)
 FGFR3	FGFR3	+	FGF	Crystal structure of a ternary fgf-fgfr-heparin complex reveals a dual role for heparin in fgfr binding and dimerization.	11030354	((FGF | (FGF & RUNX2)) & !FRS2 & !PKC & !TGFBR)
 FGFR3	FGFR3	-	FRS2	FGF stimulation induces tyrosine phosphorylation of a novel lipid anchored docking protein, termed FRS2	9182757	((FGF | (FGF & RUNX2)) & !FRS2 & !PKC & !TGFBR)
 FGFR3	FGFR3	-	PKC	Phosphorylation of serine 779 in fibroblast growth factor receptor 1 and 2 by protein kinase c(epsilon) regulates ras/mitogen-activated protein kinase signaling and neuronal differentiationour findings show that in addition to fgfr tyrosine phosphorylation, the phosphorylation of a conserved serine residue, ser(779), can quantitatively control ras/mapk signaling to promote specific cellular responses.	23564461	((FGF | (FGF & RUNX2)) & !FRS2 & !PKC & !TGFBR)
@@ -196,9 +191,6 @@ FRS2	FRS2	-	ERK	EGFR and FGFR signaling through FRS2 is subject to negative feed
 FRS2	FRS2	+	FGFR3	FGF stimulation induces tyrosine phosphorylation of a novel lipid anchored docking protein, termed FRS2	9182757	(!ERK & !EGFR & FGFR3 & !FRS2 & !TGFBR)
 FRS2	FRS2	-	FRS2	EGFR and FGFR signaling through FRS2 is subject to negative feedback control by ERK1/2	12974390	(!ERK & !EGFR & FGFR3 & !FRS2 & !TGFBR)
 FRS2	FRS2	-	TGFBR	TGFbR1 levels are increased when FRS2, an FGFR coactivator, is depleted using shRNA	23200853	(!ERK & !EGFR & FGFR3 & !FRS2 & !TGFBR)
-fused_event	TMPRSS2	input	0/1	TMPRSS2-Ets gene fusions were identified in prostate cancers where the promoter of transmembrane protease, serine 2 (TMPRSS2) fused with coding sequence of the erythroblastosis virus E26 (Ets) gene family members. TMPRSS2, SLC45A3 and NDRG1 are the androgen induced genes fusioned with ERG. SLC45A3 is also fusioned with ETV1 sometimes but this is outside the scope of the model up to now.	23264855, 20118910	(fused_event)
-fused_event	SLC45A3	input	0/1	TMPRSS2 and SLC45A3 were the only 5' partner in 78% and 6% of these ERG rearranged cases, respectively. TMPRSS2, SLC45A3 and NDRG1 are the androgen induced genes fusioned with ERG. SLC45A3 is also fusioned with ETV1 sometimes but this is outside the scope of the model up to now.	20118910	(fused_event)
-fused_event	NDRG1	input	0/1	ERG gene rearrangements and mechanism of rearrangement, as well as rearrangements of TMPRSS2, SLC45A3, and NDRG1, were assessed using fluorescence in situ hybridization (FISH) on prostate cancer samples from 614 patients treated using radical prostatectomy. TMPRSS2, SLC45A3 and NDRG1 are the androgen induced genes fusioned with ERG. SLC45A3 is also fusioned with ETV1 sometimes but this is outside the scope of the model up to now.	20118910	(fused_event)
 GADD45	GADD45A	+	p53	P53 acetylated at k120 subsequently bound to the promoters of its target apoptotic genes, bax and gadd45, to promote their expression and lead to apoptosis.	23576563	(SMAD | p53)
 GADD45	GADD45A	+	SMAD	TGF-β-induced activation of p38 MAP kinase is required for TGF-β-induced apoptosis, epithelial-to-mesenchymal transition (EMT), but not growth arrest	12110587	(SMAD | p53)
 GLI	GLI1, GLI2	+	SMO	The binding of SHH relieves SMO inhibition, leading to activation of the GLI transcription factors	11001584	((WNT | SMO) & !SPOP)
@@ -231,7 +223,6 @@ HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	+	Carcinogen	Although Hs
 HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	-	E2F1	we show that E2F1 represses GRP78/BIP at the transcriptional level, and this requires its DNA binding domain.	18840615	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)
 HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	+	FOXA1	The results showed overexpression of Foxa1 promoted the expression of HSP72, while Foxa1 depletion, induced by antisense oligonucleotides, decreased the expression of HSP72 in MCF-7 cells under normal and heat stress condition.	19486887	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)
 HSPs	HSP90AA1, HSP90AB1, HSP90B1, HSPA1A, HSPA1B, HSPB1	+	PKC	Hsp22 is phosphorylated by protein kinase c (at residues ser(14) and thr(63)) and by p44 mitogen-activated protein kinase (at residues ser(27) and thr(87)). Concerning the possible function of hsp22, no definitive conclusions can be drawn with the available data, although its function might be to bind to and modulate the activity of hsp27.Some Studies claimed that phosphorylation is required for the translocation	22721717	((PKC | FOXA1 | Carcinogen) & !BRCA1 & !E2F1 & !AKT)
-Hypoxia	input	input	0/1	Input of the model		(Hypoxia)
 IDH1	IDH1	+	FOXA1	Genecard: Gene has two gene enhancers sequences: GH02I208264 and GH02I208251. SMAD and FOXA1 are part of the genes that could regulate these sequences	https://www.genecards.org/cgi-bin/carddisp.pl?gene=IDH1&keywords=idh1	(SMAD | FOXA1 | mTORC2 | ((SMAD | mTORC2 | FOXA1) & MEK1_2))
 IDH1	IDH1	+	MEK1_2	IDH1 gene transcription is sterol regulated and activated by SREBP-1a and SREBP-2 in human hepatoma HepG2 cells|evidence that IDH1 may regulate lipogenesis in hepatic cells	12923220	(SMAD | FOXA1 | mTORC2 | ((SMAD | mTORC2 | FOXA1) & MEK1_2))
 IDH1	IDH1	+	mTORC2	IDH1 gene transcription is sterol regulated and activated by SREBP-1a and SREBP-2 in human hepatoma HepG2 cells|evidence that IDH1 may regulate lipogenesis in hepatic cells	12923220	(SMAD | FOXA1 | mTORC2 | ((SMAD | mTORC2 | FOXA1) & MEK1_2))
@@ -326,7 +317,6 @@ NKX3_1	NKX3-1	+	AR	NKX3-1 and AR directly regulate each other in a feed-forward 
 NKX3_1	NKX3-1	-	AR_ERG	Increased expression of ERG or other ETS factors under control of androgen responsive promoter (TMPRSS2) is an inevitable consequence of the fusion events, and it activates transcriptional program that contributes to oncogenesis by upregulating expression of, among others, MYC, EZH2 and SOX9 and repressing NKX3.	25277175	(PKC & AR & !ERG & !AR_ERG)
 NKX3_1	NKX3-1	-	ERG	Increased expression of ERG or other ETS factors under control of androgen responsive promoter (TMPRSS2) is an inevitable consequence of the fusion events, and it activates transcriptional program that contributes to oncogenesis by upregulating expression of, among others, MYC, EZH2 and SOX9 and repressing NKX3.	25277175	(PKC & AR & !ERG & !AR_ERG)
 NKX3_1	NKX3-1	+	PKC	The NKX3.1 C154T polymorphism codes for a variant protein that contains an arginine-to-cysteine substitution at amino acid 52 (R52C) adjacent to a protein kinase C phosphorylation site at serine 48	11980664	(PKC & AR & !ERG & !AR_ERG)
-Nutrients	input	input	0/1	Input of the model		(Nutrients)
 p14ARF	CDKN2A	+	E2F1	Ectopic expression of a variety of oncogenes such as Ras, cmyc, E1A and E2F1 upregulates p19ARF expression (mice equivalent of p14ARF ) as part of a checkpoint response that limits cell cycle progression in response to hyperproliferative signals	15878778	(E2F1 & MYC_MAX & RAS)
 p14ARF	CDKN2A	+	MYC_MAX	Ectopic expression of a variety of oncogenes such as Ras, cmyc, E1A and E2F1 upregulates p19ARF expression (mice equivalent of p14ARF ) as part of a checkpoint response that limits cell cycle progression in response to hyperproliferative signals	15878778	(E2F1 & MYC_MAX & RAS)
 p14ARF	CDKN2A	+	RAS	Ectopic expression of a variety of oncogenes such as Ras, cmyc, E1A and E2F1 upregulates p19ARF expression (mice equivalent of p14ARF ) as part of a checkpoint response that limits cell cycle progression in response to hyperproliferative signals	15878778	(E2F1 & MYC_MAX & RAS)
@@ -419,7 +409,6 @@ Snail	SNAI1	+	GLI	The Hedgehog pathway transcription factor Gli1 induces transfo
 Snail	SNAI1	-	GSK3	From Fumia et al, 2013	23922675	((GLI | NF_kB | SMAD | beta_catenin) & !GSK3 & !p53)
 Snail	SNAI1	+	NF_kB	From Fumia et al, 2013	23922675	((GLI | NF_kB | SMAD | beta_catenin) & !GSK3 & !p53)
 Snail	SNAI1	+	SMAD	From Fumia et al, 2013	23922675	((GLI | NF_kB | SMAD | beta_catenin) & !GSK3 & !p53)
-SPOP	SPOP	input	0/1	Input of the model		(SPOP)
 TAK1	MAP3K7	+	TGFBR	From Fumia et al, 2013	23922675	(TGFBR | TNFalpha)
 TAK1	MAP3K7	+	TNFalpha	From Fumia et al, 2013	23922675	(TGFBR | TNFalpha)
 TCF	TCF4, TCF7, TCF7L1, TCF7L2	+	AR_ERG	LEF1 expression is significantly upregulated in ERG-high human prostate cancers.	23913826	((beta_catenin | AR_ERG | ERG) & !TAK1)
@@ -436,11 +425,9 @@ TERT	TERT	+	NF1	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | N
 TERT	TERT	-	p53	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)
 TERT	TERT	-	SMAD	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)
 TERT	TERT	-	ZBTB17	From Fumia et al, 2013	23922675	((GLI | AKT | HIF1 | MYC_MAX | NF1 | NF_kB | MYC_MAX) & !ZBTB17 & !p53 & !eEF2 & !SMAD)
-TGFb	TGFB1, TGFB2, TGFB3	input	0/1	Input of the model		(TGFb)
 TGFBR	TGFBR1, TGFBR2, TGFBR3	+	HIF1	From Fumia et al, 2013	23922675	((TGFb | (HIF1 & TGFb)) & !MED12)
 TGFBR	TGFBR1, TGFBR2, TGFBR3	-	MED12	MED12 is in part cytoplasmic where it negatively regulates TGF-βR2 through physical interaction	23178117	((TGFb | (HIF1 & TGFb)) & !MED12)
 TGFBR	TGFBR1, TGFBR2, TGFBR3	+	TGFb	From Fumia et al, 2013	23922675	((TGFb | (HIF1 & TGFb)) & !MED12)
-TNFalpha	EDAR, TNFRSF1A, TNFRSF1B, LTBR, TNFRSF4, CD40, FAS, TNFRSF6B, CD27, TNFRSF8, TNFRSF9, TNFRSF10A, TNFRSF10B, TNFRSF10C, TNFRSF10D, TNFRSF11A, TNFRSF11B, TNFRSF12A, TNFRSF13B, TNFRSF13C, TNFRSF14, NGFR, TNFRSF17, TNFRSF18, TNFRSF19, RELT, TNFRSF21, TNFRSF25, EDA2R	input	0/1	Input of the model		(TNFalpha)
 TSC1_2	TSC1, TSC2	-	AKT	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)
 TSC1_2	TSC1, TSC2	+	AMPK	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)
 TSC1_2	TSC1, TSC2	-	ERK	From Fumia et al, 2013	23922675	((AMPK | p53 | HIF1) & !AKT & !ERK & !RAF & !p90RSK)
