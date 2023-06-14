@@ -44,6 +44,7 @@ Appendix: 43
 ROMA
 OmniPath
 
+## Regulatory graph construction
 GINsim
 
 ## Datasets
@@ -60,6 +61,7 @@ MaBoSS
 - Do I have to reproduce also each intermediate passage, e.g. to obtain the GINsim network from gene list file?
 - Do we need to know all the biological aspects (e.g. each pathway) or few examples are sufficient?
 - Is it sufficient to send the work by email?
+- Node "SPOP" is source of four edges with negative effects in the supplied network, but in the Excel file "Montagud2022_interactions_sources.xlsx", of these four intercations only three have sign "-" and one has sign "+". Is it correct or are there errors between the file and the network?
 
 # Keywords
 - wild type
