@@ -58,7 +58,7 @@ Cytoscape
 MaBoSS
 
 # Questions
-- Do I have to reproduce also each intermediate passage, e.g. to obtain the GINsim network from gene list file?
+- Do I have to reproduce also each intermediate passage, e.g. to recreate the network on GINsim and export the file to Cytoscape for better formatting? Or can I start fomr the ZGINML file provided in supplementary files.
 - Do we need to know all the biological aspects (e.g. each pathway) or few examples are sufficient?
 - Is it sufficient to send the work by email?
 - Node "SPOP" is source of four edges with negative effects in the supplied network, but in the Excel file "Montagud2022_interactions_sources.xlsx", of these four intercations only three have sign "-" and one has sign "+". Is it correct or are there errors between the file and the network?
