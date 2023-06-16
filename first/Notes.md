@@ -62,6 +62,7 @@ MaBoSS
 - Do we need to know all the biological aspects (e.g. each pathway) or few examples are sufficient?
 - Is it sufficient to send the work by email?
 - Node "SPOP" is source of four edges with negative effects in the supplied network, but in the Excel file "Montagud2022_interactions_sources.xlsx", of these four intercations only three have sign "-" and one has sign "+". Is it correct or are there errors between the file and the network?
+- In section 2.2 there is a reference to figure in Appendix 1 as showing the outputs of the wild type simulation of the model. However, this figure represents only an example of the interactions of gene HSP90AA1. Is this an error and the figure which is really referenced is 3A?
 
 # Keywords
 - wild type
