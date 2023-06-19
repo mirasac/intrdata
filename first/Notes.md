@@ -64,7 +64,7 @@ MaBoSS
 - Node "SPOP" is source of four edges with negative effects in the supplied network, but in the Excel file "Montagud2022_interactions_sources.xlsx", of these four intercations only three have sign "-" and one has sign "+". Is it correct or are there errors between the file and the network?
 - In section 2.2 there is a reference to figure in Appendix 1 as showing the outputs of the wild type simulation of the model. However, this figure represents only an example of the interactions of gene HSP90AA1. This error occures for all the figures referenced in this section, which seem to be referred to figure 3 in the main text instead.
 - Another wrong reference is to Appendix 1 - figure 4A and Appendix 1 - figure 4B in label of Appendix 1 - figure 36.
-- Is it necessary to study and describe the PROFILE methodology or can I skip the theoretical part and just use the data to reproduce the plots.
+- Is it necessary to study and describe the PROFILE methodology or can I skip the theoretical part and just use the data to reproduce the plots? I can avoid talking about PROFILE methodology, just explain why they use it.
 
 # Keywords
 - wild type
