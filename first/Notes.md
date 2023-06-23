@@ -76,8 +76,6 @@ MaBoSS
 - Outputs of the MaBoSS simulation are also referred as "phenotypes" because they are common biological phenotypes associated to the development of prostate cancer.
 
 # Release
-- Describe plots resulting from simulations.
 - Experiment with multiple mutation to find out why I can't reproduce the results of the article.
-- Check if I inserted all references in the last sections.
 - Do a final read to check verbal tenses and general grammar errors.
 - Use [nbconvert](https://nbconvert.readthedocs.io/en/latest/) from command line because it does not work in the Jupyter GUI. This is essential to remove the cells with tag remove-cell, which is not done properly through the GUI.
