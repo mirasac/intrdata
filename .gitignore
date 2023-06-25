@@ -8,6 +8,5 @@
 first/report/supplementary_files/
 
 # LaTeX
-second/main.*
-!second/main.tex
-!second/main.pdf
+second/*.aux
+second/*.log
