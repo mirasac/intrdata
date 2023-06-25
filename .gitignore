@@ -10,3 +10,5 @@ first/report/supplementary_files/
 # LaTeX
 second/*.aux
 second/*.log
+second/*.out
+second/*.synctex.gz
