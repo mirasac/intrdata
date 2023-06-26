@@ -22,3 +22,4 @@
 # Release
 - One thought and possible application: see in the distribution what are the similar expanding clonotypes and use the data to create similar sequcences to create vaccines that can activate responses also for those signals, to create vaccines able to affect also possible similar variants of a same threat.
 - The required length is 2 to 3 pages, figures and tables included. I can always change the size and organisation of the page to fit this limit, e.g. by using a larger 2-columns page layout (use class option `twocolumn`).
+- Remove formula if not nedded in the end.
