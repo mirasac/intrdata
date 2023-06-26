@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[a4paper]{article}
 \usepackage[hidelinks]{hyperref}
 
 \title{Introduction to data analysis for natural and social sciences}
@@ -12,5 +12,24 @@
 The present document constitutes the second part of the exam. A summary of article ``Inferring the immune response from repertoire sequencing'' is provided.%
 \footnote{Version 2 of the article is referenced. Full citation: Puelma Touzel M, Walczak AM, Mora T (2020) Inferring the immune response from repertoire sequencing. PLoS Comput Biol 16(4): e1007873. \url{https://doi.org/10.1371/journal.pcbi.1007873}.}
 Results sections ``Modeling repertoire variation'' and ``Inferring the noise profile from replicate experiments'' are supplied with technical results.
+
+% MC possible roadmap:
+%content
+%affecting
+%methodology
+%validity of predictions
+%future development
+
+% MC in general: introduction + summary, Results as subsections.
+%problem
+%how they address the problem
+%how they validate their solution
+\section{Summary}
+The article introduces a probabilistic model able to estimate the noise and describe clonotypes expansion in longitudinal repertoire sequencing data.
+Next Generation Sequencing (NGS) provides large amounts of repertoire sequencing data, which traditional inference methods fails to describe accurately due to experimental noise and biological diversity. Many factors contributes to the noise, some are due to the experiment design, e.g. sampling procedure, library preparation, others have biological origin, e.g. gene expression. These factors introduce variability in sequence counts which are not related to the natural variability of immune cell receptors and should be removed to have an accurate estimate of the distribution of clonotype counts.
+
+\subsection{Modeling repertoire variation}
+
+\subsection{Inferring the noise profile from replicate experiments}
 
 \end{document}
