@@ -24,12 +24,49 @@ Results sections ``Modeling repertoire variation'' and ``Inferring the noise pro
 %problem
 %how they address the problem
 %how they validate their solution
+
+% MC also: (1) what, (2) why, (3) how.
 \section{Summary}
-The article introduces a probabilistic model able to estimate the noise and describe clonotypes expansion in longitudinal repertoire sequencing data.
-Next Generation Sequencing (NGS) provides large amounts of repertoire sequencing data, which traditional inference methods fails to describe accurately due to experimental noise and biological diversity. Many factors contributes to the noise, some are due to the experiment design, e.g. sampling procedure, library preparation, others have biological origin, e.g. gene expression. These factors introduce variability in sequence counts which are not related to the natural variability of immune cell receptors and should be removed to have an accurate estimate of the distribution of clonotype counts.
+% MC I do first the subsections since they are technical and I will insert also figures then I proceed to insert the relevant information in this part.
+The article introduces a probabilistic model able to estimate the noise and describe clonotypes expansion in longitudinal Repertoire Sequencing data (RepSeq).
+Next Generation Sequencing (NGS) provides large amounts of RepSeq data, which standard inference methods fails to describe accurately due to experimental noise and biological diversity. Many factors contribute to the noise: some are related to the experiment execution (e.g. sampling procedure, library preparation), others have biological origin (e.g. gene expression). These factors introduce variability in sequence counts which is not related to the natural variability of T-Cell Receptors (TCRs).
+
+The model introduced in the article is able to decouple the noise distribution from the clonotype counts distribution, learning parameters of both from RepSeq data. Additionally, once the parameters are learned, a Bayesian approach can be used to 
+
+% MC the model is composed by three building blocks.
+% MC explain also the noise: The noise is over-dispersed with respect to Poisson distribution, hence a different model is considered, tipically a Negative Binomial (NegBin) distribution.  greater dispersion than Poisson distribution Noise is not described by the Poisson distribution, hence a different ...
+
+% MC the model can then be used for inference.
+
+% MC how they validate their inference experiment using the model.
 
 \subsection{Modeling repertoire variation}
+The model consists in three main parts, identified by the noise model, the clone size distribution $\rho(f)$ and the dynamical model $G(f', t'|f, t)$.
+
+% MC explain in detail the characteristics of each distribution.
+
+The noise model $P(n_i|f_i)$ is a conditional probability of cell counts $n_i$ of the $i$-th clonotype given the true frequency $f_i$. This definition is necessary because RepSeq experiments supply a cell count for each clonotype, which is not the true frequency, but is a noisy function of it nonetheless.
+The index is a label to identify each clonotype: $i = 1, \dots, N$, with $N$ total number of clonotypes in the immune system%, which is not known an estimate for quantity $N$. % MC approfondire se necessario.
+%
+\footnote{Clonotype index is omitted when the meaning of variables is clear.}
+
+
+
+
+To build the model, three steps are involved which correspond the definition % MC non mi piace, cambiare termine
+of the three main parts.
+
+% MC explain here the steps done to find the parameters, the one for noise is explained in the next section.
+
+
+
+
+, each one dedicated to is composed by three interacting parts, which are 
+
+% MC more on noise: how it is dispersed, their solutions and reasons to choose each solution.
 
 \subsection{Inferring the noise profile from replicate experiments}
+
+% MC another image to use to discuss their results and to insert in the summary is S1 fig, cfr. page 5.
 
 \end{document}
