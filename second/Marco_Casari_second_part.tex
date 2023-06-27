@@ -75,8 +75,8 @@ and the one applying on the entire repertoire.
 
 Some of the inferred values are power law exponent $\nu \approx 2.1$ and minimum frequency $f_\mathrm{min} \approx 10^{-11}$, both compatible with observations in humans. The inferred parameters are consistent across donors and time.
 
-The model is used to reproduce counts of replicate experiments. Results for the noise model of one experiment are collected in Figure~\ref{fig:noise}: the Poisson distribution is under-dispersed with respect to the experimental data, while the mixed negative binomial-Poisson model shows the same variance. The mixed model reproduces $P(n)$ accurately with a power law behaviour except for low counts due to experimental noise. Moreover, it fits more accurately the tails of $\rho(f)$, expressed as $P(n, n' = 0)$, than the negative binomial.
+The model is used to reproduce counts of replicate experiments. Results for the noise model of one experiment are collected in Figure~\ref{fig:noise}: the Poisson distribution is under-dispersed with respect to the experimental data, while the mixed negative binomial-Poisson model shows the same variance. The mixed model reproduces the marginal distribution $P(n)$ (i.e. $P(n, n')$ marginalised over $n'$) accurately with a power law behaviour except for low counts due to experimental noise. Moreover, it fits more accurately the tails of $\rho(f)$, expressed as $P(n, n' = 0)$, than the negative binomial.
 
-% MC hill diversities can be estimated.
+Three Hill diversities of the repertoire can be evaluated by using $\rho(f)$ and the estimate $N = \frac{N_\mathrm{obs}}{1 - P(n = 0)}$, where distribution $P(n)$ is $P(n|f)$ marginalised over $f$. Species richness is $N \approx 10^9$ and is compatible with existing known values.
 
 \end{document}
