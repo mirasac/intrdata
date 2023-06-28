@@ -3,7 +3,7 @@
 The content is all about the code for the exam projects for the course Introduction to data analysis for natural and social sciences.
 
 ## Naming convention
-See file `naming_convention.md` for details.
+See file [naming_convention.md](https://github.com/mirasac/intrdata/blob/main/naming_convention.md) for details.
 
 ## Environment
 For the first part, the [colomoto-docker](https://github.com/colomoto/colomoto-docker) script is used to set up and run the needed environment.
